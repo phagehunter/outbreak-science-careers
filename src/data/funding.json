@@ -1,0 +1,733 @@
+{
+  "meta": {
+    "checked": "14 September 2026",
+    "note": "Funding terms, deadlines, and eligibility change often: confirm on the funder's own page before applying.",
+    "stages": {
+      "study": "Paying for study",
+      "research": "Early research",
+      "projects": "Projects, prototypes, and startups",
+      "orgs": "Programs and organizations"
+    }
+  },
+  "sources": [
+    {
+      "name": "NSF Graduate Research Fellowship Program",
+      "org": "US National Science Foundation",
+      "url": "https://www.nsf.gov/funding/initiatives/grfp",
+      "stage": "study",
+      "type": "Government fellowship",
+      "amount": "$37,000 stipend plus $16,000 toward tuition and fees, for three years within a five-year award",
+      "who": "US citizens, nationals, and permanent residents starting or in the first two years of a research-based master's or PhD in a STEM field at a US institution; seniors and recent graduates are encouraged.",
+      "why": "The best-known route to a fully funded science PhD in the US. Life sciences, computer science, and social sciences all have their own deadlines each October."
+    },
+    {
+      "name": "NIH Ruth L. Kirschstein F31 and F32 fellowships",
+      "org": "US National Institutes of Health",
+      "url": "https://www.nimh.nih.gov/funding/training/ruth-l-kirschstein-national-research-service-award-individual-predoctoral-fellowship-f31",
+      "stage": "study",
+      "type": "Government fellowship",
+      "amount": "Stipend, tuition and fees, and an institutional allowance; typically two to three years for the predoctoral F31, up to three years for the postdoctoral F32",
+      "who": "US citizens or permanent residents in a research doctorate (F31) or a postdoctoral position (F32) in biomedical, behavioral, or clinical sciences, with a named sponsor.",
+      "why": "The standard individual fellowship for doctoral and postdoctoral research at the NIH institutes, including the National Institute of Allergy and Infectious Diseases. Applications are due three times a year."
+    },
+    {
+      "name": "BlueDot Impact career transition and rapid grants",
+      "org": "BlueDot Impact",
+      "url": "https://bluedot.org/grants",
+      "stage": "study",
+      "type": "Philanthropic grant",
+      "amount": "Rapid grants of $50 to $10,000 with replies usually within a day; career transition grants fund a defined full-time period",
+      "who": "People at any career stage entering or moving into biosecurity or AI safety work, including students, and BlueDot course alumni running projects or events.",
+      "why": "The program that took over Coefficient Giving's career development and transition funding in September 2026. The fastest, lowest-friction money on this page for someone with a concrete plan."
+    },
+    {
+      "name": "Wellcome Early-Career Awards",
+      "org": "Wellcome",
+      "url": "https://wellcome.org/research-funding/schemes/wellcome-early-career-awards",
+      "stage": "research",
+      "type": "Philanthropic research award",
+      "amount": "Your salary plus up to £400,000 in research expenses, usually for five years; applications accepted year-round",
+      "who": "Early-career researchers ready to lead their own project, based at eligible organizations in the UK, Ireland, or low- and middle-income countries; from 29 October 2026 the scheme narrows to the UK and low- and middle-income countries in Africa, South Asia, and Southeast Asia.",
+      "why": "Wellcome names infectious disease as one of its three global health challenges, and its early-career scheme is one of the few that pays a salary and five years of research costs to someone not yet independent."
+    },
+    {
+      "name": "Grand Challenges",
+      "org": "Gates Foundation and partners",
+      "url": "https://gcgh.grandchallenges.org/grant-opportunities",
+      "stage": "research",
+      "type": "Philanthropic challenge grants",
+      "amount": "Varies by challenge; Grand Challenges Explorations awards have been about $100,000 for 18 months",
+      "who": "Researchers and innovators anywhere; each open challenge sets its own eligibility.",
+      "why": "Challenges are posted when they open, and recent ones have included low-cost pathogen sequencing. Sign up for alerts and read the rules for the specific challenge you want."
+    },
+    {
+      "name": "Emergent Ventures",
+      "org": "Mercatus Center at George Mason University",
+      "url": "https://www.mercatus.org/emergent-ventures",
+      "stage": "projects",
+      "type": "Philanthropic fast grant",
+      "amount": "Grants and fellowships sized to the idea; no fixed deadline",
+      "who": "Anyone 13 or older with a scalable, zero-to-one idea for improving society, including students.",
+      "why": "A low-overhead program that funded 260 COVID-19 research grants through Fast Grants in 2020 and still moves quickly. The short application is a good first attempt at writing a pitch."
+    },
+    {
+      "name": "Blueprint Biosecurity requests for proposals",
+      "org": "Blueprint Biosecurity",
+      "url": "https://blueprintbiosecurity.org/funding-opportunities/",
+      "stage": "projects",
+      "type": "Philanthropic research grant",
+      "amount": "Milestone-based awards for projects of about 12 months, ideally under 24; indirect costs capped at 10 percent",
+      "who": "Organizations worldwide, nonprofit or for-profit, with a preference for nonprofits and a requirement that results be shared openly.",
+      "why": "A nonprofit advancing practical, pathogen-agnostic countermeasures such as far-UVC light, protective equipment, and biothreat detection, funding the specific research gaps it has mapped. Open calls have included pathogen-agnostic detection and safe far-UVC."
+    },
+    {
+      "name": "CEPI calls for proposals",
+      "org": "Coalition for Epidemic Preparedness Innovations",
+      "url": "https://cepi.net/calls-for-proposals/",
+      "stage": "projects",
+      "type": "Public-private product development",
+      "amount": "Call-specific; recent calls have run to tens of millions of dollars over several years",
+      "who": "Vaccine developers and researchers worldwide, with priority for the Global South; you can book a 50-minute Tech Talk to test an idea before applying.",
+      "why": "The main funder of vaccines against epidemic threats such as Lassa, Nipah, filoviruses, and Disease X. If your work is a vaccine, platform, or manufacturing technology, this is the door."
+    },
+    {
+      "name": "BARDA partnerships and DRIVe",
+      "org": "US Biomedical Advanced Research and Development Authority",
+      "url": "https://medicalcountermeasures.gov/barda/partnering",
+      "stage": "projects",
+      "type": "Government contract",
+      "amount": "Contracts and cooperative agreements from early development through licensure; DRIVe's EZ-BAA offers a streamlined path for smaller, earlier projects",
+      "who": "Startups, companies, and academic groups developing vaccines, therapeutics, diagnostics, or devices against pandemic influenza, emerging infections, and chemical, biological, radiological, and nuclear threats.",
+      "why": "The US government's product-development funder. A TechWatch meeting lets you pitch before you write a proposal."
+    },
+    {
+      "name": "DARPA Biological Technologies Office",
+      "org": "US Defense Advanced Research Projects Agency",
+      "url": "https://www.darpa.mil/about/offices/bto",
+      "stage": "projects",
+      "type": "Government research program",
+      "amount": "Multi-year programs and challenge prizes announced through Broad Agency Announcements",
+      "who": "Research teams in universities, companies, and labs; program managers welcome early conversations.",
+      "why": "Funds high-risk work on diagnostics, countermeasures, and biosurveillance, including at the intersection of AI and biology. Ambitious, technical, and open to newcomers who can make the case."
+    },
+    {
+      "name": "Coefficient Giving Biosecurity & Pandemic Preparedness Fund",
+      "org": "Coefficient Giving, formerly Open Philanthropy",
+      "url": "https://coefficientgiving.org/funds/biosecurity-pandemic-preparedness/",
+      "stage": "orgs",
+      "type": "Philanthropic grants to organizations",
+      "amount": "More than 140 grants and $290 million to date",
+      "who": "Organizations and, through requests for proposals, research groups working to guard against catastrophic biological risks, especially from advanced technology.",
+      "why": "The largest philanthropic funder of biosecurity, and one of [fourteen pooled funds](https://coefficientgiving.org/funds/) Coefficient Giving runs, alongside Science and Global Health R&D and Global Catastrophic Risks Opportunities. Grantees build affordable respiratory protection, metagenomic sequencing, far-UVC, and stronger norms on biological weapons and DNA synthesis screening. There is an [apply for funding](https://coefficientgiving.org/apply-for-funding/) page for proposals."
+    },
+    {
+      "name": "Survival and Flourishing Fund",
+      "org": "Survival and Flourishing Fund",
+      "url": "https://survivalandflourishing.fund/",
+      "stage": "orgs",
+      "type": "Philanthropic grants to organizations",
+      "amount": "$10,000 to $4 million per recommendation; about $152 million organized since 2019",
+      "who": "Organizations, occasionally individuals, working on long-term survival and flourishing, with biosecurity groups among recent recipients.",
+      "why": "Runs recurring grant rounds evaluated by independent assessors, plus faster Speculation Grants. Biosecurity organizations such as SecureBio and Blueprint Biosecurity have been funded."
+    },
+    {
+      "name": "Gates Foundation",
+      "org": "Bill & Melinda Gates Foundation",
+      "url": "https://www.gatesfoundation.org/about/committed-grants",
+      "stage": "orgs",
+      "type": "Philanthropic grants to organizations",
+      "amount": "One of the largest private funders of global health; every commitment since 1994 is listed in a public, downloadable grants database",
+      "who": "Mostly organizations invited by program staff; open competition runs through the Grand Challenges calls listed above.",
+      "why": "The foundation funds vaccines, diagnostics, therapeutics, and surveillance for epidemic diseases, and Pandemic PACT ranks it among the ten largest funders of non-COVID pandemic-pathogen research. Search its committed-grants database to see who it backs and for what."
+    },
+    {
+      "name": "Gordon and Betty Moore Foundation",
+      "org": "Gordon and Betty Moore Foundation",
+      "url": "https://www.moore.org/grants",
+      "stage": "orgs",
+      "type": "Philanthropic grants to organizations",
+      "amount": "Grants across science, environmental conservation, patient care, and the San Francisco Bay Area, listed in a public grants database",
+      "who": "Mostly organizations approached by program staff; the foundation does not run open calls for most programs.",
+      "why": "A science funder that has backed outbreak-science education directly, including a grant for [Operation Outbreak game enhancements](https://www.moore.org/grant-detail?grantId=GBMF9125.01). Worth knowing as a model of how a foundation's science program can fund tools for the field rather than only research."
+    },
+    {
+      "name": "Renaissance Philanthropy: Big if True Science, biosecurity cohort",
+      "org": "Renaissance Philanthropy, funded by Coefficient Giving",
+      "url": "https://www.renaissancephilanthropy.org/bits-biosec",
+      "stage": "projects",
+      "type": "Accelerator for R&D program designers",
+      "amount": "No fee and no stipend; about ten hours a week for four months, with travel to in-person sessions reimbursed; a demo day where fellows pitch program ideas to philanthropic funders and government agencies",
+      "who": "Ten to fourteen scientists, engineers, and entrepreneurs, from exceptional early-career talent to senior leaders; a biology background is not required.",
+      "why": "Trains people to design eight-figure R&D programs, focused research organizations, and market-shaping mechanisms against engineered pandemics, with weekly mentoring from former ARPA program managers. Focus areas include pathogen-agnostic detection, transmission suppression, synthesis screening, and medical countermeasures. The 2026 cohort opens in November with applications through September 20."
+    },
+    {
+      "name": "Novo Nordisk Foundation Infectious Diseases Catalyst Grants",
+      "org": "Novo Nordisk Foundation",
+      "url": "https://novonordiskfonden.dk/en/grant/infectious-diseases-catalyst-grants/",
+      "stage": "research",
+      "type": "Philanthropic research grant",
+      "amount": "Up to DKK 4 million over three years for Nordic projects, or DKK 7 million with international co-applicants; DKK 60 million in the 2026 round, recurring from 2027",
+      "who": "Principal investigators at assistant professor level or above in a Nordic country, with co-applicants welcome from anywhere; students and postdocs are not eligible to lead.",
+      "why": "Catalytic funding for exploratory infectious-disease research, with 2026 themes of novel antimicrobial-resistance tools and pandemic influenza. A reminder that the biggest infectious-disease philanthropies outside the US and UK have their own doors."
+    },
+    {
+      "name": "NIH Oxford-Cambridge Scholars Program",
+      "org": "US National Institutes of Health with the Universities of Oxford and Cambridge",
+      "url": "https://oxcam.gpp.nih.gov/",
+      "stage": "study",
+      "type": "Government fellowship",
+      "amount": "Tuition and a stipend for the whole doctorate, about four years split between an NIH lab and Oxford or Cambridge; can be combined with Rhodes, Marshall, or Gates Cambridge awards",
+      "who": "US citizens and permanent residents with a bachelor's degree and research experience.",
+      "why": "An accelerated, coursework-light PhD with two mentors and one collaborative dissertation. Microbiology and infectious disease is one of its named research areas."
+    },
+    {
+      "name": "Bloomberg Fellows Program",
+      "org": "Johns Hopkins Bloomberg School of Public Health",
+      "url": "https://americanhealth.jhu.edu/fellowship",
+      "stage": "study",
+      "type": "Philanthropic scholarship",
+      "amount": "Full tuition for an MPH or DrPH at Johns Hopkins",
+      "who": "People working in organizations that tackle US health challenges in the program's focus areas, nominated by their organization; fellows work for it for at least a year after graduating.",
+      "why": "One of the few fully funded routes to a public-health degree for people already in the workforce. Applications run through SOPHAS and close December 1."
+    },
+    {
+      "name": "Draper Scholars Program",
+      "org": "Draper Laboratory",
+      "url": "https://www.draper.com/education-programs/draper-scholars-program",
+      "stage": "study",
+      "type": "Industry scholarship",
+      "amount": "Scholar awards that fund thesis research at one of sixteen partner universities, with access to Draper's facilities and staff",
+      "who": "US citizens accepted into a thesis-based master's or doctoral program at a partner university such as MIT, Harvard, Georgia Tech, or Purdue.",
+      "why": "Biotechnology is one of its sixteen research areas, alongside AI and autonomy. Applications are due February 1, coordinated with Draper staff and university faculty."
+    },
+    {
+      "name": "Hertz Fellowship",
+      "org": "Fannie and John Hertz Foundation",
+      "url": "https://www.hertzfoundation.org/hertz-fellowship/apply/",
+      "stage": "study",
+      "type": "Philanthropic fellowship",
+      "amount": "Up to five years of funding valued at up to $250,000, plus mentoring and a lifelong network",
+      "who": "Doctoral students in the applied physical, biological, and engineering sciences; check the current eligibility criteria on the foundation's site.",
+      "why": "One of the most generous PhD fellowships in the US, with an emphasis on national-security-relevant science. Applications open August 31 and close October 30."
+    },
+    {
+      "name": "Knight-Hennessy Scholars",
+      "org": "Stanford University",
+      "url": "https://knight-hennessy.stanford.edu/admission",
+      "stage": "study",
+      "type": "University scholarship",
+      "amount": "Funding for a graduate degree at any Stanford school, from medicine and engineering to law and policy",
+      "who": "Applicants to Stanford graduate programs from any country; the 2027 cohort application closes October 6, 2026.",
+      "why": "Stanford houses the Center for International Security and Cooperation's biosecurity program, so this can fund a security-focused degree as easily as a scientific one."
+    },
+    {
+      "name": "NRC Research Associateship Programs",
+      "org": "National Academies of Sciences, Engineering, and Medicine",
+      "url": "https://sites.nationalacademies.org/pga/rap/pga_046398",
+      "stage": "research",
+      "type": "Government postdoctoral award",
+      "amount": "Competitive monthly stipends at more than a thousand research opportunities in federal laboratories across the US and abroad",
+      "who": "Postdoctoral and senior researchers with a PhD, ScD, MD, or DVM, or near completion; open to US citizens, permanent residents, and, at some agencies, foreign nationals.",
+      "why": "The door into research careers at federal laboratories, including those working on biodefense, diagnostics, and infectious disease. Applications are reviewed several times a year."
+    },
+    {
+      "name": "Global Health Emerging Scholars Fellowship",
+      "org": "Yale, Stanford, University of Arizona, and UC Berkeley, supported by the NIH Fogarty International Center",
+      "url": "https://medicine.yale.edu/yigh/ghes/",
+      "stage": "research",
+      "type": "Government training fellowship",
+      "amount": "A twelve-month mentored research year at one of fifteen partner sites across Africa, Asia, Latin America, and Eastern Europe",
+      "who": "Doctoral students, health-professional students willing to pause training for a year, and postdoctoral researchers.",
+      "why": "Mentored global-health research in the settings where outbreaks begin, with a consortium that has placed a fifth of its US fellows from groups under-represented in science."
+    },
+    {
+      "name": "SMART Scholarship-for-Service",
+      "org": "US Department of War STEM Program",
+      "url": "https://www.smartscholarship.org/smart/en",
+      "stage": "study",
+      "type": "Government scholarship-for-service",
+      "amount": "Full tuition at any accredited US college or university, an annual stipend of $30,000 to $46,000 depending on degree level, paid summer internships, and guaranteed civilian employment after graduation",
+      "who": "US bachelor's, master's, and doctoral students in STEM fields, including biotechnology and the biosciences; applications open August 1 and close the first Friday in December.",
+      "why": "The largest education and workforce program in US defense STEM, with more than 200 sponsoring facilities. A funded degree that leads straight into a biodefense-relevant government career, in exchange for a service commitment."
+    },
+    {
+      "name": "HHMI Gilliam Fellows Program",
+      "org": "Howard Hughes Medical Institute",
+      "url": "https://www.hhmi.org/programs/gilliam-fellows",
+      "stage": "study",
+      "type": "Philanthropic fellowship",
+      "amount": "Up to three years of PhD stipend, a discretionary allowance, and an institutional allowance for tuition and fees, with an optional four further years of postdoctoral support",
+      "who": "Second- and third-year PhD students in the basic biological and biomedical sciences at eligible institutions, applying together with their faculty advisor; open to US citizens, permanent residents, DACA recipients, and eligible international students.",
+      "why": "Unusual in funding the student and mentor as a pair, with a strong community across disciplines. The 2027 competition closes October 27, 2026."
+    }
+  ],
+  "schemes": [
+    {
+      "name": "Government research grants",
+      "how": "Agencies such as the NIH, NSF, UKRI, and the European Commission fund investigator-led research through competitive calls, reviewed by panels of scientists. Awards go to institutions, so you apply through a university or lab.",
+      "fit": "Academic research careers. Expect long applications, months of waiting, and success rates often under 20 percent, but also the largest and most stable money in the field.",
+      "example": "NIH funded more than 10,000 of the 30,000 pandemic-relevant grants tracked by [Pandemic PACT](https://www.pandemicpact.org/)."
+    },
+    {
+      "name": "Government contracts and product development",
+      "how": "Agencies such as BARDA, DARPA, and CEPI buy specific results: a vaccine candidate through Phase 2, a diagnostic that works in the field. Money is tied to milestones and the agency is an active partner.",
+      "fit": "Companies, startups, and applied academic groups building something. The bar is a credible product plan, not a publication record.",
+      "example": "BARDA's DRIVe EZ-BAA and CEPI's calls for proposals."
+    },
+    {
+      "name": "Philanthropic grants",
+      "how": "Foundations and giving funds back people and organizations whose work fits their priorities. Some run open requests for proposals; many fund by invitation after a conversation. Reporting is lighter and decisions faster than government grants.",
+      "fit": "Nonprofits, think tanks, and researchers working on problems governments underfund, such as catastrophic biological risks and pandemic-agnostic countermeasures.",
+      "example": "Coefficient Giving, Blueprint Biosecurity, Wellcome, and the Gates Foundation's Grand Challenges."
+    },
+    {
+      "name": "Fellowships, scholarships, and fast grants",
+      "how": "Money attached to a person rather than a project: a stipend to study, a salary to transition, or a small grant to test an idea. Applications are short and often rolling.",
+      "fit": "Students, early-career people, and career changers. This is where most people on this site should start.",
+      "example": "NSF GRFP, NIH F31, BlueDot rapid grants, Emergent Ventures, and the paid fellowships on the Get started page."
+    },
+    {
+      "name": "Prizes and challenges",
+      "how": "A funder names a problem and pays for solutions that meet the target, sometimes in stages. Anyone can enter, and finalists gain visibility as well as money.",
+      "fit": "Teams with a working prototype or a sharp idea, including student teams.",
+      "example": "Gates Grand Challenges and DARPA challenge competitions."
+    },
+    {
+      "name": "Venture capital and for-profit routes",
+      "how": "Investors buy equity in a company expecting a return, so the product needs a paying customer: hospitals, governments, or industry. Accelerators add mentoring and small checks; government product-development contracts often bridge the gap.",
+      "fit": "Diagnostics, biosurveillance software, protective equipment, and platform technologies with a market beyond the next outbreak.",
+      "example": "Biotech accelerators, BARDA DRIVe partnerships with startups, and CEPI-backed manufacturers."
+    },
+    {
+      "name": "Employer and institutional support",
+      "how": "Governments, hospitals, universities, and nonprofits pay salaries to do this work full-time, and many fund staff training and further study. Most people in the field are funded this way.",
+      "fit": "Anyone who wants a job rather than a grant. Fellowships such as the Epidemic Intelligence Service are salaried positions in disguise.",
+      "example": "State and local health departments, CDC and WHO posts, and the Field Epidemiology Training Programs run inside ministries of health."
+    }
+  ],
+  "pact": {
+    "name": "Pandemic PACT",
+    "url": "https://www.pandemicpact.org/",
+    "org": "GLOPID-R, UKCDR, and the Pandemic Sciences Institute at the University of Oxford",
+    "description": "Pandemic PACT tracks and analyses global funding, clinical research registrations, and evidence for research on diseases with pandemic potential. Its data are open under a Creative Commons BY license.",
+    "asOf": "14 September 2026",
+    "totals": {
+      "grants": "30,000",
+      "funders": "377",
+      "amount": "$31.5 billion"
+    },
+    "nonCovid": {
+      "grants": "5,663",
+      "amount": "$7.0 billion"
+    },
+    "topByAmount": [
+      [
+        "US National Institutes of Health",
+        "$2.6 billion",
+        "3,612"
+      ],
+      [
+        "Coalition for Epidemic Preparedness Innovations",
+        "$1.3 billion",
+        "67"
+      ],
+      [
+        "European Commission",
+        "$884 million",
+        "230"
+      ],
+      [
+        "Wellcome Trust",
+        "$536 million",
+        "176"
+      ],
+      [
+        "US BARDA",
+        "$375 million",
+        "—"
+      ],
+      [
+        "UK Research and Innovation",
+        "$366 million",
+        "438"
+      ],
+      [
+        "Gates Foundation",
+        "$188 million",
+        "137"
+      ],
+      [
+        "UK Foreign, Commonwealth & Development Office",
+        "$172 million",
+        "—"
+      ],
+      [
+        "UK National Institute for Health and Care Research",
+        "$153 million",
+        "—"
+      ],
+      [
+        "US National Science Foundation",
+        "$113 million",
+        "157"
+      ]
+    ],
+    "categories": [
+      [
+        "Pathogen biology, transmission, and diagnostics",
+        "2,895"
+      ],
+      [
+        "Vaccines",
+        "969"
+      ],
+      [
+        "Clinical characterization and management",
+        "861"
+      ],
+      [
+        "Therapeutics",
+        "847"
+      ],
+      [
+        "Epidemiological studies",
+        "844"
+      ],
+      [
+        "Animal, environmental, and vector research",
+        "713"
+      ],
+      [
+        "Public health policy and community resilience",
+        "306"
+      ]
+    ]
+  },
+  "directory": {
+    "meta": {
+      "source": "[biosecurity.world](https://biosecurity.world), the organizations it lists as funders, plus the Moore Foundation",
+      "caveat": "Descriptions are biosecurity.world's characterization of each organization, not the organization's own words, and have not been independently verified.",
+      "asOf": "14 September 2026",
+      "kinds": {
+        "government": "Government research agencies",
+        "multilateral": "Multilateral and pooled funds",
+        "philanthropy": "Philanthropies, funds, and regrantors",
+        "research": "Research institutes and societies that also fund"
+      }
+    },
+    "organizations": [
+      {
+        "name": "Advanced Research + Invention Agency (ARIA)",
+        "url": "https://www.aria.org.uk/opportunity-spaces/sculpting-innate-immunity",
+        "kind": "government",
+        "where": [
+          "United Kingdom",
+          "London"
+        ],
+        "description": "ARIA is a UK government body funding high-risk, high-reward research to drive technological breakthroughs. Its “Sculpting Innate Immunity” opportunity space seeks to modulate the innate immune system to create a new therapeutic paradigm against diseases, including for broad-spectrum viral defense."
+      },
+      {
+        "name": "Advanced Research Projects Agency for Health (ARPA-H)",
+        "url": "https://arpa-h.gov/",
+        "kind": "government",
+        "where": [
+          "USA",
+          "Remote"
+        ],
+        "description": "The Advanced Research Projects Agency for Health (ARPA-H) is a research funding agency that supports transformative biomedical and health breakthroughs – ranging from the molecular to the societal – to provide health solutions for all."
+      },
+      {
+        "name": "Bill & Melinda Gates Foundation",
+        "url": "https://www.gatesfoundation.org/",
+        "kind": "philanthropy",
+        "where": [
+          "Global",
+          "USA",
+          "Seattle WA"
+        ],
+        "description": "The foundation’s mission is to create a world where every person has the opportunity to live a healthy, productive life."
+      },
+      {
+        "name": "Coalition for Epidemic Preparedness Innovations (CEPI)",
+        "url": "https://cepi.net",
+        "kind": "multilateral",
+        "where": [
+          "Europe (excl. UK)",
+          "United Kingdom",
+          "USA"
+        ],
+        "description": "CEPI is a global partnership working to accelerate the development of vaccines and other biologic countermeasures against epidemic and pandemic threats. In 2022, CEPI adopted a vision for the world to be able to respond to a pandemic threat with a new vaccine within 100 days."
+      },
+      {
+        "name": "Coefficient Giving, Biosecurity & Pandemic Preparedness team",
+        "url": "https://coefficientgiving.org/funds/biosecurity-pandemic-preparedness",
+        "kind": "philanthropy",
+        "where": [
+          "USA",
+          "San Francisco CA"
+        ],
+        "description": "Coefficient Giving’s Biosecurity & Pandemic Preparedness team (ex Open Philanthropy) supports efforts to strengthen disease surveillance, the governance of dual-use research, policy development, and other activities that could reduce the threat of a major global disruption."
+      },
+      {
+        "name": "Convergent Research",
+        "url": "https://www.convergentresearch.org",
+        "kind": "research",
+        "where": [
+          "USA"
+        ],
+        "description": "Convergent Research launches Focused Research Organizations (FROs) to tackle large-scale, tightly coordinated, non-profit projects. Their biosecurity team is investigating FROs to reduce risks from pandemics, including projects on indoor air quality and metagenomic sequencing."
+      },
+      {
+        "name": "EA Long Term Future Fund (LTFF)",
+        "url": "https://funds.effectivealtruism.org/funds/far-future",
+        "kind": "philanthropy",
+        "where": [
+          "Global",
+          "Remote"
+        ],
+        "description": "The Long-Term Future Fund aims to positively influence the long-term trajectory of civilization by making grants that address global catastrophic risks, especially potential risks from advanced artificial intelligence and pandemics. In addition, we seek to promote, implement, and advocate for longtermist ideas, and to otherwise increase the likelihood that future generations will flourish."
+      },
+      {
+        "name": "Ergo Impact - Biosecurity Program",
+        "url": "https://ergoimpact.org",
+        "kind": "philanthropy",
+        "where": [
+          "Remote",
+          "Europe (excl. UK)",
+          "Netherlands"
+        ],
+        "description": "Ergo Impact aims to find, fund, and scale the most promising people and solutions to the world’s most pressing problems. Their Biosecurity team has focused on researching areas to prioritize within biosecurity, refining the investigation and evaluation of grants, and working closely with grantees. Formerly known as Effective Giving."
+      },
+      {
+        "name": "European Society of Clinical Microbiology and Infectious Diseases (ESCMID)",
+        "url": "https://www.escmid.org",
+        "kind": "research",
+        "where": [
+          "Remote",
+          "Europe (excl. UK)",
+          "Switzerland"
+        ],
+        "description": "Leading professional society for clinical microbiology, infectious diseases and antimicrobial resistance in Europe. Focusing on research, postgraduate education and practice."
+      },
+      {
+        "name": "Founders Pledge",
+        "url": "https://www.founderspledge.com/research/our-biosecurity-and-pandemic-prevention-strategy-in-a-nutshell",
+        "kind": "philanthropy",
+        "where": [
+          "United Kingdom",
+          "USA",
+          "Global"
+        ],
+        "description": "A community of entrepreneurs who pledge part of their exit proceeds to charity. Its Global Catastrophic Risks Fund backs threat-agnostic pandemic interventions such as germicidal UV, pandemic-proof protective equipment, and DNA synthesis screening; grantees include IBBIS, Blueprint Biosecurity, and SecureBio."
+      },
+      {
+        "name": "Gavi, the Vaccine Alliance",
+        "url": "https://www.gavi.org",
+        "kind": "multilateral",
+        "where": [
+          "Global",
+          "Europe (excl. UK)",
+          "Switzerland"
+        ],
+        "description": "Gavi, the Vaccine Alliance helps vaccinate more than half the world’s children against deadly and debilitating infectious diseases."
+      },
+      {
+        "name": "Gordon and Betty Moore Foundation",
+        "url": "https://www.moore.org/grants",
+        "kind": "philanthropy",
+        "where": [
+          "USA",
+          "Palo Alto CA"
+        ],
+        "description": "A private foundation funding science, environmental conservation, and patient care, mostly by invitation, with every grant listed in a public database. Its science grants have included Operation Outbreak game enhancements.",
+        "added": true
+      },
+      {
+        "name": "Health Emergency Preparedness and Response (HERA)",
+        "url": "https://health.ec.europa.eu/health-emergency-preparedness-and-response-hera_en",
+        "kind": "multilateral",
+        "where": [
+          "Europe (excl. UK)",
+          "Belgium",
+          "Brussels"
+        ],
+        "description": "HERA’s mission is to strengthen Europe's ability to prevent, detect, and rapidly respond to cross-border health emergencies, by ensuring the development, manufacturing, procurement and equitable distribution of key medical countermeasures. It was created in the aftermath of the COVID-19 pandemic to strengthen the EU's health emergency preparedness and response."
+      },
+      {
+        "name": "Intelligence Advanced Research Projects Activity (IARPA)",
+        "url": "https://www.iarpa.gov/",
+        "kind": "government",
+        "where": [
+          "USA",
+          "Bethesda MD"
+        ],
+        "description": "The Intelligence Advanced Research Projects Activity invests in high-risk, high-payoff research programs to tackle some of the most difficult challenges of the agencies and disciplines in the Intelligence Community (IC). IARPA’s mission is to push the boundaries of science to develop solutions that empower the IC to do its work better and more efficiently for national security. IARPA does not have an operational mission and does not deploy technologies directly to the field. Instead, we facilitate the transition of research results to our IC customers for operational application."
+      },
+      {
+        "name": "Intercept Fund",
+        "url": "https://www.interceptfund.com",
+        "kind": "philanthropy",
+        "where": [
+          "Global",
+          "USA"
+        ],
+        "description": "Intercept is a philanthropic initiative that funds and invests in technologies to reduce the burden of respiratory infections and improve preparedness for future pandemics. Its two main programs support broad-spectrum biomedical preventatives, including vaccines and antivirals, and indoor-air technologies such as filtration and far-UVC."
+      },
+      {
+        "name": "Longview Philanthropy",
+        "url": "https://www.longview.org",
+        "kind": "philanthropy",
+        "where": [
+          "United Kingdom",
+          "London",
+          "USA"
+        ],
+        "description": "Longview Philanthropy provides grantmaking services to donors who want to do the most good possible with their giving."
+      },
+      {
+        "name": "Manifund Biosecurity",
+        "url": "https://manifund.org/causes/biosec",
+        "kind": "philanthropy",
+        "where": [
+          "Global",
+          "Remote"
+        ],
+        "description": "Manifund is an online funding platform that supports projects across effective-altruist cause areas through direct grants and regranting. Its dedicated biosecurity portfolio funds work on catastrophic biological risks, including pandemic prevention, surveillance, synthesis screening, protective technologies, and field building."
+      },
+      {
+        "name": "Market Shaping Accelerator @ University of Chicago",
+        "url": "https://www.marketshapingaccelerator.org",
+        "kind": "research",
+        "where": [
+          "USA",
+          "Chicago IL",
+          "Remote"
+        ],
+        "description": "When commercial incentives for innovation trail behind the social value, market shaping instruments are required to credibly signal demand and spur and scale up innovation. The Market Shaping Accelerator aims to harness the momentum and interest in these tools generated from global successes in vaccine development to accelerate their adoption by governments, multilateral institutions, and philanthropies to solve the world’s most pressing challenges."
+      },
+      {
+        "name": "Mirror Biology Dialogues Fund",
+        "url": "https://www.mbdialogues.org",
+        "kind": "philanthropy",
+        "where": [
+          "Global",
+          "Remote"
+        ],
+        "description": "The Mirror Biology Dialogues Fund supports efforts to understand risks and develop governance frameworks for mirror biology research before it becomes technically feasible to create mirror life."
+      },
+      {
+        "name": "National Institutes of Health (NIH)",
+        "url": "https://www.nih.gov",
+        "kind": "government",
+        "where": [
+          "USA",
+          "Bethesda MD"
+        ],
+        "description": "NIH’s mission is to seek fundamental knowledge about the nature and behavior of living systems and the application of that knowledge to enhance health, lengthen life, and reduce illness and disability."
+      },
+      {
+        "name": "Novo Nordisk Foundation",
+        "url": "https://novonordiskfonden.dk/en/",
+        "kind": "philanthropy",
+        "where": [
+          "Denmark",
+          "Global"
+        ],
+        "description": "One of the world's largest foundations, funding infectious-disease research and, from 2025, the Global Pathogen Analysis Platform: a free, AI-enabled infrastructure for detecting and tracking pathogens built at the Technical University of Denmark with partners in Copenhagen and at Imperial College London, designed for low- and middle-income countries."
+      },
+      {
+        "name": "Pax Sapiens",
+        "url": "https://paxsapiens.org",
+        "kind": "philanthropy",
+        "where": [
+          "Global",
+          "Europe (excl. UK)",
+          "East Asia & Pacific"
+        ],
+        "description": "Pax Sapiens aims to prevent predictable global catastrophes like global pandemics, US / China conflict, or nuclear risk through the creation of new systems of collective coordination that promise a more peaceful world."
+      },
+      {
+        "name": "Renaissance Philanthropy",
+        "url": "https://www.renaissancephilanthropy.org/",
+        "kind": "philanthropy",
+        "where": [
+          "USA",
+          "Global"
+        ],
+        "description": "A nonprofit that designs and runs time-bound, thesis-driven philanthropic funds so donors can back ambitious science without building in-house teams; it has mobilized more than $500 million in two years. Its Big if True Science accelerator runs a biosecurity cohort with Coefficient Giving."
+      },
+      {
+        "name": "SAIFbio",
+        "url": "https://saifbio.org",
+        "kind": "philanthropy",
+        "where": [
+          "Global",
+          "USA"
+        ],
+        "description": "SAIFbio is a 501(c)(3) nonprofit that mobilizes philanthropy, science, and policy to prevent, detect, and defend against catastrophic biological threats. It serves as a biosecurity clearinghouse and helps steward the Bio Action Plan, a coordinated five-year $2.5B strategy spanning synthesis safeguards, early warning, protective technologies, and medical countermeasures."
+      },
+      {
+        "name": "Sentinel Bio",
+        "url": "https://sentinelbio.org",
+        "kind": "philanthropy",
+        "where": [
+          "USA",
+          "Washington DC"
+        ],
+        "description": "Sentinel Bio finds, funds, and scales solutions to prevent biosecurity risks and respond to pandemics, across three areas: • Understanding the drivers of catastrophic pandemics • Strengthening safeguards on advanced biotechnologies • Bolstering global pandemic preparedness."
+      },
+      {
+        "name": "Survival & Flourishing Fund",
+        "url": "https://survivalandflourishing.fund/",
+        "kind": "philanthropy",
+        "where": [
+          "Global",
+          "Remote"
+        ],
+        "description": "Survival and Flourishing .Com (“SFC”) is a Public Benefit Corporation engaged in philanthropy to support companies, organizations, and projects with positive externalities for the survival and flourishing of humanity and other sentient beings. We distribute non-dilutive grants to for-profit companies recommended by grant recommendation processes ogranized through survivalandflourishing.fund (“SFF”), and we also engage directly in specific philanthropic projects, such as OpenLetter.net, a project of SFC. Currently our work is financed by philanthropist Jaan Tallinn."
+      },
+      {
+        "name": "The Pandemic Fund",
+        "url": "https://www.thepandemicfund.org",
+        "kind": "multilateral",
+        "where": [
+          "Global",
+          "South America",
+          "North Africa"
+        ],
+        "description": "The Pandemic Fund finances critical investments to strengthen pandemic prevention, preparedness, and response capacities at national, regional, and global levels, with a focus on low- and middle-income countries."
+      },
+      {
+        "name": "The Pandemic Institute",
+        "url": "https://thepandemicinstitute.org",
+        "kind": "research",
+        "where": [
+          "United Kingdom",
+          "Liverpool"
+        ],
+        "description": "The Pandemic Institute is a Liverpool-based collaboration of academic, healthcare, civic, and industrial partners dedicated to predicting, preparing for, and responding to emerging infections and pandemic threats."
+      },
+      {
+        "name": "Wellcome Trust",
+        "url": "https://wellcome.org",
+        "kind": "philanthropy",
+        "where": [
+          "Global",
+          "United Kingdom",
+          "London"
+        ],
+        "description": "The Wellcome Trust is a major global charitable foundation that funds health research, with an explicit strategic focus on combating infectious diseases and managing pandemic risks."
+      },
+      {
+        "name": "William and Flora Hewlett Foundation",
+        "url": "https://hewlett.org/programs/emerging-technology-and-security/",
+        "kind": "philanthropy",
+        "where": [
+          "USA",
+          "Global"
+        ],
+        "description": "Its Emerging Technology and Security Initiative commits $100 million through 2031 to civil society organizations, universities, think tanks, and standards bodies working on the security of biotechnology, AI, and quantum computing, with $20 million in exploratory grants in 2026 and $20 million a year from 2027."
+      }
+    ]
+  }
+}

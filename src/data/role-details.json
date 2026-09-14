@@ -1,0 +1,460 @@
+{
+  "meta": {
+    "source": "US Bureau of Labor Statistics, Occupational Outlook Handbook, pages last modified 27 Aug 2026; retrieved 14 Sep 2026. Median pay is the US median for the whole occupation in May 2025, not for biosecurity work specifically.",
+    "closestNote": "Where no handbook occupation matches a role exactly, the nearest one is shown and marked as such."
+  },
+  "roles": {
+    "Epidemiologist": {
+      "summary": "An epidemiologist, also known as a disease detective, investigates the causes of diseases, how diseases spread, and how they can be prevented or controlled.",
+      "summarySource": "CDC NERD Academy, Public Health Careers (updated 22 Aug 2024)",
+      "bls": {
+        "occupation": "Epidemiologists",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/epidemiologists.htm",
+        "medianPay": "$87,220 per year (May 2025)",
+        "education": "Master's degree",
+        "outlook": "19% growth 2025–35, much faster than average",
+        "jobs": "12,800 (2025)",
+        "whatTheyDo": "Epidemiologists are public health workers who investigate patterns and causes of disease and injury.",
+        "closest": false
+      }
+    },
+    "Public Health Nurse": {
+      "summary": "A public health nurse plays a vital role in disease prevention and promoting community health and safety, looking at health trends and risk factors, improving access to services, and helping design health education campaigns.",
+      "summarySource": "CDC NERD Academy, Public Health Careers (updated 22 Aug 2024)",
+      "bls": {
+        "occupation": "Registered nurses",
+        "url": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
+        "medianPay": "$97,550 per year (May 2025)",
+        "education": "Bachelor's degree",
+        "outlook": "6% growth 2025–35, faster than average",
+        "jobs": "3,465,400 (2025)",
+        "whatTheyDo": "Registered nurses deliver and coordinate patient care while educating patients and the public about health conditions.",
+        "closest": true
+      }
+    },
+    "Biostatistician": {
+      "summary": "A biostatistician looks at data collection methods and analyzes data to help answer health-related questions, using graphs and tables that make the data easier to understand, and explains the limits of the analysis.",
+      "summarySource": "CDC NERD Academy, Public Health Careers (updated 22 Aug 2024)",
+      "bls": {
+        "occupation": "Mathematicians and statisticians",
+        "url": "https://www.bls.gov/ooh/math/mathematicians-and-statisticians.htm",
+        "medianPay": "$105,720 per year (May 2025)",
+        "education": "Master's degree",
+        "outlook": "10% growth 2025–35, much faster than average",
+        "jobs": "33,500 (2025)",
+        "whatTheyDo": "Mathematicians and statisticians analyze data and apply computational techniques to solve problems.",
+        "closest": true
+      }
+    },
+    "Disease Surveillance Officer": {
+      "summary": "Surveillance officers run the systems that watch for disease: collecting reports from clinics and laboratories, checking data quality, and raising the alarm when a signal appears.",
+      "bls": {
+        "occupation": "Epidemiologists",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/epidemiologists.htm",
+        "medianPay": "$87,220 per year (May 2025)",
+        "education": "Master's degree",
+        "outlook": "19% growth 2025–35, much faster than average",
+        "jobs": "12,800 (2025)",
+        "whatTheyDo": "Epidemiologists are public health workers who investigate patterns and causes of disease and injury.",
+        "closest": true
+      }
+    },
+    "Physician": {
+      "summary": "Physicians and surgeons diagnose and treat injuries or illnesses and address health maintenance.",
+      "bls": {
+        "occupation": "Physicians and surgeons",
+        "url": "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm",
+        "medianPay": "$275,930 per year (May 2025)",
+        "education": "Doctoral or professional degree, plus internship/residency",
+        "outlook": "4% growth 2025–35, about as fast as average",
+        "jobs": "862,800 (2025)",
+        "whatTheyDo": "Physicians and surgeons diagnose and treat injuries or illnesses and address health maintenance.",
+        "closest": false
+      }
+    },
+    "Nurse Practitioner": {
+      "summary": "Nurse practitioners coordinate patient care and may provide primary and specialty healthcare.",
+      "bls": {
+        "occupation": "Nurse anesthetists, nurse midwives, and nurse practitioners",
+        "url": "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm",
+        "medianPay": "$134,920 per year (May 2025)",
+        "education": "Master's degree",
+        "outlook": "36% growth 2025–35, much faster than average",
+        "jobs": "399,000 (2025)",
+        "whatTheyDo": "Nurse practitioners coordinate patient care and may provide primary and specialty healthcare.",
+        "closest": false
+      }
+    },
+    "Emergency Medicine Technician": {
+      "summary": "EMTs and paramedics assess injuries and illnesses, provide emergency medical care, and may transport patients to medical facilities.",
+      "bls": {
+        "occupation": "EMTs and paramedics",
+        "url": "https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm",
+        "medianPay": "$48,150 per year (May 2025)",
+        "education": "Postsecondary nondegree award",
+        "outlook": "6% growth 2025–35, faster than average",
+        "jobs": "284,100 (2025)",
+        "whatTheyDo": "EMTs and paramedics assess injuries and illnesses, provide emergency medical care, and may transport patients to medical facilities.",
+        "closest": false
+      }
+    },
+    "Respiratory Therapist": {
+      "summary": "Respiratory therapists care for patients who have trouble breathing.",
+      "bls": {
+        "occupation": "Respiratory therapists",
+        "url": "https://www.bls.gov/ooh/healthcare/respiratory-therapists.htm",
+        "medianPay": "$82,280 per year (May 2025)",
+        "education": "Associate's degree",
+        "outlook": "9% growth 2025–35, much faster than average",
+        "jobs": "142,000 (2025)",
+        "whatTheyDo": "Respiratory therapists care for patients who have trouble breathing.",
+        "closest": false
+      }
+    },
+    "Medical Surge Planner": {
+      "summary": "Surge planners work out how a hospital or health system expands capacity in a crisis: beds, staff, supplies, oxygen, and the agreements with neighboring facilities that make it possible.",
+      "bls": {
+        "occupation": "Medical and health services managers",
+        "url": "https://www.bls.gov/ooh/management/medical-and-health-services-managers.htm",
+        "medianPay": "$123,860 per year (May 2025)",
+        "education": "Bachelor's degree, plus less than 5 years of experience",
+        "outlook": "24% growth 2025–35, much faster than average",
+        "jobs": "640,400 (2025)",
+        "whatTheyDo": "Medical and health services managers plan, direct, and coordinate the business activities of healthcare providers.",
+        "closest": true
+      }
+    },
+    "Virologist": {
+      "summary": "Virologists study viruses: how they infect cells, evolve and spread, and how vaccines and antivirals can stop them.",
+      "bls": {
+        "occupation": "Microbiologists",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/microbiologists.htm",
+        "medianPay": "$87,990 per year (May 2025)",
+        "education": "Bachelor's degree",
+        "outlook": "6% growth 2025–35, faster than average",
+        "jobs": "20,100 (2025)",
+        "whatTheyDo": "Microbiologists study microorganisms such as bacteria, viruses, algae, and fungi.",
+        "closest": true
+      }
+    },
+    "Immunologist": {
+      "summary": "Immunologists study how the immune system responds to infection and vaccination, and use that knowledge to design better vaccines and treatments.",
+      "bls": {
+        "occupation": "Medical scientists",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/medical-scientists.htm",
+        "medianPay": "$103,410 per year (May 2025)",
+        "education": "Doctoral or professional degree",
+        "outlook": "13% growth 2025–35, much faster than average",
+        "jobs": "181,000 (2025)",
+        "whatTheyDo": "Medical scientists conduct research aimed at improving overall human health.",
+        "closest": true
+      }
+    },
+    "Vaccinologist": {
+      "summary": "Vaccinologists design, test, and evaluate vaccines, from choosing what part of a pathogen to target through clinical trials and post-approval monitoring.",
+      "bls": {
+        "occupation": "Medical scientists",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/medical-scientists.htm",
+        "medianPay": "$103,410 per year (May 2025)",
+        "education": "Doctoral or professional degree",
+        "outlook": "13% growth 2025–35, much faster than average",
+        "jobs": "181,000 (2025)",
+        "whatTheyDo": "Medical scientists conduct research aimed at improving overall human health.",
+        "closest": true
+      }
+    },
+    "Bioinformatician": {
+      "summary": "Bioinformaticians write and run the software that turns raw genetic sequence data into meaning: identifying pathogens, tracking variants, and comparing genomes.",
+      "bls": {
+        "occupation": "Medical scientists",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/medical-scientists.htm",
+        "medianPay": "$103,410 per year (May 2025)",
+        "education": "Doctoral or professional degree",
+        "outlook": "13% growth 2025–35, much faster than average",
+        "jobs": "181,000 (2025)",
+        "whatTheyDo": "Medical scientists conduct research aimed at improving overall human health.",
+        "closest": true
+      }
+    },
+    "Vaccine Research Scientist": {
+      "summary": "Medical scientists conduct research aimed at improving overall human health.",
+      "bls": {
+        "occupation": "Medical scientists",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/medical-scientists.htm",
+        "medianPay": "$103,410 per year (May 2025)",
+        "education": "Doctoral or professional degree",
+        "outlook": "13% growth 2025–35, much faster than average",
+        "jobs": "181,000 (2025)",
+        "whatTheyDo": "Medical scientists conduct research aimed at improving overall human health.",
+        "closest": true
+      }
+    },
+    "Data Scientist": {
+      "summary": "Data scientists use analytical methods and technological tools to uncover patterns and insights in data.",
+      "bls": {
+        "occupation": "Data scientists",
+        "url": "https://www.bls.gov/ooh/math/data-scientists.htm",
+        "medianPay": "$120,230 per year (May 2025)",
+        "education": "Bachelor's degree",
+        "outlook": "35% growth 2025–35, much faster than average",
+        "jobs": "275,600 (2025)",
+        "whatTheyDo": "Data scientists use analytical methods and technological tools to uncover patterns and insights in data.",
+        "closest": false
+      }
+    },
+    "Health Informatics Specialist": {
+      "summary": "Health informatics specialists design and manage the information systems that health services and public-health agencies run on, and make their data usable.",
+      "bls": {
+        "occupation": "Health information technologists and medical registrars",
+        "url": "https://www.bls.gov/ooh/healthcare/health-information-technologists-and-medical-registrars.htm",
+        "medianPay": "$68,020 per year (May 2025)",
+        "education": "Associate's degree",
+        "outlook": "16% growth 2025–35, much faster than average",
+        "jobs": "42,000 (2025)",
+        "whatTheyDo": "Health information technologists advise organizations on computerized healthcare systems and analyze clinical data.",
+        "closest": true
+      }
+    },
+    "AI Researcher for Outbreak Detection": {
+      "summary": "AI researchers in this field build and evaluate models that spot outbreaks early in noisy data, forecast their course, or screen for misuse of biological tools.",
+      "bls": {
+        "occupation": "Computer and information research scientists",
+        "url": "https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm",
+        "medianPay": "$140,300 per year (May 2025)",
+        "education": "Master's degree",
+        "outlook": "22% growth 2025–35, much faster than average",
+        "jobs": "38,600 (2025)",
+        "whatTheyDo": "Computer and information research scientists design innovative uses for new and existing technology.",
+        "closest": true
+      }
+    },
+    "Biosurveillance Analyst": {
+      "summary": "Biosurveillance analysts monitor streams of data from clinics, laboratories, wastewater, animal health, and open sources to detect and characterise biological threats.",
+      "bls": {
+        "occupation": "Epidemiologists",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/epidemiologists.htm",
+        "medianPay": "$87,220 per year (May 2025)",
+        "education": "Master's degree",
+        "outlook": "19% growth 2025–35, much faster than average",
+        "jobs": "12,800 (2025)",
+        "whatTheyDo": "Epidemiologists are public health workers who investigate patterns and causes of disease and injury.",
+        "closest": true
+      }
+    },
+    "Biosecurity Specialist": {
+      "summary": "Biosecurity specialists protect laboratories and institutions against the theft, misuse, or accidental release of dangerous biological materials, through risk assessment, access control, training, and policy.",
+      "bls": {
+        "occupation": "Occupational health and safety specialists and technicians",
+        "url": "https://www.bls.gov/ooh/healthcare/occupational-health-and-safety-specialists-and-technicians.htm",
+        "medianPay": "$83,740 per year (May 2025)",
+        "education": "Varies: bachelor's degree for specialists, less for technicians",
+        "outlook": "19% growth 2025–35, much faster than average",
+        "jobs": "174,300 (2025)",
+        "whatTheyDo": "Occupational health and safety specialists and technicians collect data on, analyze, and design improvements to work environments and procedures.",
+        "closest": true
+      }
+    },
+    "Public Health Policy Analyst": {
+      "summary": "Policy analysts research how laws, budgets, and programs affect health security and write the briefings and options that decision-makers act on. Employers include government, legislatures, think tanks, and non-profits.",
+      "bls": {
+        "occupation": "Political scientists",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/political-scientists.htm",
+        "medianPay": "$142,080 per year (May 2025)",
+        "education": "Master's degree",
+        "outlook": "2% decline 2025–35",
+        "jobs": "6,100 (2025)",
+        "whatTheyDo": "Political scientists study the origin, development, and operation of political systems.",
+        "closest": true
+      }
+    },
+    "Emergency Management Director": {
+      "summary": "Emergency management directors prepare plans and procedures for responding to natural disasters or other emergencies and help lead the response.",
+      "bls": {
+        "occupation": "Emergency management directors",
+        "url": "https://www.bls.gov/ooh/management/emergency-management-directors.htm",
+        "medianPay": "$93,330 per year (May 2025)",
+        "education": "Bachelor's degree, plus 5 years or more of experience",
+        "outlook": "4% growth 2025–35, about as fast as average",
+        "jobs": "14,000 (2025)",
+        "whatTheyDo": "Emergency management directors prepare plans and procedures for responding to natural disasters or other emergencies and help lead the response.",
+        "closest": false
+      }
+    },
+    "Medical Anthropologist": {
+      "summary": "Medical anthropologists study how culture, belief, and social structure shape health, illness, and the way communities respond to outbreaks and interventions.",
+      "bls": {
+        "occupation": "Anthropologists and archeologists",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/anthropologists-and-archeologists.htm",
+        "medianPay": "$70,770 per year (May 2025)",
+        "education": "Master's degree",
+        "outlook": "6% growth 2025–35, faster than average",
+        "jobs": "10,200 (2025)",
+        "whatTheyDo": "Anthropologists and archeologists study the origin, development, and behavior of humans.",
+        "closest": true
+      }
+    },
+    "Behavioral Health Scientist": {
+      "summary": "A behavioral scientist studies why people behave the way they do and what factors influence their decisions and behaviors.",
+      "summarySource": "CDC NERD Academy, Public Health Careers (updated 22 Aug 2024)",
+      "bls": {
+        "occupation": "Psychologists",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/psychologists.htm",
+        "medianPay": "$99,110 per year (May 2025)",
+        "education": "Varies by specialty; usually a doctoral degree, plus internship/residency",
+        "outlook": "6% growth 2025–35, faster than average",
+        "jobs": "209,400 (2025)",
+        "whatTheyDo": "Psychologists study cognitive, emotional, and social processes and behavior.",
+        "closest": true
+      }
+    },
+    "Disaster Mental Health Counselor": {
+      "summary": "Disaster mental health counselors support survivors, families, and responders during and after emergencies, often through the Red Cross, health systems, or humanitarian agencies.",
+      "bls": {
+        "occupation": "Substance abuse, behavioral disorder, and mental health counselors",
+        "url": "https://www.bls.gov/ooh/community-and-social-service/substance-abuse-behavioral-disorder-and-mental-health-counselors.htm",
+        "medianPay": "$59,350 per year (May 2025)",
+        "education": "Master's degree, plus internship/residency",
+        "outlook": "18% growth 2025–35, much faster than average",
+        "jobs": "533,400 (2025)",
+        "whatTheyDo": "Mental health counselors advise people on a range of issues, such as those relating to addictions or depression.",
+        "closest": true
+      }
+    },
+    "Veterinary Epidemiologist": {
+      "summary": "Veterinary epidemiologists investigate disease in animal populations and the risk it poses to people, working across farms, wildlife, and food systems.",
+      "bls": {
+        "occupation": "Veterinarians",
+        "url": "https://www.bls.gov/ooh/healthcare/veterinarians.htm",
+        "medianPay": "$130,100 per year (May 2025)",
+        "education": "Doctoral or professional degree",
+        "outlook": "9% growth 2025–35, much faster than average",
+        "jobs": "91,100 (2025)",
+        "whatTheyDo": "Veterinarians care for the health of animals and work to protect public health.",
+        "closest": true
+      }
+    },
+    "Wildlife Disease Ecologist": {
+      "summary": "Wildlife disease ecologists study how pathogens circulate in wild animals and what makes them spill over into livestock or humans.",
+      "bls": {
+        "occupation": "Zoologists and wildlife biologists",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/zoologists-and-wildlife-biologists.htm",
+        "medianPay": "$76,780 per year (May 2025)",
+        "education": "Bachelor's degree",
+        "outlook": "4% growth 2025–35, about as fast as average",
+        "jobs": "19,500 (2025)",
+        "whatTheyDo": "Zoologists and wildlife biologists study animals and how they interact with their ecosystems.",
+        "closest": true
+      }
+    },
+    "Climate Change and Health Researcher": {
+      "summary": "These researchers study how a changing climate shifts the geography and timing of infectious disease, and what health systems should do about it.",
+      "bls": {
+        "occupation": "Environmental scientists and specialists",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/environmental-scientists-and-specialists.htm",
+        "medianPay": "$82,220 per year (May 2025)",
+        "education": "Bachelor's degree",
+        "outlook": "6% growth 2025–35, faster than average",
+        "jobs": "93,400 (2025)",
+        "whatTheyDo": "Environmental scientists and specialists conduct research or investigations to protect the environment or human health.",
+        "closest": true
+      }
+    },
+    "Strategic National Stockpile Manager": {
+      "summary": "Stockpile managers decide what medical countermeasures a country holds in reserve, keep them in date and ready, and get them to the right place within hours of a request.",
+      "bls": {
+        "occupation": "Logisticians",
+        "url": "https://www.bls.gov/ooh/business-and-financial/logisticians.htm",
+        "medianPay": "$82,320 per year (May 2025)",
+        "education": "Bachelor's degree",
+        "outlook": "18% growth 2025–35, much faster than average",
+        "jobs": "255,100 (2025)",
+        "whatTheyDo": "Logisticians analyze and coordinate an organization's supply chain.",
+        "closest": true
+      }
+    },
+    "Cold Chain Specialist": {
+      "summary": "Cold chain specialists keep vaccines and other temperature-sensitive products within range from manufacture to the point of use, including in places with unreliable power.",
+      "bls": {
+        "occupation": "Logisticians",
+        "url": "https://www.bls.gov/ooh/business-and-financial/logisticians.htm",
+        "medianPay": "$82,320 per year (May 2025)",
+        "education": "Bachelor's degree",
+        "outlook": "18% growth 2025–35, much faster than average",
+        "jobs": "255,100 (2025)",
+        "whatTheyDo": "Logisticians analyze and coordinate an organization's supply chain.",
+        "closest": true
+      }
+    },
+    "Humanitarian Logistics Coordinator": {
+      "summary": "Humanitarian logistics coordinators move supplies, equipment, and people into emergencies, managing warehouses, transport, and customs across borders.",
+      "bls": {
+        "occupation": "Logisticians",
+        "url": "https://www.bls.gov/ooh/business-and-financial/logisticians.htm",
+        "medianPay": "$82,320 per year (May 2025)",
+        "education": "Bachelor's degree",
+        "outlook": "18% growth 2025–35, much faster than average",
+        "jobs": "255,100 (2025)",
+        "whatTheyDo": "Logisticians analyze and coordinate an organization's supply chain.",
+        "closest": true
+      }
+    },
+    "Science Journalist": {
+      "summary": "Science journalists report on outbreaks and biosecurity for the public, explaining the evidence and holding institutions to account.",
+      "bls": {
+        "occupation": "News analysts, reporters, and journalists",
+        "url": "https://www.bls.gov/ooh/media-and-communication/reporters-correspondents-and-broadcast-news-analysts.htm",
+        "medianPay": "$62,200 per year (May 2025)",
+        "education": "Bachelor's degree",
+        "outlook": "6% decline 2025–35",
+        "jobs": "47,100 (2025)",
+        "whatTheyDo": "News analysts, reporters, and journalists keep the public updated about current events and noteworthy information.",
+        "closest": true
+      }
+    },
+    "Risk Communication Expert": {
+      "summary": "A health communication specialist creates communication strategies, messages, and products that translate technical information into culturally relevant, timely, and actionable guidance for the public.",
+      "summarySource": "CDC NERD Academy, Public Health Careers (updated 22 Aug 2024)",
+      "bls": {
+        "occupation": "Public relations specialists",
+        "url": "https://www.bls.gov/ooh/media-and-communication/public-relations-specialists.htm",
+        "medianPay": "$74,750 per year (May 2025)",
+        "education": "Bachelor's degree",
+        "outlook": "2% growth 2025–35, slower than average",
+        "jobs": "314,500 (2025)",
+        "whatTheyDo": "Public relations specialists create and maintain a positive public image for the organizations they represent.",
+        "closest": true
+      }
+    },
+    "Pandemic Preparedness Trainer": {
+      "summary": "Preparedness trainers design and deliver courses, drills, and exercises so that responders and institutions have rehearsed before a real event.",
+      "bls": {
+        "occupation": "Training and development specialists",
+        "url": "https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm",
+        "medianPay": "$69,280 per year (May 2025)",
+        "education": "Bachelor's degree, plus less than 5 years of experience",
+        "outlook": "11% growth 2025–35, much faster than average",
+        "jobs": "472,500 (2025)",
+        "whatTheyDo": "Training and development specialists plan and administer programs that train people and improve their skills and knowledge.",
+        "closest": true
+      }
+    },
+    "Biomedical Engineer": {
+      "summary": null,
+      "bls": {
+        "occupation": "Bioengineers and biomedical engineers",
+        "url": "https://www.bls.gov/ooh/architecture-and-engineering/bioengineers-and-biomedical-engineers.htm",
+        "pending": true,
+        "closest": false
+      }
+    },
+    "PPE Designer": {
+      "summary": "PPE designers develop protective equipment, such as masks, respirators, gowns, and gloves, that protects wearers better and can be worn for long shifts.",
+      "bls": {
+        "occupation": "Bioengineers and biomedical engineers",
+        "url": "https://www.bls.gov/ooh/architecture-and-engineering/bioengineers-and-biomedical-engineers.htm",
+        "pending": true,
+        "closest": true
+      }
+    }
+  }
+}

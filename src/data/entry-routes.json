@@ -1,0 +1,436 @@
+{
+  "meta": {
+    "checked": "14 September 2026",
+    "note": "Eligibility rules and deadlines change quietly: verify on the program's own page before applying.",
+    "sources": {
+      "etp": "[Emerging Technology Policy Careers](https://emergingtechpolicy.org/areas/biosecurity/) ([Horizon Institute](https://horizonpublicservice.org)), Biosecurity policy page",
+      "bw": "[biosecurity.world](https://biosecurity.world)",
+      "unoda": "[UN Office for Disarmament Affairs, Youth for Biosecurity program page](https://disarmament.unoda.org/en/our-work/weapons-mass-destruction/biological-weapons/international-cooperation-and-assistance#youth-for-biosecurity)",
+      "bc": "[Biosecurity Central](https://biosecuritycentral.org) training-materials library",
+      "oo": "[Operation Outbreak](https://operationoutbreak.org) and its [resources page](https://operationoutbreak.org/resources)",
+      "cdc": "US CDC program pages and the [CDC Fellowships and Training Opportunities directory](https://www.cdc.gov/fellowships/php/index.html)",
+      "tephinet": "[TEPHINET](https://www.tephinet.org), About FETP",
+      "cdcdir": "[CDC Fellowships and Training Opportunities directory](https://www.cdc.gov/fellowships/php/index.html), program details as listed by CDC",
+      "ifba": "[International Federation of Biosafety Associations](https://internationalbiosafety.org/)",
+      "own": "The programs' own pages"
+    },
+    "stages": {
+      "school": "Still in school or an undergraduate",
+      "early": "Graduate student or early career",
+      "mid": "Mid-career or changing fields",
+      "credential": "Credentials and mentorship"
+    }
+  },
+  "routes": [
+    {
+      "name": "Operation Outbreak simulations",
+      "org": "Operation Outbreak",
+      "url": "https://operationoutbreak.org",
+      "stage": "school",
+      "format": "Free classroom outbreak simulations run through a mobile app; a student competition; free lessons, activities, and an open-access textbook",
+      "who": "High-school and university students and their teachers; no background required.",
+      "why": "You live through an outbreak from first case to after-action review, in your own school, and see every one of these career tracks at work. The most direct way to find out whether this field is for you.",
+      "source": "oo"
+    },
+    {
+      "name": "CDC student internships and ORISE research opportunities",
+      "org": "US Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/fellowships/php/index.html",
+      "stage": "school",
+      "format": "Short-term, mostly summer; paid research placements through ORISE run from undergraduate to postdoctoral",
+      "who": "Current students at any level.",
+      "why": "CDC's directory of short-term student opportunities is the front door to the agency. A summer inside a public-health program shows you the work before you choose a degree.",
+      "source": "cdc"
+    },
+    {
+      "name": "iGEM competition",
+      "org": "iGEM Foundation",
+      "url": "https://igem.org",
+      "stage": "school",
+      "format": "Team competition, annual, global",
+      "who": "High-school, undergraduate, and graduate teams building synthetic-biology projects; every team completes safety and security work.",
+      "why": "The standing student on-ramp into synthetic biology, with more than a decade of engagement with the Biological Weapons Convention community.",
+      "source": "bw"
+    },
+    {
+      "name": "Biosecurity Fundamentals course",
+      "org": "BlueDot Impact",
+      "url": "https://bluedot.org/courses/biosecurity",
+      "stage": "school",
+      "format": "Free, remote, about 30 hours, intensive or part-time",
+      "who": "Anyone; no prior biosecurity background required.",
+      "why": "Covers the technical and policy efforts to prevent, detect, and respond to catastrophic pandemics, and puts you in a cohort of people asking the same questions.",
+      "source": "bw"
+    },
+    {
+      "name": "Next Generation Biosecurity: Responding to 21st Century Biorisks",
+      "org": "University of Bath and Biosecure, on FutureLearn",
+      "url": "https://www.futurelearn.com/courses/biosecurity",
+      "stage": "school",
+      "format": "Six weeks at about four hours a week, 100% online on FutureLearn; free to join, with an optional paid upgrade for a certificate",
+      "who": "Open to anyone, worldwide.",
+      "why": "About 6,000 people have taken it. One of the widest-reach biosecurity courses available, and a gentle first look at biosecurity, biosafety, and bioethics inside and outside the lab.",
+      "source": "etp"
+    },
+    {
+      "name": "Oxford Biosecurity Group projects",
+      "org": "Oxford Biosecurity Group",
+      "url": "https://www.oxfordbiosecuritygroup.com/",
+      "stage": "school",
+      "format": "8-week remote research projects in small teams",
+      "who": "Students and early-career people who want to test their fit.",
+      "why": "Designed to help individuals test their fit, grow their network, and upskill in biosecurity, working on a real problem with a project lead.",
+      "source": "bw"
+    },
+    {
+      "name": "SPAR Biosecurity Track",
+      "org": "Supervised Program for Alignment Research (Kairos)",
+      "url": "https://sparai.org",
+      "stage": "school",
+      "format": "Virtual research mentorship, cohort-based",
+      "who": "Aspiring researchers paired with mentors.",
+      "why": "Recent rounds have included a dozen or more biosecurity projects on synthesis screening, pathogen surveillance, and high-containment research.",
+      "source": "bw"
+    },
+    {
+      "name": "Public Health Associate Program (PHAP)",
+      "org": "US Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/phap/php/about/index.html",
+      "stage": "early",
+      "format": "Two years, full-time, paid; placed in a state, tribal, local, or territorial health department or a nonprofit anywhere in the US",
+      "who": "US citizens with any bachelor's or higher degree completed in the last two years and a GPA of at least 2.95; you must be willing to relocate.",
+      "why": "The classic first job in public health. Associates do contact tracing, disease investigations, surveillance, and emergency response, and many move on to graduate school or the [Epidemic Intelligence Service](https://www.cdc.gov/eis/).",
+      "source": "cdc"
+    },
+    {
+      "name": "Epidemiology Elective Program (EEP)",
+      "org": "US Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/epi-elective/php/about/index.html",
+      "stage": "early",
+      "format": "Six- or eight-week rotation at CDC, another federal site, or a health department, with a three-day orientation in Atlanta",
+      "who": "US citizens enrolled full-time in a US medical (MD or DO) or veterinary (DVM or VMD) program with at least two years completed.",
+      "why": "Applied epidemiology for clinicians in training, running since 1975. More than 2,200 students have done it, about one in eight later joined the [Epidemic Intelligence Service](https://www.cdc.gov/eis/), and most begin public-health careers.",
+      "source": "cdc"
+    },
+    {
+      "name": "CDC/CSTE Applied Epidemiology Fellowship",
+      "org": "Council of State and Territorial Epidemiologists with CDC",
+      "url": "https://www.cste.org/group/WorkforceOverview",
+      "stage": "early",
+      "format": "Two years, paid, in a state or local health department",
+      "who": "Recent master's and doctoral graduates in epidemiology.",
+      "why": "Modeled on the [Epidemic Intelligence Service](https://www.cdc.gov/eis/) but based in state and local agencies, with a mentor and real outbreak work from the first month. The most direct route into a health-department epidemiologist job.",
+      "source": "cdcdir"
+    },
+    {
+      "name": "ASPPH/CDC Public Health Fellowship Program",
+      "org": "Association of Schools and Programs of Public Health with CDC",
+      "url": "https://aspph.org/study/fellowships-and-internships/",
+      "stage": "early",
+      "format": "One to two years, paid, at CDC and other federal public-health agencies",
+      "who": "Recent MPH and doctoral graduates from accredited schools and programs of public health.",
+      "why": "Mentored placements in public-health practice, informatics, and policy. ASPPH has supported more than 2,100 graduates through these fellowships since 1982.",
+      "source": "cdcdir"
+    },
+    {
+      "name": "Public Health Informatics Fellowship Program (PHIFP)",
+      "org": "US Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/phifp/php/about/index.html",
+      "stage": "early",
+      "format": "Two years, paid, at CDC host sites",
+      "who": "Master's and doctoral graduates with computer science, data science, or public-health backgrounds.",
+      "why": "Applies information science and technology to public-health problems: the surveillance systems, data pipelines, and dashboards the Data & Technology track is built on.",
+      "source": "cdc"
+    },
+    {
+      "name": "Laboratory Leadership Service (LLS)",
+      "org": "US Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lls/php/about/index.html",
+      "stage": "early",
+      "format": "Two-year postdoctoral service and learning program, paid",
+      "who": "US citizens or permanent residents with a doctoral degree in a laboratory discipline such as microbiology, molecular biology, genetics, or bioinformatics.",
+      "why": "The laboratory twin of the [Epidemic Intelligence Service](https://www.cdc.gov/eis/): fellows train with experts, deploy on outbreak responses, and build skills in biosafety, quality management, and bioinformatics.",
+      "source": "cdc"
+    },
+    {
+      "name": "APHL-CDC laboratory fellowships",
+      "org": "Association of Public Health Laboratories with CDC",
+      "url": "https://www.cdc.gov/fellowships/php/opportunities/applying-for-masters-degree-opportunities.html",
+      "stage": "early",
+      "format": "One to two years, paid; tracks in infectious diseases, bioinformatics, biorisk management, food safety, informatics, and quality management",
+      "who": "Bachelor's through doctoral graduates in microbiology, biology, bioinformatics, or related fields.",
+      "why": "The main route into public-health laboratory careers, and the one place in this list where a bachelor's degree opens a laboratory fellowship.",
+      "source": "cdc"
+    },
+    {
+      "name": "Public Health Institute/CDC Global Public Health Fellowship",
+      "org": "Public Health Institute with CDC",
+      "url": "https://www.cdc.gov/fellowships/php/opportunities/applying-for-masters-degree-opportunities.html",
+      "stage": "early",
+      "format": "One to three years, paid, international placements",
+      "who": "Recent MPH and doctoral graduates.",
+      "why": "Program management and epidemiology experience overseas, for people who want the global side of outbreak response.",
+      "source": "cdc"
+    },
+    {
+      "name": "Scoville Peace Fellowship",
+      "org": "Herbert Scoville Jr. Peace Fellowship",
+      "url": "https://emergingtechpolicy.org/pathways/policy-fellowships/scoville/",
+      "stage": "early",
+      "format": "6 to 9 months, full-time, Washington DC",
+      "who": "Recent bachelor's or master's graduates.",
+      "why": "Places fellows with DC security-policy NGOs, including some that work on biosecurity such as the Nuclear Threat Initiative.",
+      "source": "etp"
+    },
+    {
+      "name": "Emerging Leaders in Biosecurity (ELBI) Fellowship",
+      "org": "Johns Hopkins Center for Health Security",
+      "url": "https://centerforhealthsecurity.org/education-training/emerging-leaders-in-biosecurity-fellowship",
+      "stage": "early",
+      "format": "10 months, part-time, workshops and events",
+      "who": "Graduate students and professionals; highly competitive.",
+      "why": "Launched in 2012, with more than 300 alumni across government, national security, industry, science, law, public health, medicine, and journalism. The best-known early-career network in US biosecurity.",
+      "source": "etp"
+    },
+    {
+      "name": "Epidemic Intelligence Service (EIS)",
+      "org": "US Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/eis/",
+      "stage": "early",
+      "format": "2-year post-graduate fellowship in applied epidemiology",
+      "who": "Doctoral-level scientists, physicians, veterinarians, nurses, and other health professionals.",
+      "why": "CDC's applied-epidemiology training program since 1951, with more than 4,100 'disease detectives' trained. EIS officers investigate and control outbreaks alongside CDC experts. The classic route into the Public Health & Epidemiology track.",
+      "source": "etp"
+    },
+    {
+      "name": "Mirzayan Science & Technology Policy Graduate Fellowship",
+      "org": "National Academies of Sciences, Engineering, and Medicine",
+      "url": "https://mirzayanfellow.nas.edu/",
+      "stage": "early",
+      "format": "12 weeks, full-time, Washington DC",
+      "who": "Current graduate students and graduate degree holders.",
+      "why": "A short, structured introduction to how science advice reaches government, with a strong alumni network.",
+      "source": "etp"
+    },
+    {
+      "name": "Horizon Fellowship",
+      "org": "Horizon Institute for Public Service",
+      "url": "https://horizonpublicservice.org/programs/become-a-fellow/",
+      "stage": "early",
+      "format": "6 to 24 months, full-time, US",
+      "who": "Early- and mid-career people; job placements in the executive branch, Congress, and think tanks.",
+      "why": "The fellowship behind the [Emerging Tech Policy Careers](https://emergingtechpolicy.org) site, focused on emerging-technology policy including biosecurity.",
+      "source": "etp"
+    },
+    {
+      "name": "NobleReach Scholars",
+      "org": "NobleReach Foundation",
+      "url": "https://noblereach.org/talent-opportunities/noblereach-scholars-program/",
+      "stage": "early",
+      "format": "1 to 2 years, full-time",
+      "who": "Early-career technologists in AI, biotech, computing, and cybersecurity.",
+      "why": "Technology-policy placements in government or mission-driven companies for people with technical backgrounds.",
+      "source": "etp"
+    },
+    {
+      "name": "Fellowship for Ending Bioweapons Programs",
+      "org": "Council on Strategic Risks",
+      "url": "https://councilonstrategicrisks.org/fellowship-for-ending-bioweapons-programs/",
+      "stage": "early",
+      "format": "12 months, part-time",
+      "who": "Early-career fellows.",
+      "why": "Fellows work with CSR's experts to generate ideas for ending the threat of state biological weapons programs.",
+      "source": "etp"
+    },
+    {
+      "name": "Youth for Biosecurity Fellowship",
+      "org": "UN Office for Disarmament Affairs, funded by the European Union",
+      "url": "https://disarmament.unoda.org/en/our-work/weapons-mass-destruction/biological-weapons/international-cooperation-and-assistance#youth-for-biosecurity",
+      "stage": "early",
+      "format": "3 months, part-time, online workshops plus a Geneva visit; annual since 2019, fellowship since 2023",
+      "who": "Advanced degree holders under 40 who are citizens of a low- or middle-income Biological Weapons Convention state party; emphasis on young women scientists.",
+      "why": "The treaty secretariat's own youth program. A past cohort's handbook is now listed in the [Biosecurity Central](https://biosecuritycentral.org) library, proof the pathway produces visible work.",
+      "source": "unoda"
+    },
+    {
+      "name": "AAAS Science and Technology Policy Fellowships",
+      "org": "American Association for the Advancement of Science",
+      "url": "https://emergingtechpolicy.org/pathways/policy-fellowships/aaas-science-and-technology-policy-fellowship/",
+      "stage": "early",
+      "format": "12 months, Washington DC, four tracks",
+      "who": "Doctoral-level degree holders.",
+      "why": "Places scientists inside the executive, legislative, or judicial branch, or a nonprofit. A well-worn bridge from the lab into policy.",
+      "source": "etp"
+    },
+    {
+      "name": "Science Policy Fellowship",
+      "org": "Research!America",
+      "url": "https://www.researchamerica.org/careers/science-policy-fellowship-2/",
+      "stage": "early",
+      "format": "1 year, paid",
+      "who": "PhD or other terminal degree holders.",
+      "why": "Science-policy experience in biomedical and health research advocacy.",
+      "source": "etp"
+    },
+    {
+      "name": "Biotechnology Innovation & International Security Fellowship",
+      "org": "Center for International Security and Cooperation, Stanford University",
+      "url": "https://cisac.fsi.stanford.edu/content/cisac-fellowship-program",
+      "stage": "early",
+      "format": "Academic research fellowship",
+      "who": "Predoctoral and postdoctoral researchers and junior faculty, from the US and abroad.",
+      "why": "A research home for people working on the security implications of biotechnology.",
+      "source": "etp"
+    },
+    {
+      "name": "Rosetta Commons Biosecurity Fellowship",
+      "org": "Rosetta Commons",
+      "url": "https://rosettacommons.org/2025/06/26/rosetta-commons-opens-applications-for-2025-biosecurity-fellow/",
+      "stage": "early",
+      "format": "12 months, remote",
+      "who": "People at the intersection of computational biology and biosecurity.",
+      "why": "Explores how AI-enabled protein design tools can be developed and governed responsibly.",
+      "source": "bw"
+    },
+    {
+      "name": "ERA and Pivotal research fellowships",
+      "org": "Existential Risk Alliance (Cambridge) and Pivotal Research (London)",
+      "url": "https://erafellowship.org",
+      "stage": "early",
+      "format": "Structured research fellowships, mostly UK-based",
+      "who": "Early-career researchers.",
+      "why": "Both run programs that include AI × bio and biosecurity projects, with mentorship and a cohort.",
+      "source": "bw"
+    },
+    {
+      "name": "Field Epidemiology Training Programs (FETP)",
+      "org": "National ministries and public-health institutes, networked through TEPHINET",
+      "url": "https://www.tephinet.org/our-network-fetps/about-fetp",
+      "stage": "mid",
+      "format": "Three tiers: a three-month part-time frontline course, a nine- to twelve-month intermediate program, and a two-year full-time advanced program",
+      "who": "Public-health staff working inside a ministry of health or national public-health institute; more than 117 programs serve over 150 countries.",
+      "why": "The world's largest outbreak-response training system, built on CDC's [Epidemic Intelligence Service](https://www.cdc.gov/eis/) model. More than 22,000 graduates form the 'boots on the ground' for detecting and responding to outbreaks.",
+      "source": "tephinet"
+    },
+    {
+      "name": "Mid-Career Biodefense Bootcamp",
+      "org": "Council on Strategic Risks",
+      "url": "https://councilonstrategicrisks.org/nolan/#fellowships",
+      "stage": "mid",
+      "format": "2 months, part-time, hybrid: virtual course plus 3 days in Washington DC",
+      "who": "Mid-career citizens of NATO countries and certain other US allies, typically 10+ years of experience.",
+      "why": "A fast, structured way for experienced professionals to move into biodefense.",
+      "source": "etp"
+    },
+    {
+      "name": "Health Policy Fellowship",
+      "org": "Robert Wood Johnson Foundation",
+      "url": "https://healthpolicyfellows.org/",
+      "stage": "mid",
+      "format": "1 year, full-time executive-branch placement",
+      "who": "Mid-career professionals.",
+      "why": "Focused on health and biosecurity policy inside the US government.",
+      "source": "etp"
+    },
+    {
+      "name": "Biosecurity Game Changers Fellowship",
+      "org": "Brown University Pandemic Center",
+      "url": "https://pandemics.sph.brown.edu/game-changers-initiative/biosecurity-game-changers-fellowship",
+      "stage": "mid",
+      "format": "1 year, half-time",
+      "who": "Mid-career African and US health-security experts with at least 5 years of experience.",
+      "why": "Placements with leading biosecurity and global-health organizations such as [CEPI](https://cepi.net/), Gavi, IBBIS, and the BWC Implementation Support Unit.",
+      "source": "etp"
+    },
+    {
+      "name": "Arms Control Negotiation Academy",
+      "org": "Arms Control Negotiation Academy",
+      "url": "https://www.armscontrolnegotiationacademy.org/",
+      "stage": "mid",
+      "format": "12 months, part-time, three week-long workshops",
+      "who": "A competitively selected cohort of rising international-security experts.",
+      "why": "Negotiation skills for the treaty and diplomacy side of biosecurity.",
+      "source": "etp"
+    },
+    {
+      "name": "Master of Public Health (MPH) and epidemiology degrees",
+      "org": "Schools and programs of public health",
+      "url": "https://aspph.org/study",
+      "stage": "credential",
+      "format": "Typically two years full-time, often available part-time or online; concentrations in epidemiology, biostatistics, global health, and more",
+      "who": "Anyone with a bachelor's degree; applications to most US schools go through a common service.",
+      "why": "The standard credential for the Public Health & Epidemiology track and the usual doorway to the fellowships above. The Association of Schools and Programs of Public Health maintains the [directory of accredited programs](https://aspph.org/study).",
+      "source": "cdcdir"
+    },
+    {
+      "name": "IFBA Professional Certifications and Global Mentorship Program",
+      "org": "[International Federation of Biosafety Associations](https://internationalbiosafety.org/)",
+      "url": "https://internationalbiosafety.org/certification/certification/",
+      "stage": "credential",
+      "format": "Professional certification; mentor and mentee pairs matched by region and discipline",
+      "who": "Biosafety and biosecurity practitioners at any career stage.",
+      "why": "The only internationally recognized certification of competency in biorisk management and related disciplines, with more than 1,400 certifications issued in 89 countries. Check the IFBA page for disciplines, prerequisites, and costs.",
+      "source": "ifba"
+    },
+    {
+      "name": "BWC Advanced Education Course",
+      "org": "UN Institute for Disarmament Research (UNIDIR)",
+      "url": "https://unidir.org",
+      "stage": "credential",
+      "format": "Course on the Biological Weapons Convention",
+      "who": "People who want to understand the treaty regime in depth.",
+      "why": "Run by the UN's own disarmament research institute.",
+      "source": "bw"
+    },
+    {
+      "name": "ACHS Fellowship Programme",
+      "org": "Asia Centre for Health Security, National University of Singapore",
+      "url": "https://asia-chs.org/fellowship-programme/fellowship-programme-achs/",
+      "stage": "early",
+      "format": "Twelve months, part-time, no relocation; one mentored project plus seminars and networking with senior leaders",
+      "who": "Early- to mid-career professionals aged 25 to 40 who are citizens of, or have worked three years in, an ASEAN+6 country, with a graduate degree or three years of relevant experience.",
+      "why": "The main early-career biosecurity fellowship in Asia, run from Singapore's Saw Swee Hock School of Public Health. Applications open in the third quarter each year.",
+      "source": "own"
+    },
+    {
+      "name": "Presidential Management Fellows Program",
+      "org": "US Office of Personnel Management",
+      "url": "https://www.pmf.gov/become-a-pmf/eligibility/",
+      "stage": "early",
+      "format": "Two-year paid federal leadership development program with rotations across agencies",
+      "who": "US graduate students finishing a master's, PhD, or JD by the following August, or graduates within two years of the application opening.",
+      "why": "The flagship entry route into federal service for people with advanced degrees, including placements at HHS, CDC, and the national-security agencies. Applications open each fall.",
+      "source": "own"
+    },
+    {
+      "name": "Museum of Science Public Health Communication Fellowship",
+      "org": "Museum of Science, Boston",
+      "url": "https://mosdigitalscicommfellowship.org/",
+      "stage": "early",
+      "format": "Six months working alongside established digital communicators to build a public-facing presence",
+      "who": "Health experts, researchers, clinicians, policy leaders, and evidence-based communicators.",
+      "why": "A structured way to learn how people actually find, understand, and act on health information online. Built for the Communication track.",
+      "source": "own"
+    },
+    {
+      "name": "Takemi Program in International Health",
+      "org": "Harvard T.H. Chan School of Public Health",
+      "url": "https://hsph.harvard.edu/fellowship-special-program/takemi/",
+      "stage": "mid",
+      "format": "Eleven months in residence at Harvard from August, conducting research and building leadership skills; the program itself does not provide funding",
+      "who": "Mid-career health professionals and scholars with a graduate degree, publications, and demonstrated leadership potential, from any relevant discipline.",
+      "why": "A well-known mid-career research year for people from health systems around the world. Applications close December 31.",
+      "source": "own"
+    },
+    {
+      "name": "Millennium Fellowship",
+      "org": "Atlantic Council",
+      "url": "https://www.atlanticcouncil.org/programs/millennium-leadership-program/millennium-fellowship/",
+      "stage": "mid",
+      "format": "Nine-month hybrid leadership accelerator, September to May, with biweekly virtual sessions, executive coaching, and a ten-day international study tour; participation fees apply, lower for nonprofit and public-sector staff",
+      "who": "High-impact mid-career professionals aged 25 to 40 from any sector, worldwide.",
+      "why": "Leadership development inside the think tank that now houses the Bipartisan Commission on Biodefense, for people moving toward senior policy roles.",
+      "source": "own"
+    }
+  ]
+}

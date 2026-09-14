@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "checked": "14 September 2026",
+    "sources": "Sources: course pages on [Coursera](https://www.coursera.org), [edX](https://www.edx.org), [CDC TRAIN](https://www.train.org/cdctrain/), [OpenWHO](https://openwho.org/), CDC, Harvard CCDD, [Operation Outbreak](https://operationoutbreak.org/resources), and [FutureLearn](https://www.futurelearn.com). Newsletter and podcast picks follow the [Emerging Technology Policy Careers biosecurity guide](https://emergingtechpolicy.org/areas/biosecurity/), [ProMED](https://www.promedmail.org/), and [GCBR Organization Updates](https://gcbrupdates.substack.com/)."
+  },
+  "courses": [
+    {
+      "name": "Operation Outbreak: Lessons and Activities",
+      "org": "Operation Outbreak",
+      "url": "https://operationoutbreak.org/resources",
+      "note": "Free, ready-to-use outbreak science resources: 17 lesson plans with activities and simulations, the 16-episode Crash Course: Outbreak Science video series, and an open-access 13-chapter textbook. Built for high-school classrooms; useful to anyone starting out."
+    },
+    {
+      "name": "Crash Course: Outbreak Science",
+      "org": "Crash Course (YouTube), hosted by Pardis Sabeti",
+      "url": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtPkACD-BkU-oM6PUotjdCEk",
+      "note": "Sixteen short, friendly videos from what an outbreak is to how one ends. Pair it with the Public Health series."
+    },
+    {
+      "name": "Principles of Epidemiology in Public Health Practice",
+      "org": "US CDC, self-study course SS1978",
+      "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+      "note": "Free, self-paced, six lessons from Introduction to Epidemiology to Investigating an Outbreak, with exercises and quizzes. The textbook the field's practitioners learned from."
+    },
+    {
+      "name": "Outbreaks and Epidemics",
+      "org": "Johns Hopkins University on Coursera",
+      "url": "https://www.coursera.org/learn/outbreaks-epidemics",
+      "note": "About five hours, free to audit. How to ask precise epidemiologic questions and investigate an outbreak, with case studies from Ebola in West Africa to the US opioid epidemic."
+    },
+    {
+      "name": "Next Generation Biosecurity: Responding to 21st Century Biorisks",
+      "org": "University of Bath and Biosecure, FutureLearn",
+      "url": "https://www.futurelearn.com/courses/biosecurity",
+      "note": "Six weeks, four hours a week, online; free to join with an optional paid certificate. The biosecurity side of the field: biosafety, biosecurity, and bioethics inside and outside the lab."
+    }
+  ],
+  "lectures": [
+    {
+      "name": "Microbiology",
+      "url": "https://www.youtube.com/playlist?list=PL2EcSi9HPvO-4xumVJANK7VoixK84sb66"
+    },
+    {
+      "name": "Immunology",
+      "url": "https://www.youtube.com/playlist?list=PLoVQnmY70FDNm2UtLeBGicu3Pg0qh__Dg"
+    },
+    {
+      "name": "Virology",
+      "url": "https://www.youtube.com/playlist?list=PLGhmZX2NKiNkAKAp3BynockFLUiCkZ8aJ"
+    },
+    {
+      "name": "Global health",
+      "url": "https://www.youtube.com/playlist?list=PLh9mgdi4rNex7lnSCJiCkXGtM8cmTwgfs"
+    },
+    {
+      "name": "Genomic epidemiology",
+      "url": "https://www.youtube.com/playlist?list=PL3izGL6oi0S8RG8vnwLXFznzJnKh8OR8F"
+    },
+    {
+      "name": "One Health policy",
+      "url": "https://www.youtube.com/@LauraKahn-OneHealthCourse/playlists"
+    },
+    {
+      "name": "Epidemics in Western society since 1600",
+      "url": "https://www.youtube.com/playlist?list=PL3AE7B3B6917DE8E6"
+    }
+  ],
+  "newsletters": [
+    {
+      "name": "GCBR Organization Updates",
+      "org": "Tessa Alexanian, Substack",
+      "url": "https://gcbrupdates.substack.com/",
+      "note": "Round-ups of what organizations working on global catastrophic biological risks are doing, including openings, fellowships, and courses."
+    },
+    {
+      "name": "ProMED",
+      "org": "International Society for Infectious Diseases",
+      "url": "https://www.promedmail.org/",
+      "note": "A 24/7 early-warning system for emerging infectious diseases, running for more than 30 years; it reported early on SARS, MERS, Zika, and COVID-19. Human experts review 5 to 20 events a day. Check the site for current subscription terms."
+    },
+    {
+      "name": "BEACON",
+      "org": "Boston University Center on Emerging Infectious Diseases, with the Hariri Institute, Boston Children's Hospital, and HealthMap",
+      "url": "https://beaconbio.org/",
+      "note": "An open, searchable feed of curated disease-event reports from around the world, updated daily and filterable by pathogen, disease, region, and species. Read it alongside ProMED to learn how outbreaks are first noticed."
+    },
+    {
+      "name": "The Pandora Report",
+      "org": "George Mason University Biodefense Program",
+      "url": "https://pandorareport.org/"
+    },
+    {
+      "name": "Health Security Decoded",
+      "org": "Johns Hopkins Center for Health Security (monthly)",
+      "url": "https://www.centerforhealthsecurity.org/news/newsletters/e-newsletter-sign-up.html"
+    },
+    {
+      "name": "CIDRAP Daily Headlines",
+      "org": "Center for Infectious Disease Research and Policy",
+      "url": "https://www.cidrap.umn.edu/newsletter"
+    },
+    {
+      "name": "Global Biodefense newsletter",
+      "org": "Global Biodefense",
+      "url": "http://eepurl.com/dzzOif"
+    },
+    {
+      "name": "Resilience Action Playbook",
+      "org": "Resilience Action Network International, formerly the Pandemic Action Network",
+      "url": "https://rani.co/newsletter-archive/"
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "This Podcast Will Kill You",
+      "note": "Disease history and biology, one pathogen per episode."
+    },
+    {
+      "name": "Osterholm Update",
+      "note": "CIDRAP's weekly infectious-disease briefing."
+    },
+    {
+      "name": "Prevent Detect Respond",
+      "note": "Health security policy."
+    },
+    {
+      "name": "Poisons and Pestilence",
+      "note": "History of chemical and biological weapons."
+    },
+    {
+      "name": "Hear This Idea and the 80,000 Hours Podcast",
+      "note": "Long interviews with biosecurity practitioners."
+    }
+  ],
+  "outbreakTraining": [
+    {
+      "name": "OpenWHO",
+      "org": "World Health Organization",
+      "url": "https://openwho.org/",
+      "note": "WHO's free learning hub for health emergencies: no registration, no certificates, just the material. Includes the Rapid Response Teams training program, the Emergency Response Framework, mass casualty management, and introductory courses on specific diseases from Ebola to MERS."
+    },
+    {
+      "name": "Introduction to Outbreak Investigation",
+      "org": "CDC TRAIN",
+      "url": "https://www.train.org/cdctrain/course/1016812/",
+      "note": "One hour, introductory, free with a TRAIN account. The steps for deciding whether you have an outbreak, who investigates, the science behind it, and how to tell the public."
+    },
+    {
+      "name": "Risk Communication in Public Health Emergencies",
+      "org": "CDC TRAIN",
+      "url": "https://www.train.org/cdctrain/course/1009201/",
+      "note": "Two hours, intermediate, free with a TRAIN account. Case-based practice in building risk and crisis messages before and during an emergency. For the Communication track."
+    },
+    {
+      "name": "Epidemics I",
+      "org": "University of Hong Kong on edX",
+      "url": "https://www.edx.org/learn/epidemics/university-of-hong-kong-epidemics-i",
+      "note": "Five weeks at two to three hours a week, free to audit. Origins of novel pathogens, ecology and emergence of infectious diseases, and 'medical detective' work, with a COVID-19 module. First of a four-course series."
+    },
+    {
+      "name": "Lessons from Ebola: Preventing the Next Pandemic",
+      "org": "HarvardX on edX",
+      "url": "https://www.edx.org/learn/ebola/harvard-university-lessons-from-ebola-preventing-the-next-pandemic",
+      "note": "Four weeks at three to five hours a week, free to audit. What went right and wrong in the West Africa Ebola response, told by practitioners and scholars. More than 100,000 learners have enrolled."
+    },
+    {
+      "name": "Epidemiology: The Basic Science of Public Health",
+      "org": "University of North Carolina at Chapel Hill on Coursera",
+      "url": "https://www.coursera.org/learn/epidemiology",
+      "note": "About seven hours, free to audit. How disease patterns are studied and used to control public-health problems, with infectious-disease and cardiovascular examples."
+    },
+    {
+      "name": "Epidemiology in Public Health Practice",
+      "org": "Johns Hopkins University on Coursera",
+      "url": "https://www.coursera.org/specializations/professional-epidemiology",
+      "note": "Five courses over four to five months, paid with financial aid available. The core epidemiologic toolset: measuring population health, assessing interventions, collecting and analyzing data, and investigating outbreaks. The most complete free-standing introduction short of a degree."
+    },
+    {
+      "name": "Introduction to Infectious Disease Modeling",
+      "org": "Harvard T.H. Chan Center for Communicable Disease Dynamics",
+      "url": "https://hsph.harvard.edu/research/communicable-disease-ccdd/resources/id-modeling",
+      "note": "Free recorded lectures from a Harvard course, made public during COVID-19. For the Data & Technology track."
+    },
+    {
+      "name": "One Health Lessons",
+      "org": "One Health Lessons (educational charity)",
+      "url": "https://onehealthlessons.org/",
+      "note": "Free science lessons on how the health of people, animals, plants, and the environment connect, taught worldwide to children and adults. Volunteers can train as Lesson Leaders and teach the lessons themselves. For the One Health & Environment track."
+    }
+  ],
+  "biosecurityTraining": [
+    {
+      "name": "Biosecurity Fundamentals Course",
+      "org": "BlueDot Impact",
+      "url": "https://bluedot.org/courses/biosecurity",
+      "note": "Free, remote, about 30 hours, cohort-based. The technical and policy efforts to prevent, detect, and respond to catastrophic pandemics."
+    }
+  ]
+}

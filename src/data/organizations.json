@@ -1,0 +1,742 @@
+{
+  "meta": {
+    "source": "[biosecurity.world](https://biosecurity.world), the organizations it lists under education and careers, plus a few additions",
+    "caveat": "Each description is [biosecurity.world](https://biosecurity.world)'s characterization of a third party, not the organization's own words, and has not been independently verified.",
+    "total": 36,
+    "asOf": "14 September 2026"
+  },
+  "organizations": [
+    {
+      "id": "136",
+      "name": "80,000 Hours",
+      "url": "https://80000hours.org",
+      "type": "International non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "United Kingdom",
+        "London",
+        "Remote"
+      ],
+      "focus": [],
+      "activities": [
+        "Education & Career"
+      ],
+      "description": "80,000 Hours provides research and support to help students and recent graduates move into careers that effectively tackle the world’s most pressing problems. They offer online guides, a podcast, a job board, and individualised career advice."
+    },
+    {
+      "id": "absa",
+      "name": "ABSA International",
+      "url": "https://absa.org/",
+      "type": "International non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "USA",
+        "Global"
+      ],
+      "focus": [
+        "Lab biosafety",
+        "Lab biosecurity"
+      ],
+      "activities": [
+        "Education & Career",
+        "Coordination"
+      ],
+      "description": "The Association for Biosafety and Biosecurity: the professional home for biosafety and biosecurity practitioners, with an annual conference, training courses, a peer-reviewed journal, professional credentials, and BioRisk Management Connect, which pairs newer practitioners with experienced coaches."
+    },
+    {
+      "id": "214",
+      "name": "Asia Centre for Health Security (ACHS)",
+      "url": "https://asia-chs.org",
+      "type": "International non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "Middle East",
+        "East Asia & Pacific",
+        "Central Asia",
+        "South Asia",
+        "Singapore"
+      ],
+      "focus": [
+        "Dual-use research of concern",
+        "Pathogen surveillance",
+        "Lab biosafety"
+      ],
+      "activities": [
+        "Policy development",
+        "Outreach & Advocacy",
+        "Education & Career",
+        "Coordination"
+      ],
+      "description": "Asia Centre for Health Security works to improve Asia’s readiness for catastrophic biological threats through scientific evidence, gaining knowledge and expertise, and building strategic partnerships, contributing to effective policy-making and biosecurity practices in Asia. They run the ACHS Fellowship Program."
+    },
+    {
+      "id": "bioisac",
+      "name": "BIO-ISAC",
+      "url": "https://isac.bio/",
+      "type": "National non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "USA",
+        "Global"
+      ],
+      "focus": [
+        "Cyberbiosecurity",
+        "AI x Bio"
+      ],
+      "activities": [
+        "Education & Career",
+        "Coordination"
+      ],
+      "description": "The Bioeconomy Information Sharing and Analysis Center, a nonprofit dedicated to cybersecurity resilience across the life sciences, AI, biotech, and the broader bioeconomy. It shares threat intelligence, coordinates vulnerability disclosure, supports early-stage incident response, and runs workforce development with hands-on bio-lab and cyber-lab experiences for people entering the field. The home of cyberbiosecurity as a career path."
+    },
+    {
+      "id": "268",
+      "name": "Bio-Responsibility Initiative @ the Centre for Society and Policy, Indian Institute of Science",
+      "url": "https://bio-responsibility.in",
+      "type": "Research institute / lab / network",
+      "kind": "research",
+      "where": [
+        "South Asia",
+        "India",
+        "Bengaluru"
+      ],
+      "focus": [
+        "AI x Bio",
+        "Dual-use research of concern",
+        "Synthetic biology",
+        "Biological weapons",
+        "Lab biosafety",
+        "Cyberbiosecurity"
+      ],
+      "activities": [
+        "Research",
+        "Policy development",
+        "Outreach & Advocacy",
+        "Education & Career"
+      ],
+      "description": "The Bio-Responsibility Initiative is a policy research, training, and engagement program at the Centre for Society and Policy, Indian Institute of Science, focused on strengthening India’s capacity to govern emerging biological risks, including risks from AI–bio convergence, synthetic biology, cyber-biosecurity, dual-use research, gain-of-function research, accidental misuse, deliberate misuse, and global pandemics."
+    },
+    {
+      "id": "32",
+      "name": "BlueDot Impact",
+      "url": "https://bluedot.org/courses/biosecurity",
+      "type": "International non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "Remote",
+        "London",
+        "United Kingdom",
+        "Global"
+      ],
+      "focus": [],
+      "activities": [
+        "Education & Career"
+      ],
+      "description": "BlueDot Impact offers a 30 hours virtual Biosecurity course, either intensive or part-time, focusing on the technical and policy efforts to prevent, detect, and respond to catastrophic pandemics."
+    },
+    {
+      "id": "101",
+      "name": "Cambridge Biosecurity Hub",
+      "url": "https://www.cambiohub.org",
+      "type": "Research institute / lab / network",
+      "kind": "research",
+      "where": [
+        "United Kingdom",
+        "Cambridge"
+      ],
+      "focus": [
+        "AI x Bio",
+        "Dual-use research of concern"
+      ],
+      "activities": [
+        "Research",
+        "Education & Career"
+      ],
+      "description": "The Cambridge Biosecurity Hub (CBH) is a team of researchers investigating the risks associated with rapidly developing biotechnologies. They work on concrete research projects that aim to make progress on either technical or policy issues within biosecurity. They co-organize the AIxBio Research Fellowship."
+    },
+    {
+      "id": "144",
+      "name": "Emerging Leaders in Biosecurity (ELBI) Fellowship",
+      "url": "https://centerforhealthsecurity.org/education-training/emerging-leaders-in-biosecurity-fellowship",
+      "type": "National non-profit organization",
+      "kind": "program",
+      "where": [
+        "USA",
+        "Washington DC"
+      ],
+      "focus": [],
+      "activities": [
+        "Education & Career"
+      ],
+      "description": "ELBI is a highly competitive, part-time program that provides an opportunity for talented graduate students and professionals to deepen their expertise, expand their network, and build their leadership skills through a series of events coordinated by the Johns Hopkins Center for Health Security."
+    },
+    {
+      "id": "epa",
+      "name": "Ending Pandemics Academy",
+      "url": "https://endingpandemics.org/",
+      "type": "Research institute / lab / network",
+      "kind": "research",
+      "where": [
+        "USA",
+        "Tucson AZ",
+        "Global"
+      ],
+      "focus": [
+        "Pathogen surveillance",
+        "Epidemiology"
+      ],
+      "activities": [
+        "Education & Career"
+      ],
+      "description": "The successor to the Skoll Global Threats Fund's Ending Pandemics initiative, now an academy at the University of Arizona's Zuckerman College of Public Health. It trains leaders worldwide to find, verify, and contain outbreaks faster through community-based epidemic intelligence, with immersive leadership programs for people working in emerging-infection hotspots."
+    },
+    {
+      "id": "262",
+      "name": "Existential Risk Alliance (ERA)",
+      "url": "https://erafellowship.org",
+      "type": "Research institute / lab / network",
+      "kind": "research",
+      "where": [
+        "United Kingdom",
+        "Cambridge"
+      ],
+      "focus": [
+        "AI x Bio"
+      ],
+      "activities": [
+        "Education & Career"
+      ],
+      "description": "ERA is a global network of researchers and entrepreneurs working to understand and reduce risks from frontier AI, by supporting top talent across AI governance, Technical AI Safety, Technical AI Governance, and adjacent domains. They run the AIxBio Research Fellowship."
+    },
+    {
+      "id": "145",
+      "name": "Fellowship for Ending Bioweapons Programs",
+      "url": "https://councilonstrategicrisks.org/fellowship-for-ending-bioweapons-programs",
+      "type": "National non-profit organization",
+      "kind": "program",
+      "where": [
+        "USA",
+        "Washington DC"
+      ],
+      "focus": [
+        "Biological weapons"
+      ],
+      "activities": [
+        "Education & Career"
+      ],
+      "description": "The Fellowship for Ending Bioweapons Programs, hosted by the Council on Strategic Risks (CSR), is a one-year program, during which Fellows work with leading experts from CSR’s team and network to generate ideas for ending the threat of state biological weapons programs.  Together, the CSR team collaborates with the Fellows to explore wide-ranging ideas that governments, nonprofits, or other private organizations could pursue for addressing bioweapons threats."
+    },
+    {
+      "id": "253",
+      "name": "GMU Schar School of Policy and Government (SSPG) - Biodefense Program",
+      "url": "https://schar.gmu.edu/biodefense-programs",
+      "type": "Research institute / lab / network",
+      "kind": "research",
+      "where": [
+        "Arlington VA",
+        "Remote",
+        "USA"
+      ],
+      "focus": [
+        "Biological weapons"
+      ],
+      "activities": [
+        "Education & Career"
+      ],
+      "description": "The Schar School of Policy and Government's Biodefense Graduate Program at George Mason University was established in 2003 and offers both on-campus and online Master of Science degrees in Biodefense, a PhD in Biodefense, and graduate certificates in Biodefense, Global Health Security, and Science, Technology, and Security. The program educates the next generation of biodefense and global health security scholars and professionals to prevent, prepare for, and respond to large-scale threats to health security, such as pandemics, weapons of mass destruction, terrorism, and natural disasters. While also bridging the gap between scientists and policy-makers in each of these domains."
+    },
+    {
+      "id": "148",
+      "name": "High Impact Engineers",
+      "url": "https://www.linkedin.com/company/high-impact-engineers",
+      "type": "International non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "Global",
+        "Remote"
+      ],
+      "focus": [],
+      "activities": [
+        "Education & Career"
+      ],
+      "description": "HIEng is increasing the quantity of impactful work done by physical engineers across the globe. They are providing engineers with resources and support to maximize their positive social impact."
+    },
+    {
+      "id": "149",
+      "name": "High Impact Medicine",
+      "url": "https://www.highimpactmedicine.org",
+      "type": "International non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "Global",
+        "Remote"
+      ],
+      "focus": [],
+      "activities": [
+        "Education & Career"
+      ],
+      "description": "Hi-Med is a community helping medical students and clinicians steer their careers toward high-impact areas, through advising, fellowships, and online resources."
+    },
+    {
+      "id": "129",
+      "name": "Horizon Institute for Public Service",
+      "url": "https://horizonpublicservice.org",
+      "type": "National non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "USA"
+      ],
+      "focus": [
+        "AI x Bio"
+      ],
+      "activities": [
+        "Education & Career"
+      ],
+      "description": "The Horizon Institute for Public Service is a non-partisan, non-profit organization that helps the US government navigate our era of rapid technological change by supporting the next generation of emerging technology policy talent."
+    },
+    {
+      "id": "134",
+      "name": "iGEM",
+      "url": "https://igem.org",
+      "type": "International non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "Global",
+        "Europe (excl. UK)",
+        "France",
+        "Paris",
+        "Remote",
+        "USA",
+        "Boston MA"
+      ],
+      "focus": [
+        "Synthetic biology",
+        "Lab biosafety",
+        "Dual-use research of concern"
+      ],
+      "activities": [
+        "Education & Career",
+        "Technology development"
+      ],
+      "description": "iGEM (International Genetically Engineered Machine) educates the workforce and the leaders of the Synthetic Biology industry. The iGEM Foundation is an independent, non-profit organization dedicated to the advancement of synthetic biology, education and competition, and the development of an open, collaborative, and cooperative community."
+    },
+    {
+      "id": "ibbis",
+      "name": "International Biosecurity and Biosafety Initiative for Science (IBBIS)",
+      "url": "https://ibbis.bio/",
+      "type": "International non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "Switzerland",
+        "Geneva",
+        "Global"
+      ],
+      "focus": [
+        "DNA synthesis",
+        "Dual-use research of concern"
+      ],
+      "activities": [
+        "Technology development",
+        "Coordination"
+      ],
+      "description": "A Swiss nonprofit foundation safeguarding bioscience and biotechnology so it can advance safely. It builds the free, open-source Common Mechanism for DNA synthesis screening, customer-screening resources, a global map of synthesis providers, and international screening standards, and hires across science, policy, and engineering."
+    },
+    {
+      "id": "ifba",
+      "name": "International Federation of Biosafety Associations (IFBA)",
+      "url": "https://internationalbiosafety.org/",
+      "type": "International non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "Global"
+      ],
+      "focus": [
+        "Lab biosafety",
+        "Lab biosecurity"
+      ],
+      "activities": [
+        "Education & Career",
+        "Coordination"
+      ],
+      "description": "The not-for-profit federation of regional and national biosafety associations worldwide. It runs the only internationally recognized certification program for competency in biorisk management and related disciplines, with more than 1,400 certifications issued in 89 countries, and a Global Mentorship Program that pairs mentors and mentees across regions."
+    },
+    {
+      "id": "221",
+      "name": "James Martin Center for Nonproliferation Studies (CNS)",
+      "url": "https://www.middlebury.edu/institute/academics/centers-initiatives/nonproliferation-studies",
+      "type": "International non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "USA",
+        "Europe (excl. UK)",
+        "Austria",
+        "Monterey CA",
+        "Washington DC",
+        "Vienna"
+      ],
+      "focus": [
+        "AI x Bio",
+        "Biological weapons",
+        "Synthetic biology",
+        "Lab biosafety"
+      ],
+      "activities": [
+        "Policy development",
+        "Education & Career",
+        "Research"
+      ],
+      "description": "The Center for Nonproliferation Studies strives to combat the spread of weapons of mass destruction by training the next generation of nonproliferation specialists and disseminating timely information and analysis. It is the largest nongovernmental organization in the United States devoted exclusively to research and training on nonproliferation issues. Their biosecurity work can be found here."
+    },
+    {
+      "id": "42",
+      "name": "Nolan Center at the Council on Strategic Risks (CSR)",
+      "url": "https://councilonstrategicrisks.org/nolan/",
+      "type": "National non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "USA",
+        "Washington DC"
+      ],
+      "focus": [
+        "Biological weapons"
+      ],
+      "activities": [
+        "Policy development",
+        "Outreach & Advocacy",
+        "Education & Career"
+      ],
+      "description": "The Council on Strategic Risks (CSR) is a nonprofit, non-partisan security policy institute devoted to anticipating, analyzing, and addressing core systemic risks to security in the 21st century, with special examination of the ways in which these risks intersect and exacerbate one another. The CSR runs the International Mid-Career Biosecurity Fellowship and the Mid-Career Biodefense Bootcamp Fellowship. The Janne E. Nolan Center on Strategic Weapons (The Nolan Center) is a non-partisan institute of CSR that explores threat reduction opportunities related to the development, diffusion, and use of strategic weapons in a challenging security landscape."
+    },
+    {
+      "id": "ohi",
+      "name": "One Health Initiative",
+      "url": "https://onehealthinitiative.com/",
+      "type": "International non-profit organization",
+      "kind": "media",
+      "where": [
+        "Global",
+        "Remote"
+      ],
+      "focus": [
+        "Zoonotic diseases",
+        "One Health"
+      ],
+      "activities": [
+        "Outreach & Advocacy"
+      ],
+      "description": "A pro bono collaborative movement to unite human and veterinary medicine, run by a small autonomous team and endorsed by more than 1,200 scientists, physicians, and veterinarians. It publishes news, articles, and outbreak reports on zoonotic and emerging diseases for clinicians, public-health professionals, and students."
+    },
+    {
+      "id": "ohl",
+      "name": "One Health Lessons",
+      "url": "https://onehealthlessons.org/",
+      "type": "International non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "Global",
+        "Remote"
+      ],
+      "focus": [
+        "Zoonotic diseases",
+        "One Health"
+      ],
+      "activities": [
+        "Education & Career",
+        "Outreach & Advocacy"
+      ],
+      "description": "One Health Lessons is an educational charity that creates and delivers science lessons on the interconnection between public health and the health of animals, plants, and the environment, for children and adults around the world. It trains volunteer Lesson Leaders to teach the One Health approach and the communication skills that go with it."
+    },
+    {
+      "id": "oo",
+      "name": "Operation Outbreak",
+      "url": "https://operationoutbreak.org",
+      "type": "National non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "USA",
+        "Global"
+      ],
+      "focus": [
+        "Epidemiology",
+        "Crisis management"
+      ],
+      "activities": [
+        "Education & Career",
+        "Outreach & Advocacy"
+      ],
+      "description": "Operation Outbreak is an independent nonprofit that runs technology-enabled outbreak simulations: a mobile app spreads a simulated pathogen through a school, campus, or agency so participants live through detection, response, and recovery. A spin-out of the Sabeti Lab at the Broad Institute of MIT and Harvard, it offers free classroom simulations, professional tabletop exercises, a student competition, and free lessons and activities, and has engaged more than 15,000 participants in 26 US states and 18 countries.",
+      "source": "operationoutbreak.org, read 2026-09-14"
+    },
+    {
+      "id": "157",
+      "name": "Oxford Biosecurity Group (OBG)",
+      "url": "https://www.oxfordbiosecuritygroup.com/",
+      "type": "Research institute / lab / network",
+      "kind": "research",
+      "where": [
+        "Global",
+        "Remote",
+        "United Kingdom",
+        "Oxford"
+      ],
+      "focus": [],
+      "activities": [
+        "Research",
+        "Education & Career"
+      ],
+      "description": "Oxford Biosecurity Group (OBG) is a team of researchers dedicated to addressing issues related to biosecurity. OBG runs multiple 8-week, remote-first projects, and we partner with relevant organizations in the space to drive progress on pressing issues and to help individuals test their fit, grow their network, and upskill in biosecurity. Researchers work in small teams, led by a project lead, to conduct impactful research culminating in one or more final deliverables. A key way that these projects lead to real-world impact is through partnerships - outputs are shared with key stakeholders, and many projects are run in collaboration with an existing organization."
+    },
+    {
+      "id": "103",
+      "name": "Pivotal Research",
+      "url": "https://www.pivotal-research.org",
+      "type": "Research institute / lab / network",
+      "kind": "research",
+      "where": [
+        "United Kingdom",
+        "London"
+      ],
+      "focus": [
+        "AI x Bio",
+        "Dual-use research of concern"
+      ],
+      "activities": [
+        "Research",
+        "Education & Career"
+      ],
+      "description": "Pivotal (ex Swiss Existential Risk Initiative / CHERI) is committed to understanding and reducing global catastrophic risks, especially those arising from advanced artificial intelligence and biotechnology. By supporting exceptional talent poised to make significant contributions to reducing these risks, they set the stage for important research and policy work. In doing so, they aim for a brighter and safer world for everyone."
+    },
+    {
+      "id": "128",
+      "name": "Podcast - Hear This Idea",
+      "url": "https://hearthisidea.com",
+      "type": "Media",
+      "kind": "media",
+      "where": [
+        "Global",
+        "Remote"
+      ],
+      "focus": [],
+      "activities": [
+        "Outreach & Advocacy",
+        "Education & Career"
+      ],
+      "description": "Good ideas for big problems. Hear This Idea is a podcast about ideas for solving important problems, and the people trying to figure them out."
+    },
+    {
+      "id": "135",
+      "name": "Podcast - The 80,000 Hours Podcast",
+      "url": "https://80000hours.org/podcast",
+      "type": "Media",
+      "kind": "media",
+      "where": [
+        "United Kingdom",
+        "London",
+        "Remote"
+      ],
+      "focus": [],
+      "activities": [
+        "Education & Career"
+      ],
+      "description": "In-depth conversations about the world’s most pressing problems and what you can do to solve them. They have several episodes tagged \"Catastrophic Pandemics” or \"Biorisk strategy & policy”."
+    },
+    {
+      "id": "260",
+      "name": "Rosetta Commons Biosecurity Fellowship",
+      "url": "https://rosettacommons.org/2025/06/26/rosetta-commons-opens-applications-for-2025-biosecurity-fellow/",
+      "type": "National non-profit organization",
+      "kind": "program",
+      "where": [
+        "Remote",
+        "Global"
+      ],
+      "focus": [
+        "AI x Bio"
+      ],
+      "activities": [
+        "Education & Career"
+      ],
+      "description": "The Rosetta Commons Biosecurity Fellowship is a 12-month remote role at the intersection of computational biology and biosecurity. Fellows will engage with researchers and explore how AI-enabled protein design tools can be developed and governed responsibly."
+    },
+    {
+      "id": "250",
+      "name": "Sandia National Laboratories (SNL)",
+      "url": "https://www.sandia.gov/",
+      "type": "Research institute / lab / network",
+      "kind": "research",
+      "where": [
+        "USA",
+        "Albuquerque NM",
+        "Livermore CA"
+      ],
+      "focus": [
+        "Dual-use research of concern",
+        "Biological weapons",
+        "Lab biosafety",
+        "Pathogen surveillance",
+        "Rapid diagnostics",
+        "Therapeutics",
+        "Antimicrobial resistance"
+      ],
+      "activities": [
+        "Research",
+        "Education & Career",
+        "Policy development",
+        "Technology development"
+      ],
+      "description": "Sandia National Laboratories, established in 1949, is a U.S. research institution dedicated to national security, which includes a research area on biodefense. In addition, its Global Chemical and Biological Security (GCBS) program focuses on reducing chemical and biological threats worldwide by promoting the responsible use of related materials, strengthening security capacities, and improving risk mitigation strategies."
+    },
+    {
+      "id": "securebio",
+      "name": "SecureBio",
+      "url": "https://securebio.org/",
+      "type": "National non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "USA",
+        "Cambridge MA"
+      ],
+      "focus": [
+        "Pathogen surveillance",
+        "DNA synthesis",
+        "AI x Bio"
+      ],
+      "activities": [
+        "Research",
+        "Technology development"
+      ],
+      "description": "A nonprofit whose in-house researchers and technologists work with academia, industry, and government to delay, detect, and defend against catastrophic pandemics: restricting proliferation of dangerous genomes and screening DNA synthesis, building pathogen-agnostic early-warning tools such as wastewater sequencing, and evaluating AI models for biological risk. It hires researchers and engineers and posts open positions."
+    },
+    {
+      "id": "288",
+      "name": "SPAR Biosecurity Track",
+      "url": "https://sparai.org",
+      "type": "International non-profit organization",
+      "kind": "program",
+      "where": [
+        "Global",
+        "Remote"
+      ],
+      "focus": [],
+      "activities": [
+        "Research",
+        "Education & Career"
+      ],
+      "description": "Supervised Program for Alignment Research (SPAR) is a virtual research mentorship program run by Kairos that pairs aspiring researchers with mentors on technical and governance projects addressing frontier AI risks. Its Spring 2026 round includes 13 biosecurity projects on synthesis screening, pathogen surveillance, high-containment research, information hazards, AI-enabled biological-risk evaluations, and mirror biology."
+    },
+    {
+      "id": "191",
+      "name": "Stanford Existential Risk Initiative (SERI)",
+      "url": "https://seri.stanford.edu",
+      "type": "Research institute / lab / network",
+      "kind": "research",
+      "where": [
+        "Global",
+        "Remote",
+        "USA",
+        "Stanford CA"
+      ],
+      "focus": [],
+      "activities": [
+        "Research",
+        "Education & Career"
+      ],
+      "description": "Working to preserve the future of humanity. Existential risks, or global catastrophic risks, are risks that could cause the collapse of human civilization."
+    },
+    {
+      "id": "258",
+      "name": "The Pandemic Center",
+      "url": "https://pandemics.sph.brown.edu",
+      "type": "Research institute / lab / network",
+      "kind": "research",
+      "where": [
+        "USA",
+        "Providence RI"
+      ],
+      "focus": [
+        "Pathogen surveillance",
+        "Indoor air quality",
+        "Vaccines",
+        "Epidemiology",
+        "Crisis management"
+      ],
+      "activities": [
+        "Policy development",
+        "Research",
+        "Outreach & Advocacy",
+        "Education & Career"
+      ],
+      "description": "The Pandemic Center at the Brown University School of Public Health works to reduce vulnerabilities and increase resilience to pandemics, other biological emergencies, and the harms they pose to health, peace, security, and prosperity. They run the Biosecurity Game changers fellowship."
+    },
+    {
+      "id": "284",
+      "name": "The Pandemic Institute",
+      "url": "https://www.thepandemicinstitute.org/",
+      "type": "National non-profit organization",
+      "kind": "nonprofit",
+      "where": [
+        "United Kingdom",
+        "Liverpool"
+      ],
+      "focus": [
+        "Pathogen surveillance",
+        "Rapid diagnostics",
+        "Vaccines",
+        "Therapeutics",
+        "Crisis management"
+      ],
+      "activities": [
+        "Research",
+        "Funding",
+        "Education & Career"
+      ],
+      "description": "The Pandemic Institute is a Liverpool-based collaboration of academic, healthcare, civic, and industrial partners dedicated to predicting, preparing for, and responding to emerging infections and pandemic threats."
+    },
+    {
+      "id": "56",
+      "name": "United Nations Institute for Disarmament Research (UNIDIR)",
+      "url": "https://unidir.org",
+      "type": "Intergovernmental entity",
+      "kind": "intergovernmental",
+      "where": [
+        "Europe (excl. UK)",
+        "Geneva"
+      ],
+      "focus": [
+        "Biological weapons"
+      ],
+      "activities": [
+        "Research",
+        "Policy development",
+        "Outreach & Advocacy",
+        "Education & Career"
+      ],
+      "description": "The UNIDIR is an autonomous institution within the United Nations that conducts independent research on pressing global challenges related to disarmament, arms control, and international security. They also run the BWC Advanced Education Course."
+    },
+    {
+      "id": "204",
+      "name": "United Nations Office for Disarmament Affairs (UNODA)",
+      "url": "https://disarmament.unoda.org",
+      "type": "Intergovernmental entity",
+      "kind": "intergovernmental",
+      "where": [
+        "Geneva",
+        "Switzerland",
+        "Europe (excl. UK)",
+        "Vienna",
+        "New York City",
+        "USA",
+        "Global"
+      ],
+      "focus": [
+        "Biological weapons"
+      ],
+      "activities": [
+        "Policy development",
+        "Coordination",
+        "Education & Career"
+      ],
+      "description": "The Office for Disarmament Affairs supports multilateral efforts aimed at achieving the ultimate goal of general and complete disarmament under strict and effective international control. Weapons of mass destruction, in particular nuclear weapons, continue to be of primary concern owing to their destructive power and the threat that they pose to humanity. They also run the Youth for Biosecurity Fellowship."
+    }
+  ]
+}

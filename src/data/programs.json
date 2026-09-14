@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "checked": "14 September 2026",
+    "note": "Names, credits, formats, and fees change: confirm on the program page before applying.",
+    "levels": {
+      "masters": "Master's degrees",
+      "phd": "Doctoral programs",
+      "certificate": "Graduate certificates",
+      "undergrad": "Undergraduate minors and certificates"
+    }
+  },
+  "programs": [
+    {
+      "name": "M.S. in Biodefense (also PhD and graduate certificates)",
+      "school": "George Mason University, Schar School of Policy and Government",
+      "url": "https://schar.gmu.edu/biodefense-programs",
+      "level": "masters",
+      "country": "US",
+      "format": "MS on campus in Arlington, Virginia, or fully online (asynchronous); PhD; 15-credit Graduate Certificate in Biodefense. Related Schar certificates in Global Health and Security and in Science, Technology and Security.",
+      "about": "The longest-running dedicated biodefense program. Bridges science and policy, developing the knowledge and analytic skills to assess the risks posed by natural and man-made biological threats and to develop strategies for reducing them.",
+      "verified": true
+    },
+    {
+      "name": "M.S. in Biohazardous Threat Agents & Emerging Infectious Diseases",
+      "school": "Georgetown University School of Medicine, Biomedical Graduate Education",
+      "url": "https://biohaz.georgetown.edu/",
+      "level": "masters",
+      "country": "US",
+      "format": "One year, full- or part-time, in person in Washington DC; a four-course online graduate certificate is also offered",
+      "about": "Covers classic biological threat agents, global health security, emerging diseases, new technologies, and CBRN risk mitigation, taught by faculty with CDC, NIH, FDA, Department of Defense, White House, WHO, and UN experience. Optional concentration in biomedical science policy and advocacy.",
+      "verified": true
+    },
+    {
+      "name": "Graduate School One Health in Emerging Infectious Diseases (1H-EID)",
+      "school": "Institut Pasteur with Université Paris Cité, Sorbonne Université, and ENVA Paris",
+      "url": "https://www.pasteur.fr/en/EUR-1H-EID",
+      "level": "masters",
+      "country": "France",
+      "format": "Master's pathway in emerging infectious diseases (M1 and M2) and doctoral programs through partner schools; mobility grants, internship grants abroad, and thesis scholarships for students",
+      "about": "A research-based graduate school training researchers, health professionals, and decision-makers in emerging infectious diseases, combining pathogen biology, epidemiology, veterinary science, evolutionary biology, and socio-anthropology. Open to students from medicine, pharmacy, science, engineering, and veterinary backgrounds.",
+      "verified": true
+    },
+    {
+      "name": "M.S. in Biotechnology, Biodefense concentration",
+      "school": "Johns Hopkins University, Advanced Academic Programs",
+      "url": "https://advanced.jhu.edu/academics/graduate/ms-biotechnology/degree-details-courses/biodefense-concentration/",
+      "level": "masters",
+      "country": "US",
+      "format": "40-credit MS: six required core courses, one customizable laboratory core, three electives; online, with state-specific rules for online students",
+      "about": "Core courses include Microbiological Threats & Emerging Infectious Diseases, Biological & Chemical Threat Response & Forensics, and Science, Medicine & Policy in Biodefense, with electives such as Vaccinology, Virology, and Clinical & Molecular Diagnostics.",
+      "verified": true
+    },
+    {
+      "name": "Health security degrees at the Bloomberg School of Public Health",
+      "school": "Johns Hopkins University, Bloomberg School of Public Health",
+      "url": "https://publichealth.jhu.edu/topics/health-security-and-public-health",
+      "level": "masters",
+      "country": "US",
+      "format": "MHS and ScM in Molecular Microbiology and Immunology; PhD in Environmental Health and DrPH across several departments; no single 'health security' degree",
+      "about": "The school's health-security work sits in the Department of Environmental Health and Engineering, home of the Center for Health Security, whose Emerging Leaders in Biosecurity fellowship is listed above. Faculty include Tom Inglesby and Caitlin Rivers.",
+      "verified": true
+    },
+    {
+      "name": "Master of Public Health, food safety and biosecurity emphasis",
+      "school": "Kansas State University",
+      "url": "https://online.k-state.edu/programs/public-health-masters/",
+      "level": "masters",
+      "country": "US",
+      "format": "42 credit hours, 100% online, accredited MPH; emphasis areas in food safety and biosecurity, public health nutrition, and infectious diseases and zoonoses (for DVM and doctoral-level students)",
+      "about": "K-State calls itself a global food and biosecurity science university and hosts the Biosecurity Research Institute, a high-containment research and training facility where students can work.",
+      "verified": true
+    },
+    {
+      "name": "War Studies MA",
+      "school": "King's College London, Department of War Studies",
+      "url": "https://www.kcl.ac.uk/study/Postgraduate-taught/courses/war-studies-ma",
+      "level": "masters",
+      "country": "UK",
+      "format": "One year full-time or two years part-time, Strand campus, London",
+      "about": "Not a biosecurity degree, but the department's research-led teaching covers arms control and non-proliferation and the influence of science and technology on international security, and King's hosts a biosecurity and health-intelligence research group. The UK's usual route into biological-weapons policy.",
+      "verified": true
+    },
+    {
+      "name": "MA in Nonproliferation and Terrorism Studies",
+      "school": "Middlebury Institute of International Studies at Monterey, home of the James Martin Center for Nonproliferation Studies",
+      "url": "https://www.middlebury.edu/institute/academics/degree-programs/nonproliferation-terrorism-studies",
+      "level": "masters",
+      "country": "US",
+      "format": "Typically two years, in person in Monterey, California (moving to Soka University of America from fall 2027); accelerated two- to three-semester options; STEM-designated",
+      "about": "Nonproliferation policy, counterterrorism strategy, and the scientific principles behind weapons of mass destruction, taught alongside the James Martin Center for Nonproliferation Studies, the largest NGO devoted to curbing nuclear, biological, and chemical weapons.",
+      "verified": true
+    },
+    {
+      "name": "Master of Biosecurity",
+      "school": "Murdoch University",
+      "url": "https://www.murdoch.edu.au/course/postgraduate/m1248",
+      "level": "masters",
+      "country": "Australia",
+      "format": "1.5 years full-time; online or mixed mode. Entry requires a bachelor's degree in the biological, ecological, environmental, or agricultural sciences",
+      "about": "How biosecurity measures such as risk analysis, quarantine, and surveillance prevent the spread of exotic pests and diseases, to international standards. The agricultural and One Health end of the field, preparing graduates for government agencies, biosecurity organizations, and industry.",
+      "verified": true
+    },
+    {
+      "name": "M.S. in Biotechnology, Biosecurity & Biodefense concentration",
+      "school": "University of Maryland Global Campus",
+      "url": "https://www.umgc.edu/online-degrees/masters/biotechnology-biosecurity-biodefense",
+      "level": "masters",
+      "country": "US",
+      "format": "36 credits (up to 12 transferable), online with some hybrid courses; a Professional Science Master's",
+      "about": "Develops expertise in detecting, analyzing, and responding to biosecurity threats through coursework in microbiology, epidemiology, and biodefense policy.",
+      "verified": true
+    },
+    {
+      "name": "Master of Anticipatory Intelligence, Biosecurity emphasis",
+      "school": "Utah State University, Center for Anticipatory Intelligence",
+      "url": "https://www.usu.edu/cai/academic-programs/master-of-anticipatory-intelligence",
+      "level": "masters",
+      "country": "US",
+      "format": "33-credit professional master's, in person in Logan, Utah, cohort-based",
+      "about": "The first graduate degree in anticipatory intelligence. Open to any disciplinary background, with a 12-credit Biosecurity emphasis built on Biosecurity I and II plus food, water, and public-health security electives, and a capstone with an external partner.",
+      "verified": true
+    },
+    {
+      "name": "PhD in Biodefense",
+      "school": "George Mason University, Schar School of Policy and Government",
+      "url": "https://schar.gmu.edu/programs/phd-programs/biodefense-phd",
+      "level": "phd",
+      "country": "US",
+      "format": "72 credits: eight core courses, field seminars, and electives in International Security, Terrorism and Homeland Security, or Technology and Weapons of Mass Destruction, then a dissertation; full- or part-time, evening classes in the Washington DC area",
+      "about": "Integrates knowledge of natural and man-made biological threats with the analytic skills to develop policies and strategies that strengthen national and global security.",
+      "verified": true
+    },
+    {
+      "name": "MS or PhD in Biological Defense and Health Security",
+      "school": "University of Nebraska Medical Center, Office of Graduate Studies",
+      "url": "https://www.unmc.edu/gradstudies/programs/msia/biological-defense-health-security/index.html",
+      "level": "phd",
+      "country": "US",
+      "format": "Two tracks: biosurveillance and biodefense science for national security, or basic and clinical science for global health; technical plus policy coursework",
+      "about": "Two tracks: biosurveillance and biodefense science for national security, or basic and clinical science for global health, each mixing technical courses with practical and policy courses.",
+      "verified": true
+    },
+    {
+      "name": "Online Certificate in Biohazardous Threat Agents & Emerging Infectious Diseases",
+      "school": "Georgetown University",
+      "url": "https://biohaz.georgetown.edu/certificate/",
+      "level": "certificate",
+      "country": "US",
+      "format": "Four courses, 12 credits, online; tuition discount for current and former federal employees",
+      "about": "The certificate version of Georgetown's master's: biological threat agents, global health security, bioterrorism, and CBRN preparedness and response.",
+      "verified": true
+    },
+    {
+      "name": "Agricultural Biosecurity Research Graduate Certificate",
+      "school": "Kansas State University, College of Veterinary Medicine",
+      "url": "https://www.vet.k-state.edu/academics/graduate-programs/biosecurity-research/",
+      "level": "certificate",
+      "country": "US",
+      "format": "12 credit hours; for graduate and DVM students with a biological-sciences degree (3.0 GPA in the last 60 hours) or current K-State enrollment",
+      "about": "Prepares research scientists to work safely in high and maximum containment laboratories (BSL-3, BSL-3Ag, and BSL-4) through training in biosafety, containment, and regulatory compliance. Unusual in the field.",
+      "verified": true
+    },
+    {
+      "name": "Graduate Certificate in Biodefense and Biosecurity",
+      "school": "Northeastern University",
+      "url": "https://graduate.northeastern.edu/programs/certg-biodefense-biosecurity/graduate-certificate-in-biodefense-and-biosecurity/",
+      "level": "certificate",
+      "country": "US",
+      "format": "13 credits: three biotechnology courses and one public-policy course; in person, Boston",
+      "about": "Skills to detect, analyze, and respond to biosecurity threats, preparing students for roles in biotechnology and public health.",
+      "verified": true
+    },
+    {
+      "name": "Graduate Certificate in Agriculture, Environment, and Food Systems Security",
+      "school": "Penn State World Campus, College of Agricultural Sciences",
+      "url": "https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-agriculture-environment-and-food-systems-security-graduate-certificate",
+      "level": "certificate",
+      "country": "US",
+      "format": "12 credits (four 3-credit courses), 100% online; about $1,048 per credit at 2026–27 rates",
+      "about": "Formerly the Agricultural Biosecurity and Food Defense certificate. Courses cover agricultural biosecurity, food defense, veterinary infectious diseases, and plant protection, for professionals who prevent or manage biological threats to the food supply.",
+      "verified": true
+    },
+    {
+      "name": "Biosecurity Minor",
+      "school": "University of Vermont, College of Agriculture and Life Sciences (CDAE)",
+      "url": "https://www.uvm.edu/cals/cdae/program/biosecurity-minor",
+      "level": "undergrad",
+      "country": "US",
+      "format": "17-credit undergraduate minor drawing on microbiology, animal science, nutrition and food systems, and applied economics courses",
+      "about": "Biosecurity threats to food and agriculture systems, from bioterrorism prevention to resilience, combining social science, agriculture, and STEM.",
+      "verified": true
+    }
+  ]
+}

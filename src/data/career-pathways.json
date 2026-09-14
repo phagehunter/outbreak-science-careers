@@ -1,0 +1,395 @@
+{
+  "meta": {
+    "title": "Career pathways in outbreak science and biosecurity",
+    "descriptionStatus": "reviewed",
+    "descriptionNote": "Category descriptions, 'work', and 'entry' text were drafted by Claude on 2026-09-14 and approved by Curtis Hoffmann on 2026-09-14. Core roles are limited to those with a matching BLS handbook occupation; others appear under related roles.",
+    "sources": [
+      "starting-instructions.md (section 5, refined categories and roles)",
+      "reference/Possible Careers in Outbreak Science (1).docx (related roles)",
+      "reference/Public Health Careers _ NERD Academy _ CDC.pdf and CFA's Role in Public Health (CDC) for role definitions and the CFA partnership note"
+    ]
+  },
+  "categories": [
+    {
+      "id": "public-health",
+      "title": "Public Health & Epidemiology",
+      "icon": "activity",
+      "tagline": "Find the cases, trace the spread, protect the population.",
+      "description": "Epidemiologists and their colleagues are the detectives of an outbreak: they find cases, trace contacts, and turn messy field data into a picture of how a disease is spreading. This track suits people who like patterns, people, and public service in equal measure.",
+      "roles": [
+        "Epidemiologist",
+        "Public Health Nurse",
+        "Biostatistician",
+        "Disease Surveillance Officer"
+      ],
+      "relatedRoles": [
+        "Contact Tracer",
+        "Health Educator",
+        "Disease Intervention Specialist",
+        "Infection Control Specialist",
+        "Syndromic Surveillance Coordinator",
+        "Infectious Disease Modeler",
+        "Outbreak Investigation Team Member",
+        "Contact Tracing Program Manager",
+        "Community Health Worker"
+      ],
+      "work": [
+        "Interviewing patients and their contacts to work out who was exposed, where, and when, then building the timeline of an outbreak.",
+        "Cleaning and analyzing surveillance data to spot a rise in cases before it becomes obvious to anyone else.",
+        "Running the numbers: attack rates, incubation periods, how fast a disease is spreading, with the uncertainty stated honestly.",
+        "Writing the situation report that decision-makers read that evening, and briefing them on what it means.",
+        "Designing and evaluating the interventions: vaccination drives, isolation guidance, school closures."
+      ],
+      "entry": [
+        "Most epidemiologists hold a master of public health (MPH) or a related master's degree; many go on to a PhD or a medical degree. Biostatisticians usually hold a master's in statistics or biostatistics.",
+        "Public health nurses start as registered nurses and then specialize. Contact tracers are often hired with a bachelor's degree and trained on the job during a response.",
+        "State and local health departments, the CDC, the WHO, and non-profits are the main employers. The CDC's [Epidemic Intelligence Service](https://www.cdc.gov/eis/) is the classic two-year training route for doctoral-level applicants.",
+        "Good first steps: an undergraduate course in epidemiology or statistics, a summer placement at a health department, and the free Crash Course and Harvard modeling series on our [Learn page](/learn/)."
+      ],
+      "learnTags": [
+        "Risk assessment",
+        "Zoonotic diseases"
+      ]
+    },
+    {
+      "id": "clinical",
+      "title": "Clinical & Medical Response",
+      "icon": "stethoscope",
+      "tagline": "Care for patients and keep hospitals standing under surge.",
+      "description": "When an outbreak hits, clinicians are the front line, caring for patients while hospitals scramble to add beds, staff, and supplies. Roles here range from bedside care to planning how an entire health system absorbs a surge.",
+      "roles": [
+        "Physician",
+        "Nurse Practitioner",
+        "Emergency Medicine Technician",
+        "Respiratory Therapist",
+        "Medical Surge Planner"
+      ],
+      "relatedRoles": [
+        "Pharmacist",
+        "Medical Laboratory Technician",
+        "Hospital Administrator",
+        "Hospital Emergency Preparedness Coordinator",
+        "Healthcare Coalitions Manager",
+        "Healthcare Facility Safety Officer",
+        "Rapid Response Team Leader",
+        "Quarantine and Isolation Facility Coordinator"
+      ],
+      "work": [
+        "Recognizing the unusual case, the patient whose symptoms do not fit, and knowing who to call when they don't.",
+        "Caring for infectious patients safely, which means mastering protective equipment, isolation rooms, and the discipline of never cutting corners.",
+        "Surge planning: how a hospital adds beds, staff, oxygen, and ventilators when demand doubles in a week.",
+        "Coordinating across a region so that no single hospital is overwhelmed while another has empty beds.",
+        "Keeping the workforce standing: staff testing, rota planning, and looking after colleagues under strain."
+      ],
+      "entry": [
+        "Clinical roles follow licensed pathways: medical school and residency for physicians, nursing degrees and licensure for nurses, accredited programs and certification for EMTs, paramedics, and respiratory therapists.",
+        "Emergency preparedness and surge-planning roles are often filled by clinicians who take on planning responsibilities, or by people with public health, health administration, or emergency-management master's degrees.",
+        "Volunteering with a medical reserve corps, an ambulance service, or a hospital emergency department shows you what the work feels like before you commit years of training."
+      ],
+      "learnTags": [
+        "Lab biosafety",
+        "Medical diagnostics"
+      ]
+    },
+    {
+      "id": "research",
+      "title": "R&D / Science",
+      "icon": "microscope",
+      "tagline": "Understand the pathogen and build the tools to stop it.",
+      "description": "Laboratory scientists work out what a pathogen is, how it causes disease, and how to stop it, from sequencing genomes to designing vaccines. This is the track for people who want to spend their career at the bench or leading a research program.",
+      "roles": [
+        "Virologist",
+        "Immunologist",
+        "Vaccinologist",
+        "Bioinformatician",
+        "Vaccine Research Scientist"
+      ],
+      "relatedRoles": [
+        "Microbiologist",
+        "Genomics Researcher",
+        "Clinical Research Coordinator",
+        "Antiviral Drug Developer",
+        "Therapeutic Development Specialist",
+        "Diagnostic Test Developer",
+        "Clinical Trial Manager"
+      ],
+      "work": [
+        "Identifying a pathogen and sequencing its genome, then tracking how it changes as it spreads.",
+        "Working out how a virus or bacterium causes disease and which parts of it the immune system can be taught to recognize.",
+        "Designing, testing, and manufacturing vaccines, antivirals, and diagnostics, and running the clinical trials that prove they work.",
+        "Working under biosafety rules that govern every step in the lab, from what you wear to how a sample travels between buildings.",
+        "Writing papers, grant applications, and protocols: a large share of research life is careful writing."
+      ],
+      "entry": [
+        "Research scientists nearly always hold a PhD in virology, immunology, microbiology, or a related field. Bioinformaticians often come from biology, computer science, or statistics with a master's or PhD.",
+        "Technician, research assistant, and clinical research coordinator roles are open with a bachelor's degree and are the usual first step in a lab.",
+        "Universities, national laboratories, the NIH and other government institutes, vaccine and diagnostics companies, and non-profits such as [CEPI](https://cepi.net/) employ this track.",
+        "Undergraduate lab research, an [iGEM](https://igem.org) team, or a summer research program is the standard way in."
+      ],
+      "learnTags": [
+        "Lab research",
+        "Lab biosafety",
+        "Lab biosecurity"
+      ]
+    },
+    {
+      "id": "data-tech",
+      "title": "Data & Technology",
+      "icon": "cpu",
+      "tagline": "Turn signals into early warnings and models into decisions.",
+      "description": "Modern outbreak response runs on data: dashboards, forecasting models, genomic pipelines, and early-warning systems that flag unusual signals. If you enjoy coding, statistics, or building tools, this track puts those skills to work for public health.",
+      "roles": [
+        "Data Scientist",
+        "Health Informatics Specialist",
+        "AI Researcher for Outbreak Detection",
+        "Biosurveillance Analyst"
+      ],
+      "relatedRoles": [
+        "GIS Analyst",
+        "Software Developer (health applications)",
+        "Public Health Informatics Specialist",
+        "Digital Health Solutions Architect",
+        "Telemedicine Systems Developer",
+        "Bioinformatics Specialist for Pathogen Genomics",
+        "Pandemic Modeling Expert"
+      ],
+      "work": [
+        "Building the dashboards and forecasts that health departments use in a response, and explaining what the models can and cannot say.",
+        "Writing pipelines that turn raw sequencing data into a picture of which variants are where.",
+        "Designing early-warning systems that watch wastewater, clinic visits, pharmacy sales, or news reports for unusual signals.",
+        "Making data from dozens of sources talk to each other: hospitals, laboratories, border points, veterinary services.",
+        "Working alongside epidemiologists so that technical choices match what responders actually need."
+      ],
+      "entry": [
+        "Typical backgrounds are statistics, computer science, mathematics, or a quantitative biology degree. A master's is common and a PhD is usual for research posts.",
+        "The US CDC's [Center for Forecasting and Outbreak Analytics](https://www.cdc.gov/forecast-outbreak-analytics/index.html) works directly with state and local health departments on modeling and forecasting, and tells partners that coding experience is welcome but not required.",
+        "Health informatics roles often sit inside health systems and public-health agencies and value people who understand both data and clinical workflows.",
+        "Start with the Harvard infectious-disease modeling series on our [Learn page](/learn/), then find a real public dataset and reproduce a published analysis."
+      ],
+      "learnTags": [
+        "Risk assessment",
+        "Medical diagnostics"
+      ]
+    },
+    {
+      "id": "policy",
+      "title": "Policy & Biosecurity",
+      "icon": "landmark",
+      "tagline": "Shape the rules, budgets, and agreements that decide preparedness.",
+      "description": "Policy professionals shape the rules, budgets, and international agreements that decide how prepared a country is before the next outbreak. This track combines science literacy with writing, negotiation, and an understanding of how governments actually work.",
+      "roles": [
+        "Biosecurity Specialist",
+        "Public Health Policy Analyst",
+        "Emergency Management Director"
+      ],
+      "relatedRoles": [
+        "Global Health Diplomat",
+        "Regulatory Affairs Specialist",
+        "Pandemic Policy Advisor",
+        "Public Health Law Specialist",
+        "Global Health Security Advisor",
+        "International Health Regulations Specialist",
+        "Border Health Officer",
+        "Pandemic Preparedness Program Manager",
+        "Health Systems Strengthening Coordinator"
+      ],
+      "work": [
+        "Analyzing how a rule, budget line, or treaty provision would change what laboratories, hospitals, or governments actually do.",
+        "Writing: briefings, testimony, options memos, and the paragraph that ends up in a law or a strategy.",
+        "Negotiating with other agencies, with a legislature, and with other countries at the Biological Weapons Convention or the World Health Assembly.",
+        "Running an emergency-management system when something goes wrong, and rehearsing it through exercises when nothing has.",
+        "Translating between scientists and decision-makers who do not share a vocabulary."
+      ],
+      "entry": [
+        "Backgrounds vary more than in any other track: science, public health, law, international relations, and public policy all lead here. A master's is common; a doctorate is required only for some fellowships. Diplomacy roles are usually reached through a foreign service, a health ministry, or an international organization.",
+        "Policy fellowships are the main bridge for scientists. AAAS, Mirzayan, Horizon, Scoville, and ELBI are all on our [Get started page](/get-started/).",
+        "Employers include government departments and agencies, legislatures, think tanks, international organizations such as the WHO and the UN disarmament office, and non-profits.",
+        "[Emerging Technology Policy Careers](https://emergingtechpolicy.org) has detailed guides to the US executive branch, Congress, and think tanks. It is the best next read for this track."
+      ],
+      "learnTags": [
+        "Legal mechanisms and authorities",
+        "Law enforcement"
+      ]
+    },
+    {
+      "id": "social",
+      "title": "Social Sciences & Resilience",
+      "icon": "users",
+      "tagline": "Help communities trust, cope, decide, and recover.",
+      "description": "Outbreaks are human events as much as biological ones, shaped by trust, culture, behavior, and grief. Social scientists and mental-health professionals help communities cope, make ethical decisions under pressure, and recover afterward.",
+      "roles": [
+        "Medical Anthropologist",
+        "Behavioral Health Scientist",
+        "Disaster Mental Health Counselor"
+      ],
+      "relatedRoles": [
+        "Bioethicist",
+        "Health Economist",
+        "Medical Sociologist",
+        "Health Psychologist",
+        "Health Equity Officer",
+        "Cultural Liaison",
+        "Psychological First Aid Trainer",
+        "Social Worker",
+        "Behavioral Insights Researcher"
+      ],
+      "work": [
+        "Studying why communities trust or distrust health advice, and designing programs that fit local realities.",
+        "Advising on the hard ethical calls: who gets a scarce vaccine first, when isolation is justified, how to run trials fairly.",
+        "Providing mental-health support to responders, patients, and families during and after a crisis.",
+        "Measuring the behavioral side of an epidemic: whether people mask, test, and isolate, and what changes their minds.",
+        "Working on health equity so that a response does not deepen the inequalities that were already there."
+      ],
+      "entry": [
+        "Medical anthropologists and behavioral scientists typically hold a master's or PhD in anthropology, sociology, psychology, or public health.",
+        "Ethics work in this field is usually done by people trained in philosophy, law, medicine, or public health who sit on hospital and research ethics committees, or by behavioral scientists and anthropologists as part of a wider role.",
+        "Disaster mental-health counselors and social workers hold licensed clinical degrees and add disaster training, often through the [Red Cross](https://www.redcross.org/) or psychological first aid programs.",
+        "Community health worker roles are open without a degree and are a real, valued entry point into this track."
+      ],
+      "learnTags": []
+    },
+    {
+      "id": "one-health",
+      "title": "One Health & Environment",
+      "icon": "leaf",
+      "tagline": "Catch threats at the boundary of people, animals, and planet.",
+      "description": "Most new human pathogens come from animals, and climate change is redrawing the map of where diseases occur. This track works at the boundary of human, animal, and environmental health to catch threats before they spill over.",
+      "roles": [
+        "Veterinary Epidemiologist",
+        "Wildlife Disease Ecologist",
+        "Climate Change and Health Researcher"
+      ],
+      "relatedRoles": [
+        "Environmental Health Specialist",
+        "Food Safety Inspector",
+        "Water Quality Specialist",
+        "One Health Coordinator",
+        "Vector Control Specialist"
+      ],
+      "work": [
+        "Investigating outbreaks in animals, from poultry farms to wildlife, and working out whether people are at risk.",
+        "Surveillance across species: sampling bats, mosquitoes, livestock, or wastewater to find pathogens before they reach humans.",
+        "Working out how changing climate, land use, and trade are shifting where diseases occur.",
+        "Inspecting food, water, and farms, and enforcing the rules that keep them safe.",
+        "Coordinating human, animal, and environmental health agencies that were never designed to talk to each other."
+      ],
+      "entry": [
+        "Veterinary epidemiologists are veterinarians with additional public health training, often an MPH or PhD. Wildlife disease ecologists usually hold a master's or PhD in ecology or wildlife biology.",
+        "Environmental health specialists, food safety inspectors, and water quality specialists often start with a bachelor's degree in environmental science or biology plus a professional certification.",
+        "Employers include agriculture and animal-health agencies, the [World Organisation for Animal Health](https://www.woah.org/) and the FAO, environmental agencies, wildlife services, and universities.",
+        "Field experience matters: volunteer with a wildlife rehabilitation center, a farm, or a vector-control program."
+      ],
+      "learnTags": [
+        "Animal health",
+        "Zoonotic diseases",
+        "Environmental safety"
+      ]
+    },
+    {
+      "id": "logistics",
+      "title": "Logistics & Countermeasures",
+      "icon": "truck",
+      "tagline": "Get the right supplies to the right place, cold and on time.",
+      "description": "Vaccines and protective equipment only save lives if they reach the right place at the right temperature and time. Logistics specialists manage stockpiles, cold chains, and last-mile delivery, often under extreme pressure.",
+      "roles": [
+        "Strategic National Stockpile Manager",
+        "Cold Chain Specialist",
+        "Humanitarian Logistics Coordinator"
+      ],
+      "relatedRoles": [
+        "Medical Supply Chain Analyst",
+        "Vaccine Distribution Specialist",
+        "PPE Supply Coordinator",
+        "Last Mile Distribution Planner",
+        "Mass Vaccination Campaign Coordinator",
+        "Medical Equipment Technician"
+      ],
+      "work": [
+        "Deciding what a national stockpile should hold, keeping it in date, and getting it to the right place within hours.",
+        "Running the cold chain so that vaccines stay at the right temperature from the factory to a clinic in a remote district.",
+        "Forecasting demand for masks, tests, and drugs when nobody knows how big the outbreak will be.",
+        "Coordinating warehouses, trucks, aircraft, and customs across borders during a humanitarian response.",
+        "Planning mass vaccination campaigns down to the last mile."
+      ],
+      "entry": [
+        "Logisticians and supply-chain analysts typically hold a bachelor's degree in logistics, supply chain management, business, or engineering. Certifications from professional bodies are valued.",
+        "Humanitarian logistics roles are usually reached through non-profits such as [Médecins Sans Frontières](https://www.msf.org/), UN agencies, and the [Red Cross](https://www.redcross.org/), often after starting in a field role.",
+        "Government stockpile and preparedness roles sit in agencies such as the US Administration for Strategic Preparedness and Response and national health ministries.",
+        "Warehouse, pharmacy technician, and procurement roles are practical first steps."
+      ],
+      "learnTags": [
+        "Sample transportation"
+      ]
+    },
+    {
+      "id": "communication",
+      "title": "Communication",
+      "icon": "megaphone",
+      "tagline": "Make the truth clear, timely, and worth acting on.",
+      "description": "Clear, honest communication is a countermeasure in its own right, shaping whether people get vaccinated, isolate, or panic. This track spans journalism, risk communication, and training the next generation of responders.",
+      "roles": [
+        "Science Journalist",
+        "Risk Communication Expert",
+        "Pandemic Preparedness Trainer"
+      ],
+      "relatedRoles": [
+        "Health Communication Specialist",
+        "Public Health Educator",
+        "Medical Illustrator",
+        "Crisis Communications Manager",
+        "Community Engagement Coordinator",
+        "Health Literacy Expert",
+        "Social Media Strategist for Public Health Messaging",
+        "Pandemic Exercise Designer and Facilitator"
+      ],
+      "work": [
+        "Turning technical findings into messages people can act on, in language and through channels that actually reach them.",
+        "Handling the press conference when the news is bad and the facts are incomplete.",
+        "Countering rumors and misinformation quickly, without amplifying them.",
+        "Reporting on outbreaks as a journalist: holding institutions to account while getting the science right.",
+        "Designing and running training and exercises so that responders have rehearsed before the real thing."
+      ],
+      "entry": [
+        "Backgrounds include journalism, communications, public health, and science. A bachelor's degree is typical and a master's in health or science communication is common.",
+        "Health communication specialists at agencies such as the CDC create strategies, messages, and products that translate technical information into timely, culturally relevant, actionable guidance.",
+        "Student journalism, a science-communication internship, or running social media for a health organization are strong first steps.",
+        "Trainers and exercise designers usually come from emergency management or public-health practice and add instructional-design skills."
+      ],
+      "learnTags": []
+    },
+    {
+      "id": "engineering",
+      "title": "Engineering",
+      "icon": "wrench",
+      "tagline": "Design the labs, gear, and factories that biosecurity depends on.",
+      "description": "Engineers design the physical tools of biosecurity: safer laboratories, better protective equipment, ventilators, and the facilities that manufacture vaccines at scale. It rewards people who like solving concrete problems with measurable results.",
+      "roles": [
+        "Biomedical Engineer",
+        "PPE Designer"
+      ],
+      "relatedRoles": [
+        "Biosafety Laboratory Designer",
+        "Ventilator Systems Engineer",
+        "Vaccine Production Engineer",
+        "Medical Device Developer"
+      ],
+      "work": [
+        "Designing high-containment laboratories where air flow, filtration, and layout keep dangerous pathogens inside.",
+        "Improving protective equipment so that it protects better and can be worn for hours.",
+        "Building ventilators, diagnostic devices, and the manufacturing lines that produce vaccines at scale.",
+        "Engineering indoor air: ventilation, filtration, and ultraviolet systems that cut transmission in buildings.",
+        "Validating and certifying that all of it actually works, under regulation."
+      ],
+      "entry": [
+        "Biomedical engineers typically hold a bachelor's degree in bioengineering or biomedical engineering. Design and research roles often ask for a master's or PhD.",
+        "High-containment laboratory design draws on mechanical, architectural, and biosafety expertise and is usually a specialization within an engineering or architecture career. Professional biosafety certification is valued alongside the degree.",
+        "Employers include medical-device and vaccine manufacturers, engineering firms that build laboratories, national laboratories, and regulators.",
+        "Undergraduate design projects, maker spaces, and internships with device companies are the usual way in."
+      ],
+      "learnTags": [
+        "Lab biosafety",
+        "Lab biosecurity"
+      ]
+    }
+  ]
+}

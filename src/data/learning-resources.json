@@ -1,0 +1,727 @@
+{
+  "meta": {
+    "source": "Biosecurity Central (biosecuritycentral.org), Training materials section, 64 resources; export dated 2026-09-14; links checked 2026-09-14",
+    "sponsor": "[Biosecurity Central](https://biosecuritycentral.org) is sponsored by Canada's Weapons Threat Reduction Program, led by the [World Organisation for Animal Health (WOAH)](https://www.woah.org/), with an expert panel assembled by Georgetown University's [Center for Global Health Science and Security](https://ghss.georgetown.edu/).",
+    "publisherTypeLabels": {
+      "intergovernmental": "UN agencies and intergovernmental bodies",
+      "government": "National agencies and laboratories",
+      "university": "Universities and research institutes",
+      "association": "Professional associations and networks",
+      "ngo": "Foundations, NGOs, and companies",
+      "youth": "Written by young scientists"
+    },
+    "addedNote": "Operation Outbreak's lessons and activities are listed alongside the Biosecurity Central library items.",
+    "checked": "14 September 2026"
+  },
+  "resources": [
+    {
+      "title": "GBRMC",
+      "publisher": "Sandia National Laboratories",
+      "publisherType": "government",
+      "keyResource": true,
+      "tags": [
+        "Risk assessment",
+        "Lab biosafety",
+        "Lab biosecurity",
+        "Sample transportation",
+        "Legal mechanisms and authorities"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/gbrmc/"
+    },
+    {
+      "title": "Management of Biomedical Waste",
+      "publisher": "Mérieux Foundation and RESAOLAB",
+      "publisherType": "ngo",
+      "keyResource": true,
+      "tags": [
+        "Lab biosecurity",
+        "Legal mechanisms and authorities",
+        "Lab biosafety",
+        "Sample transportation"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/management-of-biomedical-waste/"
+    },
+    {
+      "title": "Africa CDC Biosafety and Biosecurity Report",
+      "publisher": "Africa Centres for Disease Control and Prevention (Africa CDC)",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Legal mechanisms and authorities"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/africa-cdc-biosafety-and-biosecurity-report/"
+    },
+    {
+      "title": "An Analytical Approach",
+      "publisher": "Canadian Food Inspection Agency and Public Health Agency of Canada (PHAC)",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Legal mechanisms and authorities"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/an-analytical-approach/"
+    },
+    {
+      "title": "Applied Biosecurity",
+      "publisher": "Springer",
+      "publisherType": "ngo",
+      "keyResource": false,
+      "tags": [
+        "Lab biosecurity",
+        "Risk assessment"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/applied-biosecurity/"
+    },
+    {
+      "title": "Basics of Bioethics and Biosafety",
+      "publisher": "European Union (EU), International Science and Technology Center (ISTC), and Tajik National University",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Lab research"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/basics-of-bioethics-and-biosafety/"
+    },
+    {
+      "title": "Biocheck surveys",
+      "publisher": "Ghent University",
+      "publisherType": "university",
+      "keyResource": false,
+      "tags": [
+        "Animal health",
+        "Risk assessment",
+        "Zoonotic diseases"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/biocheck-surveys/"
+    },
+    {
+      "title": "Biorisk Assessment Technical Guidance",
+      "publisher": "International Federation of Biosafety Associations (IFBA) and Sandia National Laboratories",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety",
+        "Lab biosecurity",
+        "Risk assessment"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/biorisk-assessment-technical-guidance/"
+    },
+    {
+      "title": "Biorisk Training",
+      "publisher": "Frontline Healthcare Workers Safety Foundation, Ltd. (Frontline Foundation)",
+      "publisherType": "ngo",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety",
+        "Risk assessment"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/biorisk-training/"
+    },
+    {
+      "title": "Biosafety & Biosecurity Handbook",
+      "publisher": "Youth for Biosecurity 2021 and 2022 Cohort - Nigeria Participants",
+      "publisherType": "youth",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety",
+        "Lab biosecurity"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/biosafety-&-biosecurity-handbook/"
+    },
+    {
+      "title": "Biosafety and Biosecurity for One Health",
+      "publisher": "Argentine Association of Microbiology",
+      "publisherType": "association",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety",
+        "Lab biosecurity"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/biosafety-and-biosecurity-for-one-health/"
+    },
+    {
+      "title": "Biosecurity in Animal Production and Veterinary Medicine",
+      "publisher": "Ghent University",
+      "publisherType": "university",
+      "keyResource": false,
+      "tags": [
+        "Animal health",
+        "Zoonotic diseases"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/biosecurity-in-animal-production-and-veterinary-medicine/"
+    },
+    {
+      "title": "Biosecurity Movie",
+      "publisher": "Netherlands Biosecurity Office",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Lab biosecurity",
+        "Risk assessment"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/biosecurity-movie/"
+    },
+    {
+      "title": "Biosecurity Resource Center",
+      "publisher": "Iowa State University Center for Food Security and Public Health (CFSPH)",
+      "publisherType": "university",
+      "keyResource": false,
+      "tags": [
+        "Animal health"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/biosecurity-resource-center/"
+    },
+    {
+      "title": "Biosecurity Self-scan",
+      "publisher": "Netherlands Biosecurity Office",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Lab biosecurity",
+        "Risk assessment"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/biosecurity-self-scan/"
+    },
+    {
+      "title": "BIRG",
+      "publisher": "INTERPOL",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Law enforcement"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/birg/"
+    },
+    {
+      "title": "Blood borne pathogens",
+      "publisher": "European Biosafety Association (EBSA)",
+      "publisherType": "association",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/blood-borne-pathogens/"
+    },
+    {
+      "title": "BRITE",
+      "publisher": "United States Defense Threat Reduction Agency (US DTRA)",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Law enforcement"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/brite/"
+    },
+    {
+      "title": "Certification Program",
+      "publisher": "International Federation of Biosafety Associations (IFBA)",
+      "publisherType": "association",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety",
+        "Risk assessment"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/certification-program/"
+    },
+    {
+      "title": "Clinical Laboratory Guide",
+      "publisher": "American Society for Microbiology and Association of Public Health Laboratories (APHL)",
+      "publisherType": "association",
+      "keyResource": false,
+      "tags": [
+        "Lab biosecurity",
+        "Sample transportation"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/clinical-laboratory-guide/"
+    },
+    {
+      "title": "Core Document Templates",
+      "publisher": "Sandia National Laboratories",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Risk assessment",
+        "Lab biosafety",
+        "Lab biosecurity",
+        "Sample transportation"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/core-document-templates/"
+    },
+    {
+      "title": "Criminal Investigation Handbook for Agroterrorism",
+      "publisher": "United States Department of Agriculture (USDA), United States Federal Bureau of Investigation (US FBI), and United States Food and Drug Administration (US FDA)",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Law enforcement",
+        "Legal mechanisms and authorities"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/criminal-investigation-handbook-for-agroterrorism/"
+    },
+    {
+      "title": "Culture of Biosafety, Biosecurity, and Responsible Conduct in the Life Sciences",
+      "publisher": "International Working Group on Strengthening the Culture of Biosafety, Biosecurity, and Responsible Conduct in the Life Sciences (IWG)",
+      "publisherType": "association",
+      "keyResource": false,
+      "tags": [
+        "Lab biosecurity",
+        "Lab biosafety"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/culture-of-biosafety,-biosecurity,-and-responsible-conduct-in-the-life-sciences/"
+    },
+    {
+      "title": "Defend the Flock",
+      "publisher": "United States Department of Agriculture (USDA)",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Animal health"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/defend-the-flock/"
+    },
+    {
+      "title": "Dual Use Research for Amateurs",
+      "publisher": "United States National Science Advisory Board for Biosecurity (US NSABB)",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [],
+      "url": "https://biosecuritycentral.org/resource/training-materials/dual-use-research-for-amateurs/"
+    },
+    {
+      "title": "Dual-Use Animation",
+      "publisher": "National Institute for Public Health and the Environment",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [],
+      "url": "https://biosecuritycentral.org/resource/training-materials/dual-use-animation/"
+    },
+    {
+      "title": "Dual-Use Quickscan",
+      "publisher": "Netherlands Biosecurity Office",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Risk assessment"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/dual-use-quickscan/"
+    },
+    {
+      "title": "Evaluation of BioHazards Course",
+      "publisher": "Yale School of Public Health",
+      "publisherType": "university",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/evaluation-of-biohazards-course/"
+    },
+    {
+      "title": "GABRIEL Network Trainings",
+      "publisher": "Mérieux Foundation",
+      "publisherType": "ngo",
+      "keyResource": false,
+      "tags": [
+        "Lab research",
+        "Lab biosafety",
+        "Lab biosecurity"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/gabriel-network-trainings/"
+    },
+    {
+      "title": "GIBACHT",
+      "publisher": "African Field Epidemiology Network, Bernhard Nocht Institute for Tropical Medicine, German Biosecurity Program, Robert Koch Institute (RKI), and Swiss Tropical and Public Health Institute",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Risk assessment",
+        "Lab biosafety",
+        "Lab biosecurity",
+        "Sample transportation",
+        "Zoonotic diseases"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/gibacht/"
+    },
+    {
+      "title": "GLLP",
+      "publisher": "Association of Public Health Laboratories (APHL), European Centre for Disease Prevention and Control (ECDC), Food and Agriculture Organization of the United Nations (FAO), United States Centers for Disease Control and Prevention (US CDC), World Health Organization (WHO), and World Organisation for Animal Health (WOAH)",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Lab research",
+        "Zoonotic diseases",
+        "Legal mechanisms and authorities"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/gllp/"
+    },
+    {
+      "title": "GMPP Video Trainings",
+      "publisher": "World Health Organization (WHO)",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/gmpp-video-trainings/"
+    },
+    {
+      "title": "GO4BSB",
+      "publisher": "Bernhard Nocht Institute for Tropical Medicine, Bundeswehr Institute for Microbiology, Deutsche Gesellschaft für Internationale Zusammenarbeit, Friedrich-Loeffler-Institute, German Biosecurity Program, and Robert Koch Institute (RKI)",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Risk assessment",
+        "Lab biosafety",
+        "Lab biosecurity"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/go4bsb/"
+    },
+    {
+      "title": "Guidelines for Researchers on Dual Use",
+      "publisher": "Flanders Institute for Biotechnology (VIB), Interuniversity Microelectronics Center (imec), and Working Group Dual Use of the Flemish Interuniversity Council",
+      "publisherType": "university",
+      "keyResource": false,
+      "tags": [
+        "Legal mechanisms and authorities"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/guidelines-for-researchers-on-dual-use/"
+    },
+    {
+      "title": "Handbook of Applied Biosecurity",
+      "publisher": "Stockholm International Peace Research Institute (SIPRI)",
+      "publisherType": "ngo",
+      "keyResource": false,
+      "tags": [
+        "Lab biosecurity"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/handbook-of-applied-biosecurity/"
+    },
+    {
+      "title": "In Control",
+      "publisher": "Robert Koch Institute (RKI)",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Legal mechanisms and authorities"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/in-control/"
+    },
+    {
+      "title": "International Legal Framework against CBRN Terrorism",
+      "publisher": "United Nations Office on Drugs and Crime (UNODC) Terrorism Prevention Branch",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Legal mechanisms and authorities"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/international-legal-framework-against-cbrn-terrorism/"
+    },
+    {
+      "title": "Introduction to Biopreparedness",
+      "publisher": "Center for Biosecurity and Biopreparedness (CBB) Denmark",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Legal mechanisms and authorities"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/introduction-to-biopreparedness/"
+    },
+    {
+      "title": "KLBRMC",
+      "publisher": "Republic of Kenya Ministry of Agriculture, Livestock, Fisheries and Irrigation and Republic of Kenya Ministry of Health and Sanitation",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Lab biosecurity",
+        "Sample transportation",
+        "Lab biosafety",
+        "Lab research",
+        "Risk assessment"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/klbrmc/"
+    },
+    {
+      "title": "Lab Biosafety and Biosecurity Training",
+      "publisher": "Caribbean Public Health Agency (CARPHA)",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/lab-biosafety-and-biosecurity-training/"
+    },
+    {
+      "title": "Lab Biosafety, Biosecurity, and Biorisk Management Training",
+      "publisher": "Gryphon Scientific",
+      "publisherType": "ngo",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety",
+        "Lab biosecurity",
+        "Lab research"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/lab-biosafety,-biosecurity,-and-biorisk-management-training/"
+    },
+    {
+      "title": "Malaysian Responsible Conduct of Research",
+      "publisher": "Academy of Sciences Malaysia",
+      "publisherType": "university",
+      "keyResource": false,
+      "tags": [
+        "Lab research"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/malaysian-responsible-conduct-of-research/"
+    },
+    {
+      "title": "Module on Biosecurity and Biosafety",
+      "publisher": "Mérieux Foundation",
+      "publisherType": "ngo",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety",
+        "Risk assessment"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/module-on-biosecurity-and-biosafety/"
+    },
+    {
+      "title": "PREP",
+      "publisher": "Sandia National Laboratories",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Risk assessment",
+        "Lab biosecurity"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/prep/"
+    },
+    {
+      "title": "Program for Management of Biomedical Waste",
+      "publisher": "Moroccan Biological Safety Association (MBSA)",
+      "publisherType": "association",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety",
+        "Sample transportation"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/program-for-management-of-biomedical-waste/"
+    },
+    {
+      "title": "Project 81 BIOSEC Webinar Series",
+      "publisher": "European Union Chemical Biological Radiological and Nuclear Risk Mitigation Centres of Excellence Initiative (EU CBRN CoE)",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Lab research",
+        "Risk assessment"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/project-81-biosec-webinar-series/"
+    },
+    {
+      "title": "PVS Lab Manual",
+      "publisher": "World Organisation for Animal Health (WOAH)",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Animal health",
+        "Zoonotic diseases"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/pvs-lab-manual/"
+    },
+    {
+      "title": "Resources on the Culture of Biosafety, Biosecurity, and Responsible Conduct in Life Sciences",
+      "publisher": "International Working Group on Strengthening the Culture of Biosafety, Biosecurity, and Responsible Conduct in the Life Sciences (IWG)",
+      "publisherType": "association",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety",
+        "Lab biosecurity"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/resources-on-the-culture-of-biosafety,-biosecurity,-and-responsible-conduct-in-life-sciences/"
+    },
+    {
+      "title": "Responding to 21st Century Biorisks",
+      "publisher": "Biosecu.re and University of Bath",
+      "publisherType": "university",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety",
+        "Lab biosecurity",
+        "Risk assessment"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/responding-to-21st-century-biorisks/"
+    },
+    {
+      "title": "Restricting Access to Pathogen Samples",
+      "publisher": "Griffith University’s Law Futures Center",
+      "publisherType": "university",
+      "keyResource": false,
+      "tags": [
+        "Legal mechanisms and authorities"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/restricting-access-to-pathogen-samples/"
+    },
+    {
+      "title": "Spiez Convergence",
+      "publisher": "Spiez Laboratory",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Risk assessment"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/spiez-convergence/"
+    },
+    {
+      "title": "SynBio Africa Conference",
+      "publisher": "SynBio Africa",
+      "publisherType": "ngo",
+      "keyResource": false,
+      "tags": [
+        "Environmental safety",
+        "Medical diagnostics"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/synbio-africa-conference/"
+    },
+    {
+      "title": "Synthetic Biology and Relevant International Law",
+      "publisher": "The Third World Network",
+      "publisherType": "association",
+      "keyResource": false,
+      "tags": [
+        "Legal mechanisms and authorities"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/synthetic-biology-and-relevant-international-law/"
+    },
+    {
+      "title": "Tactical Sciences for Biosecurity",
+      "publisher": "IGI Global",
+      "publisherType": "ngo",
+      "keyResource": false,
+      "tags": [
+        "Animal health"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/tactical-sciences-for-biosecurity/"
+    },
+    {
+      "title": "The Virtual Learning Centers",
+      "publisher": "Food and Agriculture Organization of the United Nations (FAO)",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Animal health"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/the-virtual-learning-centers/"
+    },
+    {
+      "title": "Training Program For Biosafety And Biosecurity",
+      "publisher": "Africa Centres for Disease Control and Prevention (Africa CDC)",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Lab biosecurity",
+        "Lab research",
+        "Lab biosafety"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/training-program-for-biosafety-and-biosecurity/"
+    },
+    {
+      "title": "Uganda Training Materials",
+      "publisher": "Ministry of Health of Uganda",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Sample transportation",
+        "Risk assessment",
+        "Lab biosafety"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/uganda-training-materials/"
+    },
+    {
+      "title": "UNICRI INB",
+      "publisher": "United Nations Interregional Crime and Justice Research Institute (UNICRI)",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Lab biosafety",
+        "Lab biosecurity"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/unicri-inb/"
+    },
+    {
+      "title": "VPP CAM",
+      "publisher": "World Organisation for Animal Health (WOAH)",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Animal health",
+        "Zoonotic diseases"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/vpp-cam/"
+    },
+    {
+      "title": "VPP Competency Guidelines",
+      "publisher": "World Organisation for Animal Health (WOAH)",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Animal health",
+        "Zoonotic diseases"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/vpp-competency-guidelines/"
+    },
+    {
+      "title": "VPP Curricula Guidelines",
+      "publisher": "World Organisation for Animal Health (WOAH)",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Animal health",
+        "Zoonotic diseases"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/vpp-curricula-guidelines/"
+    },
+    {
+      "title": "Vulnerability Scan",
+      "publisher": "Netherlands Biosecurity Office",
+      "publisherType": "government",
+      "keyResource": false,
+      "tags": [
+        "Lab biosecurity",
+        "Risk assessment"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/vulnerability-scan/"
+    },
+    {
+      "title": "WAHIS",
+      "publisher": "World Organisation for Animal Health (WOAH)",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Animal health",
+        "Zoonotic diseases"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/wahis/"
+    },
+    {
+      "title": "WHO Dual-use research and the responsible use of the life sciences",
+      "publisher": "World Health Organization (WHO)",
+      "publisherType": "intergovernmental",
+      "keyResource": false,
+      "tags": [
+        "Lab biosecurity",
+        "Lab research"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/who-dual-use-research-and-the-responsible-use-of-the-life-sciences/"
+    },
+    {
+      "title": "Lessons and Activities for Outbreak Science",
+      "publisher": "Operation Outbreak",
+      "publisherType": "ngo",
+      "keyResource": false,
+      "tags": [
+        "Risk assessment",
+        "Outbreak response"
+      ],
+      "url": "https://operationoutbreak.org/resources",
+      "addedBySite": true
+    }
+  ]
+}

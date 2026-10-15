@@ -2,7 +2,7 @@
   "meta": {
     "title": "Career pathways in outbreak science and biosecurity",
     "descriptionStatus": "reviewed",
-    "descriptionNote": "Category descriptions, 'work', and 'entry' text were drafted by Claude on 2026-09-14 and approved by Curtis Hoffmann on 2026-09-14. Core roles are limited to those with a matching BLS handbook occupation; others appear under related roles.",
+    "descriptionNote": "Category descriptions, 'work', and 'entry' text were drafted by Claude on 2026-09-14 and approved by Curtis Hoffmann on 2026-09-14. Core roles are limited to those with a matching BLS handbook occupation; others appear under related roles. 'progression' paragraphs were drafted on 2026-10-15 and await Curtis's review.",
     "sources": [
       "starting-instructions.md (section 5, refined categories and roles)",
       "reference/Possible Careers in Outbreak Science (1).docx (related roles)",
@@ -43,13 +43,14 @@
       "entry": [
         "Most epidemiologists hold a master of public health (MPH) or a related master's degree; many go on to a PhD or a medical degree. Biostatisticians usually hold a master's in statistics or biostatistics.",
         "Public health nurses start as registered nurses and then specialize. Contact tracers are often hired with a bachelor's degree and trained on the job during a response.",
-        "State and local health departments, the CDC, the WHO, and non-profits are the main employers. The CDC's [Epidemic Intelligence Service](https://www.cdc.gov/eis/) is the classic two-year training route for doctoral-level applicants.",
+        "State and local health departments, the CDC, the WHO, and non-profits are the main employers. The CDC's [Epidemic Intelligence Service](https://www.cdc.gov/eis/php/about/index.html) is the classic two-year training route for doctoral-level applicants.",
         "Good first steps: an undergraduate course in epidemiology or statistics, a summer placement at a health department, and the free Crash Course and Harvard modeling series on our [Learn page](/learn/)."
       ],
       "learnTags": [
         "Risk assessment",
         "Zoonotic diseases"
-      ]
+      ],
+      "progression": "A common sequence runs contact tracer or disease intervention specialist, then epidemiologist after an MPH, then senior or lead epidemiologist or surveillance program manager, and on to state epidemiologist, a CDC branch chief post, or faculty. The CDC [Epidemic Intelligence Service](https://www.cdc.gov/eis/php/about/index.html) and the CSTE Applied Epidemiology Fellowship are the usual accelerators in the middle of that path."
     },
     {
       "id": "clinical",
@@ -89,7 +90,8 @@
       "learnTags": [
         "Lab biosafety",
         "Medical diagnostics"
-      ]
+      ],
+      "progression": "Clinicians usually enter through ordinary practice and add outbreak work on top: training in infectious disease or emergency medicine, a hospital infection-prevention or emergency-management role, then medical director, surge planner, or deployment with a medical response team such as a Disaster Medical Assistance Team or [Médecins Sans Frontières](https://www.msf.org)."
     },
     {
       "id": "research",
@@ -130,7 +132,8 @@
         "Lab research",
         "Lab biosafety",
         "Lab biosecurity"
-      ]
+      ],
+      "progression": "Research careers run laboratory technician, graduate student, postdoctoral researcher, then group leader or industry scientist. The field-specific turn is choosing a lab that works on pathogens, vaccines, or countermeasures, and later moving between academia, BARDA- or [CEPI](https://cepi.net)-funded programs, and biotechnology companies."
     },
     {
       "id": "data-tech",
@@ -169,7 +172,8 @@
       "learnTags": [
         "Risk assessment",
         "Medical diagnostics"
-      ]
+      ],
+      "progression": "Analysts typically start in a health department or surveillance program, move into modeling or informatics roles, and then lead teams at CDC's [Center for Forecasting and Outbreak Analytics](https://www.cdc.gov/forecast-outbreak-analytics/index.html), academic modeling groups, or companies that build surveillance tools. A master's in biostatistics, data science, or informatics is the common pivot point."
     },
     {
       "id": "policy",
@@ -209,7 +213,8 @@
       "learnTags": [
         "Legal mechanisms and authorities",
         "Law enforcement"
-      ]
+      ],
+      "progression": "Policy careers often begin with a fellowship such as ELBI, the Council on Strategic Risks program, or the Presidential Management Fellows, then a staff role at a think tank, agency, or congressional committee, then senior analyst, program director, or adviser. Technical training beforehand is an advantage; many enter from the lab or the clinic."
     },
     {
       "id": "social",
@@ -246,7 +251,8 @@
         "Disaster mental-health counselors and social workers hold licensed clinical degrees and add disaster training, often through the [Red Cross](https://www.redcross.org/) or psychological first aid programs.",
         "Community health worker roles are open without a degree and are a real, valued entry point into this track."
       ],
-      "learnTags": []
+      "learnTags": [],
+      "progression": "Social scientists enter through graduate research, join responses as community engagement, behavioral, or mental-health specialists, and progress to leading engagement programs at health agencies, NGOs, or WHO, or to faculty posts that combine fieldwork with teaching."
     },
     {
       "id": "one-health",
@@ -283,7 +289,8 @@
         "Animal health",
         "Zoonotic diseases",
         "Environmental safety"
-      ]
+      ],
+      "progression": "Veterinary, wildlife, and environmental careers move from field work and diagnostics to surveillance leadership at USDA, state animal-health agencies, [WOAH](https://www.woah.org), or FAO, and to One Health coordination roles that bridge human and animal health."
     },
     {
       "id": "logistics",
@@ -319,7 +326,8 @@
       ],
       "learnTags": [
         "Sample transportation"
-      ]
+      ],
+      "progression": "Logistics careers begin in operations, supply-chain, or pharmacy roles, add emergency-management experience, and lead to stockpile management, cold-chain program leadership, or humanitarian logistics coordination with agencies such as UNICEF or Médecins Sans Frontières."
     },
     {
       "id": "communication",
@@ -355,7 +363,8 @@
         "Student journalism, a science-communication internship, or running social media for a health organization are strong first steps.",
         "Trainers and exercise designers usually come from emergency management or public-health practice and add instructional-design skills."
       ],
-      "learnTags": []
+      "learnTags": [],
+      "progression": "Communicators come from journalism, public affairs, or health education; they specialize in risk communication during responses and progress to leading communication for a health agency, an international organization, or a newsroom's health desk."
     },
     {
       "id": "engineering",
@@ -389,7 +398,8 @@
       "learnTags": [
         "Lab biosafety",
         "Lab biosecurity"
-      ]
+      ],
+      "progression": "Engineers enter from biomedical, mechanical, or chemical engineering, specialize in medical devices, protective equipment, or containment facilities, and advance to product leadership, biosafety engineering, or facility-design practices."
     }
   ]
 }

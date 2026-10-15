@@ -4,7 +4,8 @@ import logo from "@/assets/logo.svg";
 import { Button } from "@/components/ui/button";
 
 const NAV = [
-  { href: "/#pathways", label: "Pathways" },
+  { href: "/#pathways", label: "Pathways", desktopOnly: true },
+  { href: "/roles/", label: "Roles" },
   { href: "/get-started/", label: "Get started" },
   { href: "/learn/", label: "Learn" },
   { href: "/funding/", label: "Funding" },
@@ -34,7 +35,13 @@ export function SiteHeader() {
           className="flex items-center gap-0.5 sm:gap-1"
         >
           {NAV.map((item) => (
-            <Button key={item.href} variant="ghost" size="sm" asChild>
+            <Button
+              key={item.href}
+              variant="ghost"
+              size="sm"
+              asChild
+              className={"desktopOnly" in item && item.desktopOnly ? "hidden sm:inline-flex" : "px-2 sm:px-3"}
+            >
               <Link href={item.href} className="whitespace-nowrap">
                 {item.label}
               </Link>

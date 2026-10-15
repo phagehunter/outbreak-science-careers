@@ -27,20 +27,6 @@ export const metadata: Metadata = {
   authors: [AUTHOR],
   creator: AUTHOR.name,
   publisher: AUTHOR.name,
-  keywords: [
-    "outbreak science careers",
-    "biosecurity careers",
-    "epidemiology careers",
-    "public health careers",
-    "pandemic preparedness jobs",
-    "biodefense careers",
-    "global health security",
-    "One Health careers",
-    "biosecurity fellowships",
-    "biodefense graduate programs",
-    "epidemic intelligence service",
-    "outbreak response training",
-  ],
   category: "education",
   alternates: { canonical: absUrl("/") },
   openGraph: {
@@ -71,8 +57,10 @@ const websiteJsonLd = {
   url: absUrl("/"),
   description: SITE_DESCRIPTION,
   inLanguage: "en-US",
+  image: absUrl("/opengraph-image.png"),
   author: { "@type": "Person", name: AUTHOR.name, url: AUTHOR.url },
   publisher: { "@type": "Person", name: AUTHOR.name, url: AUTHOR.url },
+  potentialAction: { "@type": "ReadAction", target: absUrl("/roles/") },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

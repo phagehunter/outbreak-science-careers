@@ -13,9 +13,8 @@ export const metadata: Metadata = {
   title: "Funding: grants, fellowships, and who pays for outbreak science",
   description:
     "Where to get funding for study, research, and projects in outbreak science and biosecurity: NSF and NIH fellowships, Wellcome, Gates Grand Challenges, CEPI, BARDA, DARPA, Coefficient Giving, Blueprint Biosecurity, and BlueDot grants, plus how each funding model works and who funds the field, from Pandemic PACT data.",
-  keywords: ["biosecurity funding", "pandemic preparedness grants", "outbreak research funding", "NSF GRFP", "NIH F31", "Wellcome Early-Career Award", "CEPI call for proposals", "BARDA DRIVe", "Coefficient Giving biosecurity", "Blueprint Biosecurity RFP", "Pandemic PACT", "biosecurity philanthropy"],
   alternates: { canonical: absUrl("/funding/") },
-  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 512, height: 512, alt: "Outbreak Science Careers" }], url: absUrl("/funding/"), title: `Funding: grants, fellowships, and who pays for outbreak science — ${SITE_NAME}`, description: "Where to get funding for study, research, and projects in outbreak science and biosecurity, and how each funding model works." },
+  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers" }], url: absUrl("/funding/"), title: `Funding: grants, fellowships, and who pays for outbreak science — ${SITE_NAME}`, description: "Where to get funding for study, research, and projects in outbreak science and biosecurity, and how each funding model works." },
 };
 
 type Source = (typeof funding.sources)[number];

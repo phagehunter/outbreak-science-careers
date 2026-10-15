@@ -13,6 +13,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { categories } from "@/lib/pathways";
+import { roleSlug } from "@/lib/roles";
 import { CategoryCard } from "./category-card";
 import { CategoryIcon } from "./category-icon";
 
@@ -61,15 +62,17 @@ export function CareerVisualizer() {
                 </h4>
                 <ul className="grid gap-2 sm:grid-cols-2">
                   {selected.roles.map((role) => (
-                    <li
-                      key={role}
-                      className="flex items-start gap-2.5 rounded-lg border border-border bg-muted/40 px-3 py-2.5 text-sm font-medium text-foreground"
-                    >
-                      <span
-                        aria-hidden="true"
-                        className="mt-1.5 size-2 shrink-0 rounded-full bg-primary"
-                      />
-                      {role}
+                    <li key={role}>
+                      <Link
+                        href={`/roles/${roleSlug(role)}/`}
+                        className="flex items-start gap-2.5 rounded-lg border border-border bg-muted/40 px-3 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-primary hover:text-primary"
+                      >
+                        <span
+                          aria-hidden="true"
+                          className="mt-1.5 size-2 shrink-0 rounded-full bg-primary"
+                        />
+                        {role}
+                      </Link>
                     </li>
                   ))}
                 </ul>

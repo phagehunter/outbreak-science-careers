@@ -19,9 +19,8 @@ export const metadata: Metadata = {
   title: "Where to learn: free outbreak science and biosecurity courses",
   description:
     "Free and low-cost courses in outbreak investigation, epidemiology, and emergency response from WHO, CDC, and leading universities, plus the Biosecurity Central biosafety and biosecurity training library and the newsletters practitioners read.",
-  keywords: ["outbreak investigation course", "epidemiology course free", "OpenWHO", "CDC TRAIN", "biosecurity course", "biosafety training", "Biosecurity Central", "ProMED", "infectious disease modeling course"],
   alternates: { canonical: absUrl("/learn/") },
-  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 512, height: 512, alt: "Outbreak Science Careers" }], url: absUrl("/learn/"), title: "Where to learn: free outbreak science and biosecurity courses — Outbreak Science Careers", description: "Courses and training from WHO, CDC, universities, and the Biosecurity Central library." },
+  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers" }], url: absUrl("/learn/"), title: "Where to learn: free outbreak science and biosecurity courses — Outbreak Science Careers", description: "Courses and training from WHO, CDC, universities, and the Biosecurity Central library." },
 };
 
 type Resource = (typeof learning.resources)[number];

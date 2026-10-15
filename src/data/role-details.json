@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source": "US Bureau of Labor Statistics, Occupational Outlook Handbook, pages last modified 27 Aug 2026; retrieved 14 Sep 2026. Median pay is the US median for the whole occupation in May 2025, not for biosecurity work specifically.",
+    "source": "US Bureau of Labor Statistics, Occupational Outlook Handbook, pages last modified 27 Aug 2026; retrieved 14 Sep 2026 and re-checked 15 Oct 2026. Median pay is the US median for the whole occupation in May 2025, not for biosecurity work specifically.",
     "closestNote": "Where no handbook occupation matches a role exactly, the nearest one is shown and marked as such."
   },
   "roles": {
@@ -439,11 +439,15 @@
       }
     },
     "Biomedical Engineer": {
-      "summary": null,
+      "summary": "A biomedical engineer applies engineering to medicine and biology: designing diagnostic devices, ventilators and other respiratory support, laboratory instruments, and the software that runs them, and making sure they work safely at scale when an outbreak drives demand.",
       "bls": {
         "occupation": "Bioengineers and biomedical engineers",
-        "url": "https://www.bls.gov/ooh/architecture-and-engineering/bioengineers-and-biomedical-engineers.htm",
-        "pending": true,
+        "url": "https://www.bls.gov/ooh/architecture-and-engineering/biomedical-engineers.htm",
+        "medianPay": "$109,370 per year (May 2025)",
+        "education": "Bachelor's degree",
+        "outlook": "8% growth 2025–35, much faster than average",
+        "jobs": "23,800 (2025)",
+        "whatTheyDo": "Bioengineers and biomedical engineers combine engineering principles with sciences to design and create equipment, devices, computer systems, and software.",
         "closest": false
       }
     },
@@ -451,8 +455,12 @@
       "summary": "PPE designers develop protective equipment, such as masks, respirators, gowns, and gloves, that protects wearers better and can be worn for long shifts.",
       "bls": {
         "occupation": "Bioengineers and biomedical engineers",
-        "url": "https://www.bls.gov/ooh/architecture-and-engineering/bioengineers-and-biomedical-engineers.htm",
-        "pending": true,
+        "url": "https://www.bls.gov/ooh/architecture-and-engineering/biomedical-engineers.htm",
+        "medianPay": "$109,370 per year (May 2025)",
+        "education": "Bachelor's degree",
+        "outlook": "8% growth 2025–35, much faster than average",
+        "jobs": "23,800 (2025)",
+        "whatTheyDo": "Bioengineers and biomedical engineers combine engineering principles with sciences to design and create equipment, devices, computer systems, and software.",
         "closest": true
       }
     }

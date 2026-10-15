@@ -5,17 +5,24 @@ import { CareerVisualizer } from "@/components/features/career-visualizer";
 import { SiteFooter } from "@/components/features/site-footer";
 import { SiteHeader } from "@/components/features/site-header";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, absUrl } from "@/lib/site";
+import { categories, totalRoles } from "@/lib/pathways";
+import { Faq, faqJsonLd } from "@/components/features/faq";
+import { roles } from "@/lib/roles";
+import routesData from "@/data/entry-routes.json";
 
 export const metadata: Metadata = {
   title: `${SITE_NAME} — ${SITE_TAGLINE}`,
   description: SITE_DESCRIPTION,
   alternates: { canonical: absUrl("/") },
-  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 512, height: 512, alt: "Outbreak Science Careers" }], url: absUrl("/"), title: `${SITE_NAME} — ${SITE_TAGLINE}`, description: SITE_DESCRIPTION },
+  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers" }], url: absUrl("/"), title: `${SITE_NAME} — ${SITE_TAGLINE}`, description: SITE_DESCRIPTION },
 };
+
+const roleCount = categories.reduce((n, c) => n + totalRoles(c), 0);
 
 export default function Home() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd()) }} />
       <SiteHeader />
 
       <main id="top" className="flex-1">
@@ -34,7 +41,7 @@ export default function Home() {
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink">
               Outbreak science is about as interdisciplinary as a field can
-              get. Explore ten career tracks and over one hundred roles, from
+              get. Explore {categories.length} career tracks and {roleCount} roles, from
               epidemiology and the laboratory to policy, logistics, and
               communication, and find where your skills fit.
             </p>
@@ -68,6 +75,46 @@ export default function Home() {
             </p>
           </div>
           <CareerVisualizer />
+        </section>
+
+        {/* What is outbreak science */}
+        <section id="what-is" className="scroll-mt-20 border-t border-border">
+          <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 py-16 sm:px-6 sm:py-20 lg:grid-cols-3">
+            <div className="lg:col-span-1">
+              <h2 className="font-heading text-3xl font-semibold tracking-tight text-foreground">
+                What is outbreak science?
+              </h2>
+            </div>
+            <div className="space-y-5 text-base leading-relaxed text-ink lg:col-span-2">
+              <p>
+                Outbreak science is the work of preventing, detecting, and responding to outbreaks of infectious
+                disease, whether they arise naturally, by accident, or deliberately. Epidemiologists find cases and
+                trace spread; laboratory scientists identify the pathogen; clinicians treat patients; data specialists
+                turn signals into warnings; policy and biosecurity staff set the rules and budgets; logisticians move
+                supplies; communicators keep the public informed. Biosecurity is the part of this field that guards
+                against misuse of biology and keeps dangerous pathogens contained.
+              </p>
+              <p>
+                No single degree covers it, which is the point of this guide: {categories.length} tracks,{" "}
+                {roles.length} core roles with pay and outlook figures, {routesData.routes.length} named ways in,
+                and the funders behind the work.
+              </p>
+              <dl className="grid grid-cols-3 gap-3 pt-2">
+                <div className="rounded-xl border border-border bg-card p-4 shadow-sm">
+                  <dt className="text-xs font-semibold tracking-wide text-muted-foreground uppercase">Tracks</dt>
+                  <dd className="mt-1 font-heading text-2xl font-semibold text-foreground">{categories.length}</dd>
+                </div>
+                <div className="rounded-xl border border-border bg-card p-4 shadow-sm">
+                  <dt className="text-xs font-semibold tracking-wide text-muted-foreground uppercase">Core roles</dt>
+                  <dd className="mt-1 font-heading text-2xl font-semibold text-foreground">{roles.length}</dd>
+                </div>
+                <div className="rounded-xl border border-border bg-card p-4 shadow-sm">
+                  <dt className="text-xs font-semibold tracking-wide text-muted-foreground uppercase">Ways in</dt>
+                  <dd className="mt-1 font-heading text-2xl font-semibold text-foreground">{routesData.routes.length}</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
         </section>
 
         {/* About */}
@@ -144,6 +191,21 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+        {/* FAQ */}
+        <section id="faq" className="scroll-mt-20 border-t border-border">
+          <div className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
+            <div className="mb-8 max-w-2xl">
+              <h2 className="font-heading text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+                Questions people ask first
+              </h2>
+              <p className="mt-3 text-base leading-relaxed text-ink">
+                Short answers with links to the longer ones. Figures come from the Bureau of Labor Statistics and
+                the programs listed on this site.
+              </p>
+            </div>
+            <Faq />
           </div>
         </section>
       </main>

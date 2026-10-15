@@ -1,0 +1,37 @@
+# Outbreak Science Careers
+
+> An interactive guide to careers in outbreak science and biosecurity, by Curtis Hoffmann. Ten career tracks, 35 core roles with US pay and outlook figures from the Bureau of Labor Statistics, named entry routes (fellowships, internships, competitions, degree programs), free training, and the funders behind the field.
+
+Site: https://curtishoffmann.com/outbreak-science-careers/
+Source and data (MIT code, CC BY 4.0 content): https://github.com/phagehunter/outbreak-science-careers
+
+## Main pages
+
+- Home, with "What is outbreak science?" and an FAQ: https://curtishoffmann.com/outbreak-science-careers/
+- All roles, one page each (pay, education, outlook, how to get in): https://curtishoffmann.com/outbreak-science-careers/roles/
+- Get started: fellowships, programs, degrees, organizations, job boards: https://curtishoffmann.com/outbreak-science-careers/get-started/
+- Learn: free courses and training materials: https://curtishoffmann.com/outbreak-science-careers/learn/
+- Funding: grants, fellowships, and who pays for outbreak science: https://curtishoffmann.com/outbreak-science-careers/funding/
+
+## Career tracks
+
+- Public Health & Epidemiology: https://curtishoffmann.com/outbreak-science-careers/pathways/public-health/
+- Clinical & Medical Response: https://curtishoffmann.com/outbreak-science-careers/pathways/clinical/
+- R&D / Science: https://curtishoffmann.com/outbreak-science-careers/pathways/research/
+- Data & Technology: https://curtishoffmann.com/outbreak-science-careers/pathways/data-tech/
+- Policy & Biosecurity: https://curtishoffmann.com/outbreak-science-careers/pathways/policy/
+- Social Sciences & Resilience: https://curtishoffmann.com/outbreak-science-careers/pathways/social/
+- One Health & Environment: https://curtishoffmann.com/outbreak-science-careers/pathways/one-health/
+- Logistics & Countermeasures: https://curtishoffmann.com/outbreak-science-careers/pathways/logistics/
+- Communication: https://curtishoffmann.com/outbreak-science-careers/pathways/communication/
+- Engineering: https://curtishoffmann.com/outbreak-science-careers/pathways/engineering/
+
+## Data sources
+
+- Pay, education, jobs and outlook: US Bureau of Labor Statistics, Occupational Outlook Handbook (May 2025 medians, 2025–35 projections).
+- Role definitions: CDC NERD Academy, Public Health Careers.
+- Training library: Biosecurity Central (biosecuritycentral.org).
+- Organizations: biosecurity.world.
+- Funding landscape: Pandemic PACT (CC BY).
+
+Figures are for whole US occupations, not for biosecurity work specifically. Sitemap: https://curtishoffmann.com/outbreak-science-careers/sitemap.xml

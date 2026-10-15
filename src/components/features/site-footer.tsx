@@ -38,7 +38,7 @@ export function SiteFooter() {
           <a href={`mailto:${EMAIL}`} className="hover:text-foreground">
             Share your feedback
           </a>
-          <a href="https://claude.com/claude-code" rel="noopener" className="hover:text-foreground">
+          <a href="https://claude.com/product/claude-code" rel="noopener" className="hover:text-foreground">
             Built using Claude Code
           </a>
           <span className="flex items-center gap-2">

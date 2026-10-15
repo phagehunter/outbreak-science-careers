@@ -1,4 +1,6 @@
-import { ExternalLink } from "lucide-react";
+import Link from "next/link";
+import { ArrowRight, ExternalLink } from "lucide-react";
+import { roleSlug } from "@/lib/roles";
 import {
   Accordion,
   AccordionContent,
@@ -118,6 +120,12 @@ export function RoleList({ names }: { names: string[] }) {
                   to quote pay or outlook figures.
                 </p>
               )}
+              <p className="text-sm">
+                <Link href={`/roles/${roleSlug(name)}/`} className="inline-flex items-center gap-1 font-medium text-primary underline-offset-4 hover:underline">
+                  Full profile: {name}
+                  <ArrowRight className="size-3.5" aria-hidden="true" />
+                </Link>
+              </p>
             </AccordionContent>
           </AccordionItem>
         );

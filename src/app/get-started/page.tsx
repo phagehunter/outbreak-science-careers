@@ -8,6 +8,7 @@ import { SiteHeader } from "@/components/features/site-header";
 import routesData from "@/data/entry-routes.json";
 import orgsData from "@/data/organizations.json";
 import programsData from "@/data/programs.json";
+import jobsData from "@/data/jobs.json";
 import { RichText } from "@/components/features/rich-text";
 import { absUrl } from "@/lib/site";
 
@@ -15,9 +16,8 @@ export const metadata: Metadata = {
   title: "Get started: fellowships, programs, and degrees",
   description:
     "Named entry routes into outbreak science and biosecurity: CDC fellowships, the Epidemic Intelligence Service, ELBI, iGEM, biodefense and biosecurity degree programs, and the organizations that help students and early-career people get in.",
-  keywords: ["biosecurity fellowships", "public health fellowships", "Epidemic Intelligence Service", "Public Health Associate Program", "biodefense master's", "biosecurity degree programs", "ELBI fellowship", "field epidemiology training program"],
   alternates: { canonical: absUrl("/get-started/") },
-  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 512, height: 512, alt: "Outbreak Science Careers" }], url: absUrl("/get-started/"), title: "Get started: fellowships, programs, and degrees — Outbreak Science Careers", description: "Named entry routes into outbreak science and biosecurity, grouped by where you are now." },
+  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers" }], url: absUrl("/get-started/"), title: "Get started: fellowships, programs, and degrees — Outbreak Science Careers", description: "Named entry routes into outbreak science and biosecurity, grouped by where you are now." },
 };
 
 type Route = (typeof routesData.routes)[number];
@@ -110,7 +110,7 @@ export default function GetStartedPage() {
           lede={
             <>
               There are named programs that admit students and early-career
-              people into this field every year. Here are dozens with a real
+              people into this field every year. Here are {routesData.routes.length} with a real
               track record, grouped by where you are now, then the degree
               programs built for this field, and the organizations whose job is
               to help people get in.
@@ -128,6 +128,9 @@ export default function GetStartedPage() {
             </Badge>
             <Badge variant="outline" asChild className="h-auto bg-background px-3 py-1.5 text-sm font-medium">
               <a href="#organizations">Organizations</a>
+            </Badge>
+            <Badge variant="outline" asChild className="h-auto bg-background px-3 py-1.5 text-sm font-medium">
+              <a href="#jobs">Find jobs</a>
             </Badge>
           </nav>
         </PageIntro>
@@ -260,6 +263,33 @@ export default function GetStartedPage() {
                 </div>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* Job boards */}
+        <section id="jobs" className="scroll-mt-24 border-t border-border bg-muted">
+          <div className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6">
+            <h2 className="font-heading text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
+              Find jobs
+            </h2>
+            <p className="mt-2 max-w-3xl text-base leading-relaxed text-ink">
+              Once you know which track you want, the openings live on a handful of boards. Set alerts on two or
+              three rather than checking all of them; most roles in this field are posted on more than one.
+            </p>
+            <p className="mt-2 max-w-3xl text-sm text-muted-foreground">
+              {jobsData.meta.note} Last updated {jobsData.meta.checked}.
+            </p>
+            <ul className="mt-8 grid gap-4 md:grid-cols-2">
+              {jobsData.boards.map((b) => (
+                <li key={b.url} className="flex flex-col gap-2 rounded-xl border border-border bg-card p-5 shadow-sm">
+                  <h3 className="font-heading text-base leading-snug font-semibold text-foreground">
+                    <Ext href={b.url}>{b.name}</Ext>
+                  </h3>
+                  <p className="text-sm text-muted-foreground">{b.org} · {b.region}</p>
+                  <p className="text-sm leading-relaxed text-ink">{b.scope}</p>
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
 

@@ -15,6 +15,8 @@ export type Category = {
   entry?: string[];
   /** Biosecurity Central topic tags used to match learning resources. */
   learnTags?: string[];
+  /** "How careers move": one paragraph on a typical progression through the track. */
+  progression?: string;
 };
 
 export type PathwaysMeta = {

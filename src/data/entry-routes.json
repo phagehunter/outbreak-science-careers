@@ -1,9 +1,9 @@
 {
   "meta": {
-    "checked": "14 September 2026",
+    "checked": "15 October 2026",
     "note": "Eligibility rules and deadlines change quietly: verify on the program's own page before applying.",
     "sources": {
-      "etp": "[Emerging Technology Policy Careers](https://emergingtechpolicy.org/areas/biosecurity/) ([Horizon Institute](https://horizonpublicservice.org)), Biosecurity policy page",
+      "etp": "[Emerging Technology Policy Careers](https://emergingtechpolicy.org/areas/biosecurity-policy/) ([Horizon Institute](https://horizonpublicservice.org)), Biosecurity policy page",
       "bw": "[biosecurity.world](https://biosecurity.world)",
       "unoda": "[UN Office for Disarmament Affairs, Youth for Biosecurity program page](https://disarmament.unoda.org/en/our-work/weapons-mass-destruction/biological-weapons/international-cooperation-and-assistance#youth-for-biosecurity)",
       "bc": "[Biosecurity Central](https://biosecuritycentral.org) training-materials library",
@@ -99,7 +99,7 @@
       "stage": "early",
       "format": "Two years, full-time, paid; placed in a state, tribal, local, or territorial health department or a nonprofit anywhere in the US",
       "who": "US citizens with any bachelor's or higher degree completed in the last two years and a GPA of at least 2.95; you must be willing to relocate.",
-      "why": "The classic first job in public health. Associates do contact tracing, disease investigations, surveillance, and emergency response, and many move on to graduate school or the [Epidemic Intelligence Service](https://www.cdc.gov/eis/).",
+      "why": "The classic first job in public health. Associates do contact tracing, disease investigations, surveillance, and emergency response, and many move on to graduate school or the [Epidemic Intelligence Service](https://www.cdc.gov/eis/php/about/index.html).",
       "source": "cdc"
     },
     {
@@ -109,7 +109,7 @@
       "stage": "early",
       "format": "Six- or eight-week rotation at CDC, another federal site, or a health department, with a three-day orientation in Atlanta",
       "who": "US citizens enrolled full-time in a US medical (MD or DO) or veterinary (DVM or VMD) program with at least two years completed.",
-      "why": "Applied epidemiology for clinicians in training, running since 1975. More than 2,200 students have done it, about one in eight later joined the [Epidemic Intelligence Service](https://www.cdc.gov/eis/), and most begin public-health careers.",
+      "why": "Applied epidemiology for clinicians in training, running since 1975. More than 2,200 students have done it, about one in eight later joined the [Epidemic Intelligence Service](https://www.cdc.gov/eis/php/about/index.html), and most begin public-health careers.",
       "source": "cdc"
     },
     {
@@ -119,13 +119,13 @@
       "stage": "early",
       "format": "Two years, paid, in a state or local health department",
       "who": "Recent master's and doctoral graduates in epidemiology.",
-      "why": "Modeled on the [Epidemic Intelligence Service](https://www.cdc.gov/eis/) but based in state and local agencies, with a mentor and real outbreak work from the first month. The most direct route into a health-department epidemiologist job.",
+      "why": "Modeled on the [Epidemic Intelligence Service](https://www.cdc.gov/eis/php/about/index.html) but based in state and local agencies, with a mentor and real outbreak work from the first month. The most direct route into a health-department epidemiologist job.",
       "source": "cdcdir"
     },
     {
       "name": "ASPPH/CDC Public Health Fellowship Program",
       "org": "Association of Schools and Programs of Public Health with CDC",
-      "url": "https://aspph.org/study/fellowships-and-internships/",
+      "url": "https://aspph.org/what-we-do/practice/center-for-public-health-workforce-development/applied-learning-and-training/",
       "stage": "early",
       "format": "One to two years, paid, at CDC and other federal public-health agencies",
       "who": "Recent MPH and doctoral graduates from accredited schools and programs of public health.",
@@ -149,7 +149,7 @@
       "stage": "early",
       "format": "Two-year postdoctoral service and learning program, paid",
       "who": "US citizens or permanent residents with a doctoral degree in a laboratory discipline such as microbiology, molecular biology, genetics, or bioinformatics.",
-      "why": "The laboratory twin of the [Epidemic Intelligence Service](https://www.cdc.gov/eis/): fellows train with experts, deploy on outbreak responses, and build skills in biosafety, quality management, and bioinformatics.",
+      "why": "The laboratory twin of the [Epidemic Intelligence Service](https://www.cdc.gov/eis/php/about/index.html): fellows train with experts, deploy on outbreak responses, and build skills in biosafety, quality management, and bioinformatics.",
       "source": "cdc"
     },
     {
@@ -195,7 +195,7 @@
     {
       "name": "Epidemic Intelligence Service (EIS)",
       "org": "US Centers for Disease Control and Prevention",
-      "url": "https://www.cdc.gov/eis/",
+      "url": "https://www.cdc.gov/eis/php/about/index.html",
       "stage": "early",
       "format": "2-year post-graduate fellowship in applied epidemiology",
       "who": "Doctoral-level scientists, physicians, veterinarians, nurses, and other health professionals.",
@@ -309,7 +309,7 @@
       "stage": "mid",
       "format": "Three tiers: a three-month part-time frontline course, a nine- to twelve-month intermediate program, and a two-year full-time advanced program",
       "who": "Public-health staff working inside a ministry of health or national public-health institute; more than 117 programs serve over 150 countries.",
-      "why": "The world's largest outbreak-response training system, built on CDC's [Epidemic Intelligence Service](https://www.cdc.gov/eis/) model. More than 22,000 graduates form the 'boots on the ground' for detecting and responding to outbreaks.",
+      "why": "The world's largest outbreak-response training system, built on CDC's [Epidemic Intelligence Service](https://www.cdc.gov/eis/php/about/index.html) model. More than 22,000 graduates form the 'boots on the ground' for detecting and responding to outbreaks.",
       "source": "tephinet"
     },
     {
@@ -355,11 +355,11 @@
     {
       "name": "Master of Public Health (MPH) and epidemiology degrees",
       "org": "Schools and programs of public health",
-      "url": "https://aspph.org/study",
+      "url": "https://aspph.org/student-journey/",
       "stage": "credential",
       "format": "Typically two years full-time, often available part-time or online; concentrations in epidemiology, biostatistics, global health, and more",
       "who": "Anyone with a bachelor's degree; applications to most US schools go through a common service.",
-      "why": "The standard credential for the Public Health & Epidemiology track and the usual doorway to the fellowships above. The Association of Schools and Programs of Public Health maintains the [directory of accredited programs](https://aspph.org/study).",
+      "why": "The standard credential for the Public Health & Epidemiology track and the usual doorway to the fellowships above. The Association of Schools and Programs of Public Health maintains the [directory of accredited programs](https://aspph.org/student-journey/).",
       "source": "cdcdir"
     },
     {

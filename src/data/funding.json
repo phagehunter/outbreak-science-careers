@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checked": "14 September 2026",
+    "checked": "15 October 2026",
     "note": "Funding terms, deadlines, and eligibility change often: confirm on the funder's own page before applying.",
     "stages": {
       "study": "Paying for study",
@@ -223,7 +223,7 @@
     {
       "name": "NRC Research Associateship Programs",
       "org": "National Academies of Sciences, Engineering, and Medicine",
-      "url": "https://sites.nationalacademies.org/pga/rap/pga_046398",
+      "url": "https://www.nationalacademies.org/programs/PGA-FP-18-P-23/application-process",
       "stage": "research",
       "type": "Government postdoctoral award",
       "amount": "Competitive monthly stipends at more than a thousand research opportunities in federal laboratories across the US and abroad",
@@ -418,13 +418,13 @@
     "organizations": [
       {
         "name": "Advanced Research + Invention Agency (ARIA)",
-        "url": "https://www.aria.org.uk/opportunity-spaces/sculpting-innate-immunity",
+        "url": "https://www.aria.org.uk/opportunity-spaces",
         "kind": "government",
         "where": [
           "United Kingdom",
           "London"
         ],
-        "description": "ARIA is a UK government body funding high-risk, high-reward research to drive technological breakthroughs. Its “Sculpting Innate Immunity” opportunity space seeks to modulate the innate immune system to create a new therapeutic paradigm against diseases, including for broad-spectrum viral defense."
+        "description": "ARIA is a UK government body funding high-risk, high-reward research to drive technological breakthroughs. Its opportunity spaces change over time; the former “Sculpting Innate Immunity” space, which sought broad-spectrum defenses against viral disease, has been folded into a wider programmable-physiology space, so check the current list."
       },
       {
         "name": "Advanced Research Projects Agency for Health (ARPA-H)",

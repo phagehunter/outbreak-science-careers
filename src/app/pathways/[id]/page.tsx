@@ -37,9 +37,8 @@ export async function generateMetadata({
   return {
     title: `${c.title} careers`,
     description,
-    keywords: [c.title, ...c.roles.slice(0, 5), "outbreak science careers", "biosecurity careers"],
     alternates: { canonical: absUrl(`/pathways/${c.id}/`) },
-    openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 512, height: 512, alt: "Outbreak Science Careers" }], url: absUrl(`/pathways/${c.id}/`), title: `${c.title} careers — Outbreak Science Careers`, description: c.tagline },
+    openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers" }], url: absUrl(`/pathways/${c.id}/`), title: `${c.title} careers — Outbreak Science Careers`, description: c.tagline },
   };
 }
 
@@ -65,6 +64,9 @@ export default async function CategoryPage({ params }: { params: Params }) {
         description: c.tagline,
         url: absUrl(`/pathways/${c.id}/`),
         inLanguage: "en-US",
+        datePublished: "2026-09-14",
+        dateModified: "2026-10-15",
+        image: absUrl("/opengraph-image.png"),
         author: { "@type": "Person", name: "Curtis Hoffmann", url: "https://curtishoffmann.com" },
         about: c.roles.map((r) => ({ "@type": "Occupation", name: r })),
       },
@@ -187,6 +189,22 @@ export default async function CategoryPage({ params }: { params: Params }) {
                     </li>
                   ))}
                 </ul>
+              </section>
+            )}
+
+            {c.progression && (
+              <section id="progression" className="scroll-mt-24">
+                <h2 className="font-heading text-2xl font-semibold tracking-tight text-foreground">
+                  How careers move
+                </h2>
+                <p className="mt-5 text-base leading-relaxed text-ink">
+                  <RichText text={c.progression} />
+                </p>
+                <p className="mt-3 text-sm text-muted-foreground">
+                  A typical sequence, not the only one; people in this field change tracks more often than most.
+                  Job boards for the next step are on{" "}
+                  <Link href="/get-started/#jobs" className="font-medium text-primary underline-offset-4 hover:underline">Get started</Link>.
+                </p>
               </section>
             )}
 

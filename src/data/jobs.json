@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "checked": "15 October 2026",
+    "note": "Each board was opened on the check date. Listings change daily; none of these sites is affiliated with this guide."
+  },
+  "boards": [
+    {
+      "name": "Public Health CareerMart",
+      "org": "American Public Health Association (APHA)",
+      "url": "https://careers.apha.org/",
+      "scope": "The largest general public health board in the US: health departments, hospitals, universities, nonprofits. Search by keyword (epidemiologist, biosurveillance, emergency preparedness).",
+      "region": "United States"
+    },
+    {
+      "name": "Public Health Jobs",
+      "org": "Association of Schools and Programs of Public Health (ASPPH)",
+      "url": "https://publichealthjobs.aspph.org/",
+      "scope": "Positions at schools of public health and public health organizations, including fellowships and internships; good for academic and research roles.",
+      "region": "United States"
+    },
+    {
+      "name": "APHL Career Center",
+      "org": "Association of Public Health Laboratories (APHL)",
+      "url": "https://careers.aphl.org/",
+      "scope": "Laboratory roles at state, local, and federal public health laboratories, plus academic and corporate labs: microbiologists, laboratory scientists, biosafety staff.",
+      "region": "United States"
+    },
+    {
+      "name": "USAJOBS",
+      "org": "US Office of Personnel Management",
+      "url": "https://www.usajobs.gov/search/results/?k=epidemiologist",
+      "scope": "Every US federal opening, including CDC, FDA, USDA, and DoD. Search \"epidemiologist\", \"health scientist\", \"biologist\", or \"emergency management\"; the federal 0601 General Health Science series covers most epidemiologist posts.",
+      "region": "United States (federal)"
+    },
+    {
+      "name": "Careers at WHO",
+      "org": "World Health Organization",
+      "url": "https://www.who.int/careers",
+      "scope": "WHO staff posts, internships, and the Junior Professional Officer program, across headquarters, regional offices, and country offices.",
+      "region": "International"
+    },
+    {
+      "name": "80,000 Hours job board",
+      "org": "80,000 Hours",
+      "url": "https://jobs.80000hours.org/",
+      "scope": "Curated roles at organizations working on global problems; filter by the biosecurity and pandemic preparedness problem area. Strong on research, policy, and philanthropy roles, weaker on clinical and government posts.",
+      "region": "International"
+    },
+    {
+      "name": "ReliefWeb Jobs",
+      "org": "UN Office for the Coordination of Humanitarian Affairs",
+      "url": "https://reliefweb.int/jobs",
+      "scope": "Humanitarian and emergency response positions worldwide, including outbreak response with NGOs and UN agencies; filter by theme (health) and career category.",
+      "region": "International"
+    }
+  ]
+}

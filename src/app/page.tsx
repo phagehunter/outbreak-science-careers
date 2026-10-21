@@ -4,17 +4,17 @@ import { Button } from "@/components/ui/button";
 import { CareerVisualizer } from "@/components/features/career-visualizer";
 import { SiteFooter } from "@/components/features/site-footer";
 import { SiteHeader } from "@/components/features/site-header";
-import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, absUrl } from "@/lib/site";
+import { SITE_DESCRIPTION, SITE_TITLE, absUrl } from "@/lib/site";
 import { categories, totalRoles } from "@/lib/pathways";
 import { Faq, faqJsonLd } from "@/components/features/faq";
 import { roles } from "@/lib/roles";
 import routesData from "@/data/entry-routes.json";
 
 export const metadata: Metadata = {
-  title: `${SITE_NAME} — ${SITE_TAGLINE}`,
+  title: SITE_TITLE,
   description: SITE_DESCRIPTION,
   alternates: { canonical: absUrl("/") },
-  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers" }], url: absUrl("/"), title: `${SITE_NAME} — ${SITE_TAGLINE}`, description: SITE_DESCRIPTION },
+  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers" }], url: absUrl("/"), title: SITE_TITLE, description: SITE_DESCRIPTION },
 };
 
 const roleCount = categories.reduce((n, c) => n + totalRoles(c), 0);

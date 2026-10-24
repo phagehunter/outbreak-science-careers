@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import {
@@ -10,11 +10,19 @@ import {
   absUrl,
 } from "@/lib/site";
 
+/** Alt text for the share card, which carries the wordmark and the headline. */
+const SHARE_IMAGE_ALT =
+  "Outbreak Science Careers: your path into the fight against the next outbreak. Ten career tracks and 100+ roles, career guidance and funding.";
+
 const inter = Inter({
   variable: "--font-sans",
   subsets: ["latin"],
   display: "swap",
 });
+
+export const viewport: Viewport = {
+  themeColor: "#5A65E5",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -29,6 +37,7 @@ export const metadata: Metadata = {
   publisher: AUTHOR.name,
   category: "education",
   alternates: { canonical: absUrl("/") },
+  manifest: absUrl("/site.webmanifest"),
   openGraph: {
     type: "website",
     siteName: SITE_NAME,
@@ -36,11 +45,18 @@ export const metadata: Metadata = {
     url: absUrl("/"),
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
+    images: [{
+      url: absUrl("/opengraph-image.png"),
+      width: 1200,
+      height: 630,
+      alt: SHARE_IMAGE_ALT,
+    }],
   },
   twitter: {
     card: "summary_large_image",
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
+    images: [{ url: absUrl("/opengraph-image.png"), alt: SHARE_IMAGE_ALT }],
   },
   robots: {
     index: true,

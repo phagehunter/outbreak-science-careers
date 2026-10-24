@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description:
     "Free and low-cost courses in outbreak investigation, epidemiology, and emergency response from WHO, CDC, and leading universities, plus the Biosecurity Central biosafety and biosecurity training library and the newsletters practitioners read.",
   alternates: { canonical: absUrl("/learn/") },
-  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers" }], url: absUrl("/learn/"), title: "Where to learn: free outbreak science and biosecurity courses — Outbreak Science Careers", description: "Courses and training from WHO, CDC, universities, and the Biosecurity Central library." },
+  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers: your path into the fight against the next outbreak. Ten career tracks and 100+ roles, career guidance and funding." }], url: absUrl("/learn/"), title: "Where to learn: free outbreak science and biosecurity courses — Outbreak Science Careers", description: "Courses and training from WHO, CDC, universities, and the Biosecurity Central library." },
 };
 
 type Resource = (typeof learning.resources)[number];
@@ -74,7 +74,6 @@ function Ext({ href, children }: { href: string; children: React.ReactNode }) {
 
 export default function LearnPage() {
   const groups = groupByType(learning.resources);
-  const keyCount = learning.resources.filter((r) => r.keyResource).length;
   const libraryCount = learning.resources.filter((r) => !("addedBySite" in r && r.addedBySite)).length;
 
   return (
@@ -103,12 +102,6 @@ export default function LearnPage() {
           <h2 className="font-heading text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
             Start here
           </h2>
-          <p className="mt-2 max-w-2xl text-base leading-relaxed text-ink">
-            Five free starting points, in roughly the order a newcomer might
-            take them: an outbreak in your classroom, the science in short
-            videos, the field&apos;s own textbook, a university course, and the
-            biosecurity side of the story.
-          </p>
           <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {keepUp.courses.map((c, i) => (
               <li
@@ -151,10 +144,8 @@ export default function LearnPage() {
               Outbreak investigation and response
             </h2>
             <p className="mt-2 max-w-2xl text-base leading-relaxed text-ink">
-              The training the field actually uses, from WHO&apos;s free
-              emergency hub and CDC&apos;s learning network to university
-              courses you can audit for nothing. Most take an evening or a
-              few weeks.
+              The training the field actually uses, from WHO and CDC to
+              university courses you can audit free. Most take an evening or a few weeks.
             </p>
             <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {keepUp.outbreakTraining.map((c) => (
@@ -252,9 +243,8 @@ export default function LearnPage() {
               ))}
             </Accordion>
             <p className="mt-4 text-sm text-muted-foreground">
-              {keyCount} of the {libraryCount} library items are starred key
-              resources. The library also holds guidance, protocols, and
-              legislation beyond training: explore the whole thing at{" "}
+              The library also holds guidance, protocols, and legislation beyond
+              training: explore the whole thing at{" "}
               <Ext href="https://biosecuritycentral.org">biosecuritycentral.org</Ext>.
             </p>
           </div>

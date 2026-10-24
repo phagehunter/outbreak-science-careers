@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-15",
+ "checked": "2026-10-24",
  "results": [
   {
    "url": "http://eepurl.com/dzzOif",
@@ -73,18 +73,15 @@
    ]
   },
   {
-   "url": "https://aspph.org/study",
-   "status": 200,
-   "finalUrl": "https://aspph.org/student-journey/",
+   "url": "https://aspph.org/student-journey/",
+   "status": 403,
    "files": [
-    "src/data/entry-routes.json",
-    "src/data/entry-routes.json"
+    "src/app/get-started/page.tsx"
    ]
   },
   {
-   "url": "https://aspph.org/study/fellowships-and-internships/",
-   "status": 200,
-   "finalUrl": "https://aspph.org/what-we-do/practice/center-for-public-health-workforce-development/applied-learning-and-training/",
+   "url": "https://aspph.org/what-we-do/practice/center-for-public-health-workforce-development/applied-learning-and-training/",
+   "status": 403,
    "files": [
     "src/data/entry-routes.json"
    ]
@@ -613,6 +610,20 @@
    ]
   },
   {
+   "url": "https://careers.apha.org/",
+   "status": 200,
+   "files": [
+    "src/data/jobs.json"
+   ]
+  },
+  {
+   "url": "https://careers.aphl.org/",
+   "status": 403,
+   "files": [
+    "src/data/jobs.json"
+   ]
+  },
+  {
    "url": "https://centerforhealthsecurity.org/education-training/emerging-leaders-in-biosecurity-fellowship",
    "status": 403,
    "files": [
@@ -624,6 +635,7 @@
    "url": "https://cepi.net",
    "status": 200,
    "files": [
+    "src/data/career-pathways.json",
     "src/data/funding.json"
    ]
   },
@@ -644,16 +656,14 @@
   },
   {
    "url": "https://cisac.fsi.stanford.edu/content/cisac-fellowship-program",
-   "status": 0,
-   "error": "ETIMEDOUT",
+   "status": 200,
    "files": [
     "src/data/entry-routes.json"
    ]
   },
   {
-   "url": "https://claude.com/claude-code",
+   "url": "https://claude.com/product/claude-code",
    "status": 200,
-   "finalUrl": "https://claude.com/product/claude-code",
    "files": [
     "src/components/features/site-footer.tsx"
    ]
@@ -716,9 +726,8 @@
    ]
   },
   {
-   "url": "https://disarmament.unoda.org",
+   "url": "https://disarmament.unoda.org/en",
    "status": 200,
-   "finalUrl": "https://disarmament.unoda.org/en",
    "files": [
     "src/data/organizations.json"
    ]
@@ -742,9 +751,8 @@
    ]
   },
   {
-   "url": "https://emergingtechpolicy.org/areas/biosecurity/",
+   "url": "https://emergingtechpolicy.org/areas/biosecurity-policy/",
    "status": 200,
-   "finalUrl": "https://emergingtechpolicy.org/areas/biosecurity-policy/",
    "files": [
     "src/data/entry-routes.json",
     "src/data/keep-up.json"
@@ -912,10 +920,24 @@
    ]
   },
   {
+   "url": "https://internationalbiosafety.org/youth-declaration-in-biosecurity/",
+   "status": 200,
+   "files": [
+    "src/data/learning-resources.json"
+   ]
+  },
+  {
    "url": "https://isac.bio/",
    "status": 200,
    "files": [
     "src/data/organizations.json"
+   ]
+  },
+  {
+   "url": "https://jobs.80000hours.org/",
+   "status": 200,
+   "files": [
+    "src/data/jobs.json"
    ]
   },
   {
@@ -951,7 +973,8 @@
    "status": 200,
    "files": [
     "src/app/get-started/page.tsx",
-    "src/app/page.tsx"
+    "src/app/page.tsx",
+    "src/app/roles/[slug]/page.tsx"
    ]
   },
   {
@@ -1082,10 +1105,24 @@
    ]
   },
   {
+   "url": "https://publichealthjobs.aspph.org/",
+   "status": 403,
+   "files": [
+    "src/data/jobs.json"
+   ]
+  },
+  {
    "url": "https://rani.co/newsletter-archive/",
    "status": 200,
    "files": [
     "src/data/keep-up.json"
+   ]
+  },
+  {
+   "url": "https://reliefweb.int/jobs",
+   "status": 406,
+   "files": [
+    "src/data/jobs.json"
    ]
   },
   {
@@ -1140,14 +1177,6 @@
    ]
   },
   {
-   "url": "https://sites.nationalacademies.org/pga/rap/pga_046398",
-   "status": 200,
-   "finalUrl": "https://www.nationalacademies.org/programs/PGA-FP-18-P-23/application-process",
-   "files": [
-    "src/data/funding.json"
-   ]
-  },
-  {
    "url": "https://sparai.org",
    "status": 200,
    "files": [
@@ -1193,9 +1222,8 @@
    ]
   },
   {
-   "url": "https://www.aria.org.uk/opportunity-spaces/sculpting-innate-immunity",
+   "url": "https://www.aria.org.uk/opportunity-spaces",
    "status": 200,
-   "finalUrl": "https://aria.org.uk/opportunity-spaces/programmable-physiology",
    "files": [
     "src/data/funding.json"
    ]
@@ -1209,7 +1237,8 @@
   },
   {
    "url": "https://www.atlanticcouncil.org/programs/millennium-leadership-program/millennium-fellowship/",
-   "status": 200,
+   "status": 0,
+   "error": "ETIMEDOUT",
    "files": [
     "src/data/entry-routes.json"
    ]
@@ -1218,12 +1247,15 @@
    "url": "https://www.bls.gov/ooh/",
    "status": 403,
    "files": [
-    "src/app/pathways/[id]/page.tsx"
+    "src/app/pathways/[id]/page.tsx",
+    "src/app/roles/page.tsx",
+    "src/components/features/faq.tsx"
    ]
   },
   {
-   "url": "https://www.bls.gov/ooh/architecture-and-engineering/bioengineers-and-biomedical-engineers.htm",
-   "status": 403,
+   "url": "https://www.bls.gov/ooh/architecture-and-engineering/biomedical-engineers.htm",
+   "status": 0,
+   "error": "ETIMEDOUT",
    "files": [
     "src/data/role-details.json",
     "src/data/role-details.json"
@@ -1231,7 +1263,8 @@
   },
   {
    "url": "https://www.bls.gov/ooh/business-and-financial/logisticians.htm",
-   "status": 403,
+   "status": 0,
+   "error": "ETIMEDOUT",
    "files": [
     "src/data/role-details.json",
     "src/data/role-details.json",
@@ -1426,9 +1459,10 @@
    ]
   },
   {
-   "url": "https://www.cdc.gov/eis/",
+   "url": "https://www.cdc.gov/eis/php/about/index.html",
    "status": 403,
    "files": [
+    "src/data/career-pathways.json",
     "src/data/career-pathways.json",
     "src/data/entry-routes.json",
     "src/data/entry-routes.json",
@@ -1447,7 +1481,8 @@
   },
   {
    "url": "https://www.cdc.gov/fellowships/php/index.html",
-   "status": 403,
+   "status": 0,
+   "error": "ETIMEDOUT",
    "files": [
     "src/data/entry-routes.json",
     "src/data/entry-routes.json",
@@ -1464,8 +1499,10 @@
   },
   {
    "url": "https://www.cdc.gov/forecast-outbreak-analytics/index.html",
-   "status": 403,
+   "status": 0,
+   "error": "ETIMEDOUT",
    "files": [
+    "src/data/career-pathways.json",
     "src/data/career-pathways.json"
    ]
   },
@@ -1478,22 +1515,26 @@
   },
   {
    "url": "https://www.cdc.gov/nerd-academy/careers/index.html",
-   "status": 403,
+   "status": 0,
+   "error": "ETIMEDOUT",
    "files": [
     "src/app/page.tsx",
+    "src/app/roles/[slug]/page.tsx",
     "src/components/features/role-list.tsx"
    ]
   },
   {
    "url": "https://www.cdc.gov/phap/php/about/index.html",
-   "status": 403,
+   "status": 0,
+   "error": "ETIMEDOUT",
    "files": [
     "src/data/entry-routes.json"
    ]
   },
   {
    "url": "https://www.cdc.gov/phifp/php/about/index.html",
-   "status": 403,
+   "status": 0,
+   "error": "ETIMEDOUT",
    "files": [
     "src/data/entry-routes.json"
    ]
@@ -1755,6 +1796,14 @@
    ]
   },
   {
+   "url": "https://www.msf.org",
+   "status": 0,
+   "error": "ETIMEDOUT",
+   "files": [
+    "src/data/career-pathways.json"
+   ]
+  },
+  {
    "url": "https://www.msf.org/",
    "status": 200,
    "files": [
@@ -1769,10 +1818,18 @@
    ]
   },
   {
+   "url": "https://www.nationalacademies.org/programs/PGA-FP-18-P-23/application-process",
+   "status": 200,
+   "files": [
+    "src/data/funding.json"
+   ]
+  },
+  {
    "url": "https://www.ncbi.nlm.nih.gov/books/NBK143067/",
    "status": 200,
    "files": [
-    "src/app/page.tsx"
+    "src/app/page.tsx",
+    "src/components/features/faq.tsx"
    ]
   },
   {
@@ -1813,9 +1870,8 @@
    ]
   },
   {
-   "url": "https://www.pasteur.fr/en/EUR-1H-EID",
+   "url": "https://www.pasteur.fr/en/about-us/our-missions/education/training-programs/graduate-schools/one-health-emerging-infectious-diseases-graduate-school-1h-eid",
    "status": 200,
-   "finalUrl": "https://www.pasteur.fr/en/about-us/our-missions/education/training-programs/graduate-schools/one-health-emerging-infectious-diseases-graduate-school-1h-eid",
    "files": [
     "src/data/programs.json"
    ]
@@ -1829,7 +1885,8 @@
   },
   {
    "url": "https://www.pmf.gov/become-a-pmf/eligibility/",
-   "status": 200,
+   "status": 0,
+   "error": "ETIMEDOUT",
    "files": [
     "src/data/entry-routes.json"
    ]
@@ -1844,7 +1901,8 @@
   },
   {
    "url": "https://www.redcross.org/",
-   "status": 200,
+   "status": 0,
+   "error": "ETIMEDOUT",
    "files": [
     "src/data/career-pathways.json",
     "src/data/career-pathways.json"
@@ -1949,6 +2007,13 @@
    ]
   },
   {
+   "url": "https://www.usajobs.gov/search/results/?k=epidemiologist",
+   "status": 200,
+   "files": [
+    "src/data/jobs.json"
+   ]
+  },
+  {
    "url": "https://www.usu.edu/cai/academic-programs/master-of-anticipatory-intelligence",
    "status": 200,
    "files": [
@@ -1967,6 +2032,21 @@
    "status": 200,
    "files": [
     "src/data/programs.json"
+   ]
+  },
+  {
+   "url": "https://www.who.int/careers",
+   "status": 200,
+   "files": [
+    "src/data/jobs.json"
+   ]
+  },
+  {
+   "url": "https://www.woah.org",
+   "status": 200,
+   "finalUrl": "https://www.woah.org/en/home/",
+   "files": [
+    "src/data/career-pathways.json"
    ]
   },
   {

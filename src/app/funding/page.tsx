@@ -8,13 +8,14 @@ import { SiteFooter } from "@/components/features/site-footer";
 import { SiteHeader } from "@/components/features/site-header";
 import { SITE_NAME, absUrl } from "@/lib/site";
 import funding from "@/data/funding.json";
+import { roundDownPlus } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Funding: grants, fellowships, and who pays for outbreak science",
   description:
     "Where to get funding for study, research, and projects in outbreak science and biosecurity: NSF and NIH fellowships, Wellcome, Gates Grand Challenges, CEPI, BARDA, DARPA, Coefficient Giving, Blueprint Biosecurity, and BlueDot grants, plus how each funding model works and who funds the field, from Pandemic PACT data.",
   alternates: { canonical: absUrl("/funding/") },
-  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers" }], url: absUrl("/funding/"), title: `Funding: grants, fellowships, and who pays for outbreak science — ${SITE_NAME}`, description: "Where to get funding for study, research, and projects in outbreak science and biosecurity, and how each funding model works." },
+  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers: your path into the fight against the next outbreak. Ten career tracks and 100+ roles, career guidance and funding." }], url: absUrl("/funding/"), title: `Funding: grants, fellowships, and who pays for outbreak science — ${SITE_NAME}`, description: "Where to get funding for study, research, and projects in outbreak science and biosecurity, and how each funding model works." },
 };
 
 type Source = (typeof funding.sources)[number];
@@ -23,10 +24,10 @@ const stageLabels = funding.meta.stages as Record<string, string>;
 const DIR_KINDS = ["government", "multilateral", "philanthropy", "research"] as const;
 const dirKindLabels = funding.directory.meta.kinds as Record<string, string>;
 const STAGE_LEDE: Record<string, string> = {
-  study: "Money attached to you rather than a project: a stipend to study, or a grant to make a career move.",
-  research: "Awards for people ready to run their own research, from a first independent project to a five-year program.",
+  study: "Money attached to you, not a project: a stipend to study or a grant to move careers.",
+  research: "Awards for people ready to run their own research, from a first independent project to a five-year program of work.",
   projects: "Funding for things you want to build or test: a prototype, a countermeasure, a company.",
-  orgs: "The large funders behind the field's organizations. Useful to know who they are even if you never apply directly.",
+  orgs: "The large funders behind the field's organizations. It's useful to know who they are even if you never apply directly.",
 };
 
 function Ext({ href, children }: { href: string; children: React.ReactNode }) {
@@ -128,7 +129,7 @@ export default function FundingPage() {
           <div className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6">
             <h2 className="font-heading text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">How funding works</h2>
             <p className="mt-2 max-w-2xl text-base leading-relaxed text-ink">
-              Seven models pay for outbreak science. Each has its own logic, timeline, and kind of applicant, and most careers move between several of them.
+              Seven models pay for outbreak science. Each has its own logic, timeline, and type of applicant, and most careers move between several of them.
             </p>
             <ol className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
               {funding.schemes.map((sc, i) => (
@@ -149,7 +150,7 @@ export default function FundingPage() {
           <div className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6">
             <h2 className="font-heading text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">Who funds the field</h2>
             <p className="mt-3 max-w-3xl text-base leading-relaxed text-ink">
-              <Ext href={pact.url}>{pact.name}</Ext> ({pact.org}) tracks research funding for diseases with pandemic potential. It covers {pact.totals.grants} grants from {pact.totals.funders} funders worth about {pact.totals.amount}, most of it COVID-19 research. Setting COVID-19 aside leaves {pact.nonCovid.grants} grants and about {pact.nonCovid.amount} for other pandemic-prone pathogens, and that is where the shape of the field shows.
+              <Ext href={pact.url}>{pact.name}</Ext> ({pact.org}) tracks research funding for diseases with pandemic potential. It covers {pact.totals.grants} grants from {pact.totals.funders} funders worth about {pact.totals.amount}, most of it COVID-19 research. There are {roundDownPlus(Number(pact.nonCovid.grants.replace(/,/g, "")))} non-COVID-19 grants and about {pact.nonCovid.amount} for other pathogens with epidemic potential.
             </p>
             <div className="mt-8 grid gap-8 lg:grid-cols-[3fr_2fr]">
               <div className="overflow-x-auto rounded-xl border border-border bg-card shadow-sm">

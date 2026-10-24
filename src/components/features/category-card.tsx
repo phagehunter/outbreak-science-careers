@@ -24,7 +24,7 @@ export function CategoryCard({ category, onSelect }: Props) {
         <h3 className="font-heading text-base leading-snug font-semibold text-foreground">
           {category.title}
         </h3>
-        <p className="text-sm leading-relaxed text-ink">{category.tagline}</p>
+        <p className="balance-text text-sm leading-relaxed text-ink">{category.tagline}</p>
       </div>
       <div className="flex w-full items-center justify-between text-sm">
         <span className="text-muted-foreground">

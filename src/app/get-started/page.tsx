@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "Named entry routes into outbreak science and biosecurity: CDC fellowships, the Epidemic Intelligence Service, ELBI, iGEM, biodefense and biosecurity degree programs, and the organizations that help students and early-career people get in.",
   alternates: { canonical: absUrl("/get-started/") },
-  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers" }], url: absUrl("/get-started/"), title: "Get started: fellowships, programs, and degrees — Outbreak Science Careers", description: "Named entry routes into outbreak science and biosecurity, grouped by where you are now." },
+  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers: your path into the fight against the next outbreak. Ten career tracks and 100+ roles, career guidance and funding." }], url: absUrl("/get-started/"), title: "Get started: fellowships, programs, and degrees — Outbreak Science Careers", description: "Named entry routes into outbreak science and biosecurity, grouped by where you are now." },
 };
 
 type Route = (typeof routesData.routes)[number];
@@ -33,12 +33,12 @@ const sourceLabels = routesData.meta.sources as Record<string, string>;
 
 const STAGE_LEDE: Record<string, string> = {
   school:
-    "You do not need a degree to start. These are open to anyone curious, and several are free.",
+    "No degree needed. These are open to anyone curious, and several are free.",
   early:
     "Most structured fellowships sit here. They are competitive, but there are more of them than most people realize, and they are the usual bridge from study into a first job.",
-  mid: "If you already have a career in medicine, science, engineering, or government, these exist to move you across.",
+  mid: "If you already have a career in medicine, science, engineering, or government, these exist to accelerate your career.",
   credential:
-    "Where the field's recognized credentials and dedicated degrees live.",
+    "Where you can get recognized credentials and dedicated degrees in the field.",
 };
 
 const ORG_KIND_LABEL: Record<string, string> = {
@@ -112,8 +112,8 @@ export default function GetStartedPage() {
               There are named programs that admit students and early-career
               people into this field every year. Here are {routesData.routes.length} with a real
               track record, grouped by where you are now, then the degree
-              programs built for this field, and the organizations whose job is
-              to help people get in.
+              programs built for this field, and the organizations that will
+              help you.
             </>
           }
         >
@@ -176,10 +176,14 @@ export default function GetStartedPage() {
               Degree programs built for this field
             </h2>
             <p className="mt-2 max-w-3xl text-base leading-relaxed text-ink">
-              Most people in biosecurity arrive through a general degree in
-              science, medicine, public health, or policy. A small number of
-              programs are built specifically for the field. This list will
-              grow; if you know a program that belongs here,{" "}
+              Most people in outbreak science arrive through a general degree
+              in science, medicine, public health, or policy: the Association of
+              Schools and Programs of Public Health keeps the{" "}
+              <Ext href="https://aspph.org/student-journey/">
+                directory of accredited MPH and epidemiology programs
+              </Ext>
+              . A small number of programs are built specifically for the field.
+              This list will grow; if you know a program that belongs here,{" "}
               <a href="mailto:curtis@operationoutbreak.org" className="font-medium text-primary underline-offset-4 hover:underline">
                 email Curtis
               </a>
@@ -225,7 +229,7 @@ export default function GetStartedPage() {
         <section id="organizations" className="scroll-mt-24 border-t border-border">
           <div className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6">
             <h2 className="font-heading text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
-              Organizations that help people get in
+              Organizations that will help you
             </h2>
             <p className="mt-2 max-w-3xl text-base leading-relaxed text-ink">
               The{" "}
@@ -273,8 +277,9 @@ export default function GetStartedPage() {
               Find jobs
             </h2>
             <p className="mt-2 max-w-3xl text-base leading-relaxed text-ink">
-              Once you know which track you want, the openings live on a handful of boards. Set alerts on two or
-              three rather than checking all of them; most roles in this field are posted on more than one.
+              Once you know which track you want, job openings are usually featured on a handful of
+              boards. Set alerts on two or three rather than checking all of them. Most roles in this
+              field are posted on more than one.
             </p>
             <p className="mt-2 max-w-3xl text-sm text-muted-foreground">
               {jobsData.meta.note} Last updated {jobsData.meta.checked}.

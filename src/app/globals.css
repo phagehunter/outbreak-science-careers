@@ -144,6 +144,17 @@
   h1, h2, h3, h4 {
     text-wrap: balance;
   }
+  /* "pretty" only tidies the last line or two, which still leaves one or two
+     words stranded on the small blurbs inside cards and list items. Those run
+     to a few lines at most, so balance evens the lines instead. Browsers stop
+     balancing past about six lines, where long prose reads fine anyway, and
+     single-line text is unaffected either way. */
+  .text-sm,
+  .card p,
+  .balance-text,
+  [data-balance] {
+    text-wrap: balance;
+  }
   html {
     scroll-behavior: smooth;
   }

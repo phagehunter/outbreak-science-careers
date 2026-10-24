@@ -38,7 +38,7 @@ export async function generateMetadata({
     title: `${c.title} careers`,
     description,
     alternates: { canonical: absUrl(`/pathways/${c.id}/`) },
-    openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers" }], url: absUrl(`/pathways/${c.id}/`), title: `${c.title} careers — Outbreak Science Careers`, description: c.tagline },
+    openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers: your path into the fight against the next outbreak. Ten career tracks and 100+ roles, career guidance and funding." }], url: absUrl(`/pathways/${c.id}/`), title: `${c.title} careers — Outbreak Science Careers`, description: c.tagline },
   };
 }
 

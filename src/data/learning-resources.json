@@ -15,33 +15,6 @@
   },
   "resources": [
     {
-      "title": "GBRMC",
-      "publisher": "Sandia National Laboratories",
-      "publisherType": "government",
-      "keyResource": true,
-      "tags": [
-        "Risk assessment",
-        "Lab biosafety",
-        "Lab biosecurity",
-        "Sample transportation",
-        "Legal mechanisms and authorities"
-      ],
-      "url": "https://biosecuritycentral.org/resource/training-materials/gbrmc/"
-    },
-    {
-      "title": "Management of Biomedical Waste",
-      "publisher": "Mérieux Foundation and RESAOLAB",
-      "publisherType": "ngo",
-      "keyResource": true,
-      "tags": [
-        "Lab biosecurity",
-        "Legal mechanisms and authorities",
-        "Lab biosafety",
-        "Sample transportation"
-      ],
-      "url": "https://biosecuritycentral.org/resource/training-materials/management-of-biomedical-waste/"
-    },
-    {
       "title": "Africa CDC Biosafety and Biosecurity Report",
       "publisher": "Africa Centres for Disease Control and Prevention (Africa CDC)",
       "publisherType": "intergovernmental",
@@ -328,6 +301,20 @@
       "url": "https://biosecuritycentral.org/resource/training-materials/gabriel-network-trainings/"
     },
     {
+      "title": "GBRMC",
+      "publisher": "Sandia National Laboratories",
+      "publisherType": "government",
+      "keyResource": true,
+      "tags": [
+        "Risk assessment",
+        "Lab biosafety",
+        "Lab biosecurity",
+        "Sample transportation",
+        "Legal mechanisms and authorities"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/gbrmc/"
+    },
+    {
       "title": "GIBACHT",
       "publisher": "African Field Epidemiology Network, Bernhard Nocht Institute for Tropical Medicine, German Biosecurity Program, Robert Koch Institute (RKI), and Swiss Tropical and Public Health Institute",
       "publisherType": "government",
@@ -462,6 +449,18 @@
       "url": "https://biosecuritycentral.org/resource/training-materials/lab-biosafety,-biosecurity,-and-biorisk-management-training/"
     },
     {
+      "title": "Lessons and Activities for Outbreak Science",
+      "publisher": "Operation Outbreak",
+      "publisherType": "ngo",
+      "keyResource": false,
+      "tags": [
+        "Risk assessment",
+        "Outbreak response"
+      ],
+      "url": "https://operationoutbreak.org/resources",
+      "addedBySite": true
+    },
+    {
       "title": "Malaysian Responsible Conduct of Research",
       "publisher": "Academy of Sciences Malaysia",
       "publisherType": "university",
@@ -470,6 +469,19 @@
         "Lab research"
       ],
       "url": "https://biosecuritycentral.org/resource/training-materials/malaysian-responsible-conduct-of-research/"
+    },
+    {
+      "title": "Management of Biomedical Waste",
+      "publisher": "Mérieux Foundation and RESAOLAB",
+      "publisherType": "ngo",
+      "keyResource": true,
+      "tags": [
+        "Lab biosecurity",
+        "Legal mechanisms and authorities",
+        "Lab biosafety",
+        "Sample transportation"
+      ],
+      "url": "https://biosecuritycentral.org/resource/training-materials/management-of-biomedical-waste/"
     },
     {
       "title": "Module on Biosecurity and Biosafety",
@@ -712,15 +724,14 @@
       "url": "https://biosecuritycentral.org/resource/training-materials/who-dual-use-research-and-the-responsible-use-of-the-life-sciences/"
     },
     {
-      "title": "Lessons and Activities for Outbreak Science",
-      "publisher": "Operation Outbreak",
-      "publisherType": "ngo",
+      "title": "Youth Declaration in Biosecurity",
+      "publisher": "Youth for Biosecurity Initiative, with UNODA and the IFBA",
+      "publisherType": "youth",
       "keyResource": false,
       "tags": [
-        "Risk assessment",
-        "Outbreak response"
+        "Legal mechanisms and authorities"
       ],
-      "url": "https://operationoutbreak.org/resources",
+      "url": "https://internationalbiosafety.org/youth-declaration-in-biosecurity/",
       "addedBySite": true
     }
   ]

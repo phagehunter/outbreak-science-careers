@@ -9,12 +9,13 @@ import { categories, totalRoles } from "@/lib/pathways";
 import { Faq, faqJsonLd } from "@/components/features/faq";
 import { roles } from "@/lib/roles";
 import routesData from "@/data/entry-routes.json";
+import { roundDownPlus, spellOut } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: SITE_TITLE,
   description: SITE_DESCRIPTION,
   alternates: { canonical: absUrl("/") },
-  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers" }], url: absUrl("/"), title: SITE_TITLE, description: SITE_DESCRIPTION },
+  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers: your path into the fight against the next outbreak. Ten career tracks and 100+ roles, career guidance and funding." }], url: absUrl("/"), title: SITE_TITLE, description: SITE_DESCRIPTION },
 };
 
 const roleCount = categories.reduce((n, c) => n + totalRoles(c), 0);
@@ -41,9 +42,9 @@ export default function Home() {
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink">
               Outbreak science is about as interdisciplinary as a field can
-              get. Explore {categories.length} career tracks and {roleCount} roles, from
-              epidemiology and the laboratory to policy, logistics, and
-              communication, and find where your skills fit.
+              get. Explore {spellOut(categories.length)} career tracks and{" "}
+              {roundDownPlus(roleCount)} roles, from epidemiology and the laboratory to
+              policy, logistics, and communication, and find where your skills fit.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button size="lg" asChild>
@@ -198,12 +199,8 @@ export default function Home() {
           <div className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
             <div className="mb-8 max-w-2xl">
               <h2 className="font-heading text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-                Questions people ask first
+                Frequently asked questions
               </h2>
-              <p className="mt-3 text-base leading-relaxed text-ink">
-                Short answers with links to the longer ones. Figures come from the Bureau of Labor Statistics and
-                the programs listed on this site.
-              </p>
             </div>
             <Faq />
           </div>

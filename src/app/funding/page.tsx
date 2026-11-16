@@ -13,7 +13,7 @@ import { roundDownPlus } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Funding: grants, fellowships, and who pays for outbreak science",
   description:
-    "Where to get funding for study, research, and projects in outbreak science and biosecurity: NSF and NIH fellowships, Wellcome, Gates Grand Challenges, CEPI, BARDA, DARPA, Coefficient Giving, Blueprint Biosecurity, and BlueDot grants, plus how each funding model works and who funds the field, from Pandemic PACT data.",
+    "Where to get funding for study, research, and projects in outbreak science and biosecurity: NSF and NIH fellowships, Wellcome, Gates Grand Challenges, CEPI, BARDA, DARPA, Coefficient Giving, Blueprint Biosecurity, and BlueDot grants, plus how each funding model works and who funds the field.",
   alternates: { canonical: absUrl("/funding/") },
   openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: SHARE_IMAGE_ALT }], url: absUrl("/funding/"), title: `Funding: grants, fellowships, and who pays for outbreak science — ${SITE_NAME}`, description: "Where to get funding for study, research, and projects in outbreak science and biosecurity, and how each funding model works." },
 };
@@ -24,7 +24,7 @@ const stageLabels = funding.meta.stages as Record<string, string>;
 const DIR_KINDS = ["government", "multilateral", "philanthropy", "research"] as const;
 const dirKindLabels = funding.directory.meta.kinds as Record<string, string>;
 const STAGE_LEDE: Record<string, string> = {
-  study: "Money attached to you, not a project: a stipend to study or a grant to move careers.",
+  study: "Money attached to you instead of a project: a stipend to study or a grant to move careers.",
   research: "Awards for people ready to run their own research, from a first independent project to a five-year program of work.",
   projects: "Funding for things you want to build or test: a prototype, a countermeasure, a company.",
   orgs: "The large funders behind the field's organizations. It's useful to know who they are even if you never apply directly.",
@@ -85,7 +85,7 @@ export default function FundingPage() {
         <PageIntro
           eyebrow="Funding"
           title="Who pays for outbreak science"
-          lede="Work in outbreak science is paid for through grants, fellowships, contracts, and salaries, and each has its own rules for who may apply and how. This page lists funders for students, researchers, and people building products or organizations, explains the seven funding models, and shows, from Pandemic PACT data, which funders account for most research spending."
+          lede="Work in outbreak science is paid for through grants, fellowships, contracts, and salaries, and each has its own rules for who may apply and how. This page lists funders for students, researchers, and people building products or organizations, describes seven funding models, and shows which funders account for most research spending."
         >
           <nav aria-label="Sections" className="mt-8 flex flex-wrap gap-2">
             {byStage.map((g) => (
@@ -129,7 +129,7 @@ export default function FundingPage() {
           <div className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6">
             <h2 className="font-heading text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">How funding works</h2>
             <p className="mt-2 max-w-2xl text-base leading-relaxed text-ink">
-              Seven models pay for outbreak science. They differ in who may apply and how long a decision takes, and most careers draw on more than one.
+              We describe seven models for funding outbreak science, differing in who may apply and how long a decision takes. Most careers draw on more than one.
             </p>
             <ol className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
               {funding.schemes.map((sc, i) => (
@@ -187,7 +187,7 @@ export default function FundingPage() {
                   ))}
                 </ul>
                 <p className="mt-4 text-xs leading-relaxed text-muted-foreground">
-                  Three lessons: governments fund most of the science, a few philanthropies and CEPI fund a large share of the money, and pathogen biology and vaccines draw far more than policy, systems, or ethics research.
+                  Lessons to note: governments fund most of the science, a few philanthropies fund a large share of the money pool, and pathogen biology and vaccines draw far more than policy, systems, or ethics research.
                 </p>
               </div>
             </div>
@@ -202,7 +202,7 @@ export default function FundingPage() {
           <div className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6">
             <h2 className="font-heading text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">Funder directory</h2>
             <p className="mt-2 max-w-3xl text-base leading-relaxed text-ink">
-              The organizations that fund biosecurity and pandemic-preparedness work, from government agencies to regranting funds you can pitch directly. Use it to learn who is behind the field and where a proposal might land.
+              The organizations that fund biosecurity and pandemic-preparedness work, from government agencies to regranting funds you can pitch directly. Use it to learn who's behind the field and where your proposal could succeed.
             </p>
             <div className="mt-8 space-y-10">
               {DIR_KINDS.map((k) => {
@@ -230,7 +230,7 @@ export default function FundingPage() {
         <section className="border-t border-border">
           <div className="mx-auto w-full max-w-6xl px-4 py-10 text-sm text-muted-foreground sm:px-6">
             <p>
-              Looking for salaried routes instead? Most people in this field are paid by an employer, not a grant. See the fellowships and programs on{" "}
+              Looking for salaried routes instead? Most people in this field are paid by an employer rather than a grant. See the fellowships and programs on{" "}
               <Link href="/get-started/" className="font-medium text-primary underline-offset-4 hover:underline">Get started</Link>.
             </p>
           </div>

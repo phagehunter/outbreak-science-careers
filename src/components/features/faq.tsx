@@ -61,12 +61,12 @@ export const faqItems: FaqItem[] = [
   {
     id: "what-is-outbreak-science",
     question: "What is outbreak science?",
-    plain: `Outbreak science is the work of preventing, detecting, and responding to outbreaks of infectious disease, whether they arise naturally, by accident, or deliberately. It is not one profession but a team of them: epidemiologists who find cases and trace spread, laboratory scientists who identify the pathogen, clinicians who treat patients, data specialists who turn signals into warnings, policy and biosecurity staff who set rules and budgets, logisticians who move supplies, and communicators who keep the public informed. The World Health Organization's pandemic preparedness guidance is built on this whole-of-society idea: government leads, but the health sector, other sectors, and communities each carry responsibilities of their own. This site organizes the field into ${categories.length} career tracks and ${roles.length} core roles.`,
+    plain: `Outbreak science is the work of preventing, detecting, and responding to outbreaks of infectious disease, whether they arise naturally, by accident, or deliberately. It draws on many professions: epidemiologists who find cases and trace spread, laboratory scientists who identify the pathogen, clinicians who treat patients, data specialists who turn signals into warnings, policy and biosecurity staff who set rules and budgets, logisticians who move supplies, and communicators who keep the public informed. The World Health Organization's pandemic preparedness guidance is built on this whole-of-society idea: government leads, but the health sector, other sectors, and communities each carry responsibilities of their own. This site organizes the field into ${categories.length} career tracks and ${roles.length} core roles.`,
     answer: (
       <>
         <p>
           Outbreak science is the work of preventing, detecting, and responding to outbreaks of infectious disease,
-          whether they arise naturally, by accident, or deliberately. It is not one profession but a team of them:
+          whether they arise naturally, by accident, or deliberately. It draws on many professions:
           epidemiologists who find cases and trace spread, laboratory scientists who identify the pathogen, clinicians
           who treat patients, data specialists who turn signals into warnings, policy and biosecurity staff who set rules
           and budgets, logisticians who move supplies, and communicators who keep the public informed.
@@ -125,7 +125,7 @@ export const faqItems: FaqItem[] = [
   {
     id: "epidemiologist-salary",
     question: "How much do epidemiologists make?",
-    plain: `The US median pay for epidemiologists was ${epiPay} a year in May 2025, according to the Bureau of Labor Statistics, with ${epiJobs} jobs and projected growth of ${epiOutlook} between 2025 and 2035, much faster than the average for all occupations. Pay varies widely by employer: state and local health departments, federal agencies such as CDC, universities, hospitals, and industry. These are figures for the whole occupation, not for outbreak work specifically.`,
+    plain: `The US median pay for epidemiologists was ${epiPay} a year in May 2025, according to the Bureau of Labor Statistics, with ${epiJobs} jobs and projected growth of ${epiOutlook} between 2025 and 2035, much faster than the average for all occupations. Epidemiologists work for state and local health departments, federal agencies such as CDC, universities, hospitals, and industry, and pay differs between these employers. These are figures for the whole occupation, not for outbreak work specifically.`,
     answer: (
       <>
         <p>
@@ -135,8 +135,8 @@ export const faqItems: FaqItem[] = [
           occupations.
         </p>
         <p>
-          Pay varies widely by employer: state and local health departments, federal agencies such as CDC,
-          universities, hospitals, and industry. These are figures for the whole occupation, not for outbreak work
+          Epidemiologists work for state and local health departments, federal agencies such as CDC, universities,
+          hospitals, and industry, and pay differs between these employers. These are figures for the whole occupation, not for outbreak work
           specifically. See the <In href="/roles/epidemiologist/">epidemiologist profile</In> for the full snapshot.
         </p>
       </>

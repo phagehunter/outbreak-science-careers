@@ -29,7 +29,7 @@
       "stage": "school",
       "format": "Free classroom outbreak simulations run through a mobile app; a student competition; free lessons, activities, and an open-access textbook",
       "who": "High-school and university students and their teachers; no background required.",
-      "why": "You live through an outbreak from first case to after-action review, in your own school, and see every one of these career tracks at work. The most direct way to find out whether this field is for you.",
+      "why": "Participants follow a simulated outbreak in their own school from the first case to the after-action review and see each of the career tracks on this site at work. The classroom simulations are a free way to find out whether the field interests you.",
       "source": "oo"
     },
     {
@@ -49,7 +49,7 @@
       "stage": "school",
       "format": "Team competition, annual, global",
       "who": "High-school, undergraduate, and graduate teams building synthetic-biology projects; every team completes safety and security work.",
-      "why": "The standing student on-ramp into synthetic biology, with more than a decade of engagement with the Biological Weapons Convention community.",
+      "why": "An established student competition in synthetic biology whose organizers have engaged with the Biological Weapons Convention community for more than a decade.",
       "source": "bw"
     },
     {
@@ -79,7 +79,7 @@
       "stage": "school",
       "format": "8-week remote research projects in small teams",
       "who": "Students and early-career people who want to test their fit.",
-      "why": "Designed to help individuals test their fit, grow their network, and upskill in biosecurity, working on a real problem with a project lead.",
+      "why": "Participants work in small teams for eight weeks on a biosecurity problem under a project lead, which lets them test their fit and meet people in the field.",
       "source": "bw"
     },
     {
@@ -249,7 +249,7 @@
       "stage": "early",
       "format": "3 months, part-time, online workshops plus a Geneva visit; annual since 2019, fellowship since 2023",
       "who": "Advanced degree holders under 40 who are citizens of a low- or middle-income Biological Weapons Convention state party; emphasis on young women scientists.",
-      "why": "The treaty secretariat's own youth program. A past cohort's handbook is now listed in the [Biosecurity Central](https://biosecuritycentral.org) library, proof the pathway produces visible work.",
+      "why": "The treaty secretariat's own youth program. A handbook written by a past cohort is listed in the [Biosecurity Central](https://biosecuritycentral.org) library.",
       "source": "unoda"
     },
     {
@@ -259,7 +259,7 @@
       "stage": "early",
       "format": "12 months, Washington DC, four tracks",
       "who": "Doctoral-level degree holders.",
-      "why": "Places scientists inside the executive, legislative, or judicial branch, or a nonprofit. A well-worn bridge from the lab into policy.",
+      "why": "Places scientists inside the executive, legislative, or judicial branch, or a nonprofit. It is one of the most common routes for scientists moving from research into policy.",
       "source": "etp"
     },
     {
@@ -288,7 +288,7 @@
       "url": "https://rosettacommons.org/2025/06/26/rosetta-commons-opens-applications-for-2025-biosecurity-fellow/",
       "stage": "early",
       "format": "12 months, remote",
-      "who": "People at the intersection of computational biology and biosecurity.",
+      "who": "Researchers who work in both computational biology and biosecurity.",
       "why": "Explores how AI-enabled protein design tools can be developed and governed responsibly.",
       "source": "bw"
     },
@@ -319,7 +319,7 @@
       "stage": "mid",
       "format": "2 months, part-time, hybrid: virtual course plus 3 days in Washington DC",
       "who": "Mid-career citizens of NATO countries and certain other US allies, typically 10+ years of experience.",
-      "why": "A fast, structured way for experienced professionals to move into biodefense.",
+      "why": "A two-month course for experienced professionals who want to move into biodefense.",
       "source": "etp"
     },
     {

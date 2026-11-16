@@ -14,8 +14,8 @@
       "id": "public-health",
       "title": "Public Health & Epidemiology",
       "icon": "activity",
-      "tagline": "Find the cases, trace the spread, protect the population.",
-      "description": "Epidemiologists and their colleagues are the detectives of an outbreak: they find cases, trace contacts, and turn messy field data into a picture of how a disease is spreading. This track suits people who like patterns, people, and public service in equal measure.",
+      "tagline": "Find cases and trace how a disease spreads.",
+      "description": "Epidemiologists, whom CDC calls disease detectives, find cases, trace contacts, and turn incomplete field data into an estimate of how a disease is spreading. The track suits people who are comfortable with both statistics and fieldwork and want a career in public service.",
       "roles": [
         "Epidemiologist",
         "Public Health Nurse",
@@ -57,7 +57,7 @@
       "title": "Clinical & Medical Response",
       "icon": "stethoscope",
       "tagline": "Care for patients and keep hospitals standing under surge.",
-      "description": "When an outbreak hits, clinicians are the front line, caring for patients while hospitals scramble to add beds, staff, and supplies. Roles here range from bedside care to planning how an entire health system absorbs a surge.",
+      "description": "During an outbreak, clinicians care for patients while hospitals add beds, staff, and supplies to meet demand. Roles here range from bedside care to planning how an entire health system absorbs a surge.",
       "roles": [
         "Physician",
         "Nurse Practitioner",
@@ -140,7 +140,7 @@
       "title": "Data & Technology",
       "icon": "cpu",
       "tagline": "Turn signals into early warnings and models into decisions.",
-      "description": "Modern outbreak response runs on data: dashboards, forecasting models, genomic pipelines, and early-warning systems that flag unusual signals. If you enjoy coding, statistics, or building tools, this track puts those skills to work for public health.",
+      "description": "Outbreak response depends on dashboards, forecasting models, genomic pipelines, and early-warning systems that flag unusual signals. The track suits people with skills in programming, statistics, or software development who want to apply them to public health.",
       "roles": [
         "Data Scientist",
         "Health Informatics Specialist",
@@ -173,14 +173,14 @@
         "Risk assessment",
         "Medical diagnostics"
       ],
-      "progression": "Analysts typically start in a health department or surveillance program, move into modeling or informatics roles, and then lead teams at CDC's [Center for Forecasting and Outbreak Analytics](https://www.cdc.gov/forecast-outbreak-analytics/index.html), academic modeling groups, or companies that build surveillance tools. A master's in biostatistics, data science, or informatics is the common pivot point."
+      "progression": "Analysts typically start in a health department or surveillance program and move into modeling or informatics roles, often after a master's in biostatistics, data science, or informatics. Senior analysts lead teams at CDC's [Center for Forecasting and Outbreak Analytics](https://www.cdc.gov/forecast-outbreak-analytics/index.html), in academic modeling groups, or at companies that build surveillance tools."
     },
     {
       "id": "policy",
       "title": "Policy & Biosecurity",
       "icon": "landmark",
-      "tagline": "Shape the rules, budgets, and agreements that decide preparedness.",
-      "description": "Policy professionals shape the rules, budgets, and international agreements that decide how prepared a country is before the next outbreak. This track combines science literacy with writing, negotiation, and an understanding of how governments actually work.",
+      "tagline": "Write the laws, budgets, and treaties that set a country's preparedness.",
+      "description": "Policy professionals draft and negotiate the laws, budgets, and international agreements that determine how prepared a country is before an outbreak. The work requires scientific literacy, skill in writing and negotiation, and a working knowledge of how agencies and legislatures operate.",
       "roles": [
         "Biosecurity Specialist",
         "Public Health Policy Analyst",
@@ -220,7 +220,7 @@
       "id": "social",
       "title": "Social Sciences & Resilience",
       "icon": "users",
-      "tagline": "Help communities trust, cope, decide, and recover.",
+      "tagline": "Help communities through an outbreak and its aftermath.",
       "description": "Outbreaks are human events as much as biological ones, shaped by trust, culture, behavior, and grief. Social scientists and mental-health professionals help communities cope, make ethical decisions under pressure, and recover afterward.",
       "roles": [
         "Medical Anthropologist",
@@ -252,7 +252,7 @@
         "Community health worker roles are open without a degree and are a real, valued entry point into this track."
       ],
       "learnTags": [],
-      "progression": "Social scientists enter through graduate research, join responses as community engagement, behavioral, or mental-health specialists, and progress to leading engagement programs at health agencies, NGOs, or WHO, or to faculty posts that combine fieldwork with teaching."
+      "progression": "Social scientists usually enter through graduate research. During a response they work as community engagement, behavioral, or mental-health specialists, and more senior people lead engagement programs at health agencies, NGOs, or WHO, or hold faculty posts that combine fieldwork with teaching."
     },
     {
       "id": "one-health",
@@ -290,7 +290,7 @@
         "Zoonotic diseases",
         "Environmental safety"
       ],
-      "progression": "Veterinary, wildlife, and environmental careers move from field work and diagnostics to surveillance leadership at USDA, state animal-health agencies, [WOAH](https://www.woah.org), or FAO, and to One Health coordination roles that bridge human and animal health."
+      "progression": "Veterinarians, wildlife biologists, and environmental scientists in this track usually begin in field work and diagnostics. Senior roles include surveillance leadership at USDA, state animal-health agencies, [WOAH](https://www.woah.org), or FAO, and One Health coordination posts that link human and animal health agencies."
     },
     {
       "id": "logistics",
@@ -327,14 +327,14 @@
       "learnTags": [
         "Sample transportation"
       ],
-      "progression": "Logistics careers begin in operations, supply-chain, or pharmacy roles, add emergency-management experience, and lead to stockpile management, cold-chain program leadership, or humanitarian logistics coordination with agencies such as UNICEF or Médecins Sans Frontières."
+      "progression": "Logistics careers usually begin in operations, supply-chain, or pharmacy roles. People who add emergency-management experience can move into stockpile management, lead a cold-chain program, or coordinate humanitarian logistics for agencies such as UNICEF or Médecins Sans Frontières."
     },
     {
       "id": "communication",
       "title": "Communication",
       "icon": "megaphone",
-      "tagline": "Make the truth clear, timely, and worth acting on.",
-      "description": "Clear, honest communication is a countermeasure in its own right, shaping whether people get vaccinated, isolate, or panic. This track spans journalism, risk communication, and training the next generation of responders.",
+      "tagline": "Give the public accurate information in time to act on it.",
+      "description": "Clear and honest communication affects whether people get vaccinated, isolate, or panic, and in that sense works as a countermeasure. The track covers journalism, risk communication, and the training of responders.",
       "roles": [
         "Science Journalist",
         "Risk Communication Expert",
@@ -364,14 +364,14 @@
         "Trainers and exercise designers usually come from emergency management or public-health practice and add instructional-design skills."
       ],
       "learnTags": [],
-      "progression": "Communicators come from journalism, public affairs, or health education; they specialize in risk communication during responses and progress to leading communication for a health agency, an international organization, or a newsroom's health desk."
+      "progression": "Communicators come from journalism, public affairs, or health education. Many specialize in risk communication during responses, and senior communicators lead the communication work of a health agency or an international organization, or run a newsroom's health desk."
     },
     {
       "id": "engineering",
       "title": "Engineering",
       "icon": "wrench",
       "tagline": "Design the labs, gear, and factories that biosecurity depends on.",
-      "description": "Engineers design the physical tools of biosecurity: safer laboratories, better protective equipment, ventilators, and the facilities that manufacture vaccines at scale. It rewards people who like solving concrete problems with measurable results.",
+      "description": "Engineers design the physical tools of biosecurity: high-containment laboratories, protective equipment, ventilators, and the plants that manufacture vaccines at scale.",
       "roles": [
         "Biomedical Engineer",
         "PPE Designer"
@@ -399,7 +399,7 @@
         "Lab biosafety",
         "Lab biosecurity"
       ],
-      "progression": "Engineers enter from biomedical, mechanical, or chemical engineering, specialize in medical devices, protective equipment, or containment facilities, and advance to product leadership, biosafety engineering, or facility-design practices."
+      "progression": "Most engineers in this track trained in biomedical, mechanical, or chemical engineering and later specialized in medical devices, protective equipment, or containment facilities. Senior roles include product leadership, biosafety engineering, and practice in laboratory and facility design."
     }
   ]
 }

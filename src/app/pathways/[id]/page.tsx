@@ -9,7 +9,7 @@ import { CategoryIcon } from "@/components/features/category-icon";
 import { MatchedResources } from "@/components/features/matched-resources";
 import { RoleList } from "@/components/features/role-list";
 import { RichText } from "@/components/features/rich-text";
-import { SITE_NAME, absUrl } from "@/lib/site";
+import { SHARE_IMAGE_ALT, SITE_NAME, absUrl } from "@/lib/site";
 import { SiteFooter } from "@/components/features/site-footer";
 import { SiteHeader } from "@/components/features/site-header";
 import {
@@ -38,7 +38,7 @@ export async function generateMetadata({
     title: `${c.title} careers`,
     description,
     alternates: { canonical: absUrl(`/pathways/${c.id}/`) },
-    openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers: your path into the fight against the next outbreak. Ten career tracks and 100+ roles, career guidance and funding." }], url: absUrl(`/pathways/${c.id}/`), title: `${c.title} careers — Outbreak Science Careers`, description: c.tagline },
+    openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: SHARE_IMAGE_ALT }], url: absUrl(`/pathways/${c.id}/`), title: `${c.title} careers — Outbreak Science Careers`, description: c.tagline },
   };
 }
 
@@ -214,7 +214,7 @@ export default async function CategoryPage({ params }: { params: Params }) {
           <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
             <div className="rounded-xl border border-border bg-card p-5 shadow-sm">
               <h2 className="text-sm font-semibold tracking-wide text-muted-foreground uppercase">
-                Keep exploring
+                Other parts of the guide
               </h2>
               <ul className="mt-3 space-y-2 text-sm">
                 <li>

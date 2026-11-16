@@ -38,18 +38,18 @@ export default function Home() {
               Outbreak science &amp; biosecurity
             </p>
             <h1 className="max-w-3xl font-heading text-4xl leading-[1.1] font-semibold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              Careers in preventing, detecting, and responding to outbreaks
+              Career paths in preventing, detecting, and responding to outbreaks
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink">
-              Outbreak science is about as interdisciplinary as a field can
-              get. This guide explores {spellOut(categories.length)} career tracks and{" "}
+              Welcome! Outbreak science draws on more disciplines than most fields.
+              This guide features {spellOut(categories.length)} career tracks and{" "}
               {roundDownPlus(roleCount)} roles, from epidemiology and laboratory science to
               policy, logistics, and communication, with training and entry routes for each.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button size="lg" asChild>
                 <a href="#pathways">
-                  Check out {spellOut(categories.length)} career tracks
+                  Explore {spellOut(categories.length)} career tracks
                   <ArrowDown data-icon="inline-end" />
                 </a>
               </Button>

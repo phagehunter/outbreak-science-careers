@@ -23,8 +23,8 @@ export default function NotFound() {
               That page is not here.
             </h1>
             <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink">
-              The address may have changed when the site was reorganized, or there may be a typo in the link. Everything
-              on the site is reachable from the four pages below.
+              The address may have changed when the site was reorganized, or there may be a typo in the link. You
+              can reach everything from the four pages below.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button size="lg" asChild>

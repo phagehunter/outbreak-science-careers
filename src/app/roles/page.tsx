@@ -39,8 +39,8 @@ export default function RolesIndexPage() {
           title="Established roles in the United States"
           lede={
             <>
-              The {roles.length} core roles across the ten career tracks, each with a plain-language description,
-              US pay and outlook figures, how people get in, and where to learn. Related roles that branch
+              Core roles across the ten career tracks with descriptions,
+              US pay and outlook figures, how people get involved, and where to learn. Related roles that branch
               off from these are listed on the track pages.
             </>
           }

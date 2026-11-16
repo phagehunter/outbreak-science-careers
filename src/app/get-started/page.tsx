@@ -15,7 +15,7 @@ import { SHARE_IMAGE_ALT, absUrl } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Get started: fellowships, programs, and degrees",
   description:
-    "Named entry routes into outbreak science and biosecurity: CDC fellowships, the Epidemic Intelligence Service, ELBI, iGEM, biodefense and biosecurity degree programs, and the organizations that help students and early-career people get in.",
+    "Entry routes into outbreak science and biosecurity: CDC fellowships, the Epidemic Intelligence Service, ELBI, iGEM, biodefense and biosecurity degree programs, and the organizations that help students and early-career people get started.",
   alternates: { canonical: absUrl("/get-started/") },
   openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: SHARE_IMAGE_ALT }], url: absUrl("/get-started/"), title: "Get started: fellowships, programs, and degrees — Outbreak Science Careers", description: "Named entry routes into outbreak science and biosecurity, grouped by where you are now." },
 };
@@ -33,7 +33,7 @@ const sourceLabels = routesData.meta.sources as Record<string, string>;
 
 const STAGE_LEDE: Record<string, string> = {
   school:
-    "No degree needed. These are open to anyone curious, and several are free.",
+    "These opportunities are open to anyone curious, no degree needed.",
   early:
     "Most structured fellowships are aimed at this stage. They are competitive, and for many people they are the step between study and a first job in the field.",
   mid: "These programs are for people with an established career in medicine, science, engineering, or government who want to move into outbreak science or biosecurity, or to advance within it.",
@@ -109,10 +109,10 @@ export default function GetStartedPage() {
           title="Fellowships, programs, and degrees that lead into the field"
           lede={
             <>
-              Named programs admit students and early-career people into this
+              Programs admit students and early-career professionals into this
               field every year. This page lists {routesData.routes.length} of them, grouped by
               career stage, followed by degree programs built for the field and
-              organizations that help people find a way in.
+              organizations that help people get started.
             </>
           }
         >
@@ -277,8 +277,7 @@ export default function GetStartedPage() {
             </h2>
             <p className="mt-2 max-w-3xl text-base leading-relaxed text-ink">
               Once you know which track you want, job openings are usually featured on a handful of
-              boards. Set alerts on two or three rather than checking all of them. Most roles in this
-              field are posted on more than one.
+              boards. Set alerts on two or three of them.
             </p>
             <p className="mt-2 max-w-3xl text-sm text-muted-foreground">
               {jobsData.meta.note} Last updated {jobsData.meta.checked}.

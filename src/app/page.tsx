@@ -38,7 +38,7 @@ export default function Home() {
               Outbreak science &amp; biosecurity
             </p>
             <h1 className="max-w-3xl font-heading text-4xl leading-[1.1] font-semibold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              Career paths in preventing, detecting, and responding to outbreaks
+              Pathways in preventing, detecting, and responding to outbreaks
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink">
               Welcome! Outbreak science draws on more disciplines than most fields.
@@ -94,24 +94,10 @@ export default function Home() {
                 against misuse of biology and keeps dangerous pathogens contained.
               </p>
               <p>
-                No single degree covers it all, which is why we made this guide: {categories.length} tracks,{" "}
+                No single degree covers it all, which is the purpose of this guide: {categories.length} tracks,{" "}
                 {roles.length} core roles with pay and outlook figures, {routesData.routes.length} named paths,
-                and the funders behind the work.
+                and key funders behind the work.
               </p>
-              <dl className="grid grid-cols-3 gap-3 pt-2">
-                <div className="rounded-xl border border-border bg-card p-4 shadow-sm">
-                  <dt className="text-xs font-semibold tracking-wide text-muted-foreground uppercase">Tracks</dt>
-                  <dd className="mt-1 font-heading text-2xl font-semibold text-foreground">{categories.length}</dd>
-                </div>
-                <div className="rounded-xl border border-border bg-card p-4 shadow-sm">
-                  <dt className="text-xs font-semibold tracking-wide text-muted-foreground uppercase">Core roles</dt>
-                  <dd className="mt-1 font-heading text-2xl font-semibold text-foreground">{roles.length}</dd>
-                </div>
-                <div className="rounded-xl border border-border bg-card p-4 shadow-sm">
-                  <dt className="text-xs font-semibold tracking-wide text-muted-foreground uppercase">Paths</dt>
-                  <dd className="mt-1 font-heading text-2xl font-semibold text-foreground">{routesData.routes.length}</dd>
-                </div>
-              </dl>
             </div>
           </div>
         </section>

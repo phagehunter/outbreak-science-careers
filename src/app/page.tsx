@@ -38,7 +38,7 @@ export default function Home() {
               Outbreak science &amp; biosecurity
             </p>
             <h1 className="max-w-3xl font-heading text-4xl leading-[1.1] font-semibold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              Pathways in preventing, detecting, and responding to outbreaks
+              Pathways in preventing, preparing for, and responding to outbreaks
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink">
               Welcome! Outbreak science draws on more disciplines than most fields.

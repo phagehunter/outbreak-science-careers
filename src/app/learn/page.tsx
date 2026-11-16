@@ -13,14 +13,14 @@ import { SiteHeader } from "@/components/features/site-header";
 import learning from "@/data/learning-resources.json";
 import keepUp from "@/data/keep-up.json";
 import { RichText } from "@/components/features/rich-text";
-import { absUrl } from "@/lib/site";
+import { SHARE_IMAGE_ALT, absUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Where to learn: free outbreak science and biosecurity courses",
   description:
-    "Free and low-cost courses in outbreak investigation, epidemiology, and emergency response from WHO, CDC, and leading universities, plus the Biosecurity Central biosafety and biosecurity training library and the newsletters practitioners read.",
+    "Free and low-cost courses in outbreak investigation, epidemiology, and emergency response from WHO, CDC, Johns Hopkins, Harvard, and other universities, plus the Biosecurity Central biosafety and biosecurity training library and the newsletters practitioners read.",
   alternates: { canonical: absUrl("/learn/") },
-  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers: your path into the fight against the next outbreak. Ten career tracks and 100+ roles, career guidance and funding." }], url: absUrl("/learn/"), title: "Where to learn: free outbreak science and biosecurity courses — Outbreak Science Careers", description: "Courses and training from WHO, CDC, universities, and the Biosecurity Central library." },
+  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: SHARE_IMAGE_ALT }], url: absUrl("/learn/"), title: "Where to learn: free outbreak science and biosecurity courses — Outbreak Science Careers", description: "Courses and training from WHO, CDC, universities, and the Biosecurity Central library." },
 };
 
 type Resource = (typeof learning.resources)[number];
@@ -86,10 +86,10 @@ export default function LearnPage() {
           lede={
             <>
               Start with something free and short to find out whether the
-              field holds your attention. Then go deeper: outbreak
+              field holds your attention. The sections below then list outbreak
               investigation and epidemiology training from WHO, CDC, and
-              leading universities, and a {libraryCount}-item biosafety and
-              biosecurity library curated by an expert panel.
+              universities, and a {libraryCount}-item biosafety and
+              biosecurity library reviewed by an expert panel.
             </>
           }
         />
@@ -144,8 +144,8 @@ export default function LearnPage() {
               Outbreak investigation and response
             </h2>
             <p className="mt-2 max-w-2xl text-base leading-relaxed text-ink">
-              The training the field actually uses, from WHO and CDC to
-              university courses you can audit free. Most take an evening or a few weeks.
+              Courses from WHO, CDC, and universities, most of them free or
+              free to audit. Most take an evening or a few weeks.
             </p>
             <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {keepUp.outbreakTraining.map((c) => (
@@ -168,8 +168,9 @@ export default function LearnPage() {
               Biosafety and biosecurity training
             </h2>
             <p className="mt-3 max-w-3xl text-base leading-relaxed text-ink">
-              The other half of the field: keeping dangerous pathogens
-              contained, and keeping them out of the wrong hands.{" "}
+              This section covers biosafety, which keeps dangerous pathogens
+              contained, and biosecurity, which keeps them away from people
+              who would misuse them.{" "}
               <Ext href="https://biosecuritycentral.org">Biosecurity Central</Ext>{" "}
               is a searchable library of reliable biosecurity sources,
               reviewed by an advisory committee of global experts. Below are

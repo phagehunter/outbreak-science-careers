@@ -6,7 +6,7 @@ import { PageIntro } from "@/components/features/page-intro";
 import { RichText } from "@/components/features/rich-text";
 import { SiteFooter } from "@/components/features/site-footer";
 import { SiteHeader } from "@/components/features/site-header";
-import { SITE_NAME, absUrl } from "@/lib/site";
+import { SHARE_IMAGE_ALT, SITE_NAME, absUrl } from "@/lib/site";
 import funding from "@/data/funding.json";
 import { roundDownPlus } from "@/lib/utils";
 
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Where to get funding for study, research, and projects in outbreak science and biosecurity: NSF and NIH fellowships, Wellcome, Gates Grand Challenges, CEPI, BARDA, DARPA, Coefficient Giving, Blueprint Biosecurity, and BlueDot grants, plus how each funding model works and who funds the field, from Pandemic PACT data.",
   alternates: { canonical: absUrl("/funding/") },
-  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers: your path into the fight against the next outbreak. Ten career tracks and 100+ roles, career guidance and funding." }], url: absUrl("/funding/"), title: `Funding: grants, fellowships, and who pays for outbreak science — ${SITE_NAME}`, description: "Where to get funding for study, research, and projects in outbreak science and biosecurity, and how each funding model works." },
+  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: SHARE_IMAGE_ALT }], url: absUrl("/funding/"), title: `Funding: grants, fellowships, and who pays for outbreak science — ${SITE_NAME}`, description: "Where to get funding for study, research, and projects in outbreak science and biosecurity, and how each funding model works." },
 };
 
 type Source = (typeof funding.sources)[number];
@@ -85,7 +85,7 @@ export default function FundingPage() {
         <PageIntro
           eyebrow="Funding"
           title="Who pays for outbreak science"
-          lede="Careers in outbreak science run on grants, fellowships, contracts, and salaries, and knowing how each one works is a skill in itself. This page lists funders that back students, researchers, and builders, explains the funding models, and shows who actually funds the field."
+          lede="Work in outbreak science is paid for through grants, fellowships, contracts, and salaries, and each has its own rules for who may apply and how. This page lists funders for students, researchers, and people building products or organizations, explains the seven funding models, and shows, from Pandemic PACT data, which funders account for most research spending."
         >
           <nav aria-label="Sections" className="mt-8 flex flex-wrap gap-2">
             {byStage.map((g) => (
@@ -129,7 +129,7 @@ export default function FundingPage() {
           <div className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6">
             <h2 className="font-heading text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">How funding works</h2>
             <p className="mt-2 max-w-2xl text-base leading-relaxed text-ink">
-              Seven models pay for outbreak science. Each has its own logic, timeline, and type of applicant, and most careers move between several of them.
+              Seven models pay for outbreak science. They differ in who may apply and how long a decision takes, and most careers draw on more than one.
             </p>
             <ol className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
               {funding.schemes.map((sc, i) => (

@@ -31,7 +31,7 @@ export function CategoryCard({ category, onSelect }: Props) {
           {total} {total === 1 ? "role" : "roles"}
         </span>
         <span className="inline-flex items-center gap-1 font-medium text-primary">
-          Explore
+          See roles
           <ArrowRight className="size-4 transition-transform duration-200 group-hover:translate-x-0.5 motion-reduce:transition-none" />
         </span>
       </div>

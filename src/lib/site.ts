@@ -8,6 +8,9 @@ export const SITE_TAGLINE = "Pathways into outbreak science and biosecurity";
 export const SITE_TITLE = "Outbreak Science Careers: roles, pay and pathways";
 export const SITE_DESCRIPTION =
   "An interactive guide to careers in outbreak science and biosecurity: ten career tracks, US pay and outlook data, fellowships and degree programs, free training, and funding.";
+/** Alt text for the share card, which carries the wordmark and the headline. */
+export const SHARE_IMAGE_ALT =
+  "Outbreak Science Careers: careers in preventing, detecting, and responding to outbreaks. Ten career tracks and 100+ roles, with career guidance and funding.";
 export const AUTHOR = { name: "Curtis Hoffmann", url: "https://curtishoffmann.com" };
 
 /** Absolute URL for a site path (with or without leading slash). */

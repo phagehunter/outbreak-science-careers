@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { CareerVisualizer } from "@/components/features/career-visualizer";
 import { SiteFooter } from "@/components/features/site-footer";
 import { SiteHeader } from "@/components/features/site-header";
-import { SITE_DESCRIPTION, SITE_TITLE, absUrl } from "@/lib/site";
+import { SHARE_IMAGE_ALT, SITE_DESCRIPTION, SITE_TITLE, absUrl } from "@/lib/site";
 import { categories, totalRoles } from "@/lib/pathways";
 import { Faq, faqJsonLd } from "@/components/features/faq";
 import { roles } from "@/lib/roles";
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: SITE_TITLE,
   description: SITE_DESCRIPTION,
   alternates: { canonical: absUrl("/") },
-  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers: your path into the fight against the next outbreak. Ten career tracks and 100+ roles, career guidance and funding." }], url: absUrl("/"), title: SITE_TITLE, description: SITE_DESCRIPTION },
+  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: SHARE_IMAGE_ALT }], url: absUrl("/"), title: SITE_TITLE, description: SITE_DESCRIPTION },
 };
 
 const roleCount = categories.reduce((n, c) => n + totalRoles(c), 0);
@@ -38,18 +38,18 @@ export default function Home() {
               Outbreak science &amp; biosecurity
             </p>
             <h1 className="max-w-3xl font-heading text-4xl leading-[1.1] font-semibold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              Your path into the fight against the next outbreak
+              Careers in preventing, detecting, and responding to outbreaks
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink">
               Outbreak science is about as interdisciplinary as a field can
-              get. Explore {spellOut(categories.length)} career tracks and{" "}
-              {roundDownPlus(roleCount)} roles, from epidemiology and the laboratory to
-              policy, logistics, and communication, and find where your skills fit.
+              get. This guide sets out {spellOut(categories.length)} career tracks and{" "}
+              {roundDownPlus(roleCount)} roles, from epidemiology and laboratory science to
+              policy, logistics, and communication, with the training and entry routes for each.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button size="lg" asChild>
                 <a href="#pathways">
-                  Explore the pathways
+                  See the {spellOut(categories.length)} career tracks
                   <ArrowDown data-icon="inline-end" />
                 </a>
               </Button>
@@ -149,8 +149,8 @@ export default function Home() {
                 this landscape in depth.
               </p>
               <p>
-                Why ten tracks rather than one? When the World Health
-                Organization rewrote its{" "}
+                The guide uses ten tracks rather than one because outbreak
+                response is shared work. When the World Health Organization rewrote its{" "}
                 <a href="https://www.ncbi.nlm.nih.gov/books/NBK143067/" rel="noopener" target="_blank" className="font-medium text-primary underline-offset-4 hover:underline">
                   pandemic preparedness guidance
                 </a>

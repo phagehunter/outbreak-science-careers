@@ -10,14 +10,14 @@ import orgsData from "@/data/organizations.json";
 import programsData from "@/data/programs.json";
 import jobsData from "@/data/jobs.json";
 import { RichText } from "@/components/features/rich-text";
-import { absUrl } from "@/lib/site";
+import { SHARE_IMAGE_ALT, absUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Get started: fellowships, programs, and degrees",
   description:
     "Named entry routes into outbreak science and biosecurity: CDC fellowships, the Epidemic Intelligence Service, ELBI, iGEM, biodefense and biosecurity degree programs, and the organizations that help students and early-career people get in.",
   alternates: { canonical: absUrl("/get-started/") },
-  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: "Outbreak Science Careers: your path into the fight against the next outbreak. Ten career tracks and 100+ roles, career guidance and funding." }], url: absUrl("/get-started/"), title: "Get started: fellowships, programs, and degrees — Outbreak Science Careers", description: "Named entry routes into outbreak science and biosecurity, grouped by where you are now." },
+  openGraph: { images: [{ url: absUrl("/opengraph-image.png"), width: 1200, height: 630, alt: SHARE_IMAGE_ALT }], url: absUrl("/get-started/"), title: "Get started: fellowships, programs, and degrees — Outbreak Science Careers", description: "Named entry routes into outbreak science and biosecurity, grouped by where you are now." },
 };
 
 type Route = (typeof routesData.routes)[number];
@@ -35,10 +35,10 @@ const STAGE_LEDE: Record<string, string> = {
   school:
     "No degree needed. These are open to anyone curious, and several are free.",
   early:
-    "Most structured fellowships sit here. They are competitive, but there are more of them than most people realize, and they are the usual bridge from study into a first job.",
-  mid: "If you already have a career in medicine, science, engineering, or government, these exist to accelerate your career.",
+    "Most structured fellowships are aimed at this stage. They are competitive, and for many people they are the step between study and a first job in the field.",
+  mid: "These programs are for people with an established career in medicine, science, engineering, or government who want to move into outbreak science or biosecurity, or to advance within it.",
   credential:
-    "Where you can get recognized credentials and dedicated degrees in the field.",
+    "Professional certification and mentorship in biorisk management, and a course on the Biological Weapons Convention. Degree programs are listed in the next section.",
 };
 
 const ORG_KIND_LABEL: Record<string, string> = {
@@ -106,14 +106,13 @@ export default function GetStartedPage() {
       <main className="flex-1">
         <PageIntro
           eyebrow="Get started"
-          title="How do I actually get in?"
+          title="Fellowships, programs, and degrees that lead into the field"
           lede={
             <>
-              There are named programs that admit students and early-career
-              people into this field every year. Here are {routesData.routes.length} with a real
-              track record, grouped by where you are now, then the degree
-              programs built for this field, and the organizations that will
-              help you.
+              Named programs admit students and early-career people into this
+              field every year. This page lists {routesData.routes.length} of them, grouped by
+              career stage, followed by degree programs built for the field and
+              organizations that help people find a way in.
             </>
           }
         >

@@ -207,7 +207,7 @@ export default async function RolePage({ params }: { params: Params }) {
             {c.work && c.work.length > 0 && (
               <section id="work" className="scroll-mt-24">
                 <h2 className="font-heading text-2xl font-semibold tracking-tight text-foreground">What the work looks like</h2>
-                <p className="mt-2 text-sm text-muted-foreground">Typical work across the {c.title} track; most of it will be familiar to a {role.name}.</p>
+                <p className="mt-2 text-sm text-muted-foreground">Typical work across the {c.title} track. Most of it applies to this role.</p>
                 <ul className="mt-5 space-y-3">
                   {c.work.map((line) => (
                     <li key={line} className="flex gap-3 text-base leading-relaxed text-ink">
@@ -287,7 +287,7 @@ export default async function RolePage({ params }: { params: Params }) {
               </ul>
             </div>
             <div className="rounded-xl border border-border bg-card p-5 shadow-sm">
-              <h2 className="text-sm font-semibold tracking-wide text-muted-foreground uppercase">Keep exploring</h2>
+              <h2 className="text-sm font-semibold tracking-wide text-muted-foreground uppercase">Other parts of the guide</h2>
               <ul className="mt-3 space-y-2 text-sm">
                 <li><Link href="/roles/" className="font-medium text-primary underline-offset-4 hover:underline">All {roles.length} roles</Link></li>
                 <li><Link href="/get-started/" className="font-medium text-primary underline-offset-4 hover:underline">Get started: fellowships, programs, and first steps</Link></li>

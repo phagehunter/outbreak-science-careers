@@ -7,12 +7,9 @@ import {
   SITE_NAME,
   SITE_TITLE,
   SITE_URL,
+  SHARE_IMAGE_ALT,
   absUrl,
 } from "@/lib/site";
-
-/** Alt text for the share card, which carries the wordmark and the headline. */
-const SHARE_IMAGE_ALT =
-  "Outbreak Science Careers: your path into the fight against the next outbreak. Ten career tracks and 100+ roles, career guidance and funding.";
 
 const inter = Inter({
   variable: "--font-sans",

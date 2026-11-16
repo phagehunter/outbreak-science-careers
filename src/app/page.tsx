@@ -42,14 +42,14 @@ export default function Home() {
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink">
               Outbreak science is about as interdisciplinary as a field can
-              get. This guide sets out {spellOut(categories.length)} career tracks and{" "}
+              get. This guide explores {spellOut(categories.length)} career tracks and{" "}
               {roundDownPlus(roleCount)} roles, from epidemiology and laboratory science to
-              policy, logistics, and communication, with the training and entry routes for each.
+              policy, logistics, and communication, with training and entry routes for each.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button size="lg" asChild>
                 <a href="#pathways">
-                  See the {spellOut(categories.length)} career tracks
+                  Check out {spellOut(categories.length)} career tracks
                   <ArrowDown data-icon="inline-end" />
                 </a>
               </Button>
@@ -70,9 +70,7 @@ export default function Home() {
               Career pathways
             </h2>
             <p className="mt-3 text-base leading-relaxed text-ink">
-              Pick a track to see the roles inside it. Every track needs
-              people, and most careers in this field cross between several of
-              them.
+              Pick a track to see the roles inside it. Most careers in this field cross between several tracks.
             </p>
           </div>
           <CareerVisualizer />
@@ -96,8 +94,8 @@ export default function Home() {
                 against misuse of biology and keeps dangerous pathogens contained.
               </p>
               <p>
-                No single degree covers it, which is the point of this guide: {categories.length} tracks,{" "}
-                {roles.length} core roles with pay and outlook figures, {routesData.routes.length} named ways in,
+                No single degree covers it all, which is why we made this guide: {categories.length} tracks,{" "}
+                {roles.length} core roles with pay and outlook figures, {routesData.routes.length} named paths,
                 and the funders behind the work.
               </p>
               <dl className="grid grid-cols-3 gap-3 pt-2">
@@ -110,7 +108,7 @@ export default function Home() {
                   <dd className="mt-1 font-heading text-2xl font-semibold text-foreground">{roles.length}</dd>
                 </div>
                 <div className="rounded-xl border border-border bg-card p-4 shadow-sm">
-                  <dt className="text-xs font-semibold tracking-wide text-muted-foreground uppercase">Ways in</dt>
+                  <dt className="text-xs font-semibold tracking-wide text-muted-foreground uppercase">Paths</dt>
                   <dd className="mt-1 font-heading text-2xl font-semibold text-foreground">{routesData.routes.length}</dd>
                 </div>
               </dl>
@@ -168,7 +166,7 @@ export default function Home() {
                 epidemiologists and virologists.
               </p>
               <p className="text-sm text-muted-foreground">
-                Disclaimer: Role lists are a starting point, not a complete
+                Disclaimer: Role lists are a starting point and not a complete
                 census.
               </p>
               <div className="rounded-xl border border-border bg-card p-5 shadow-sm">

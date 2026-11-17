@@ -70,7 +70,7 @@ export default function Home() {
               Career pathways
             </h2>
             <p className="mt-3 text-base leading-relaxed text-ink">
-              Pick a path to see the roles inside it. Most careers in this field cross between several tracks.
+              Pick a track to see the roles inside it. Most careers in this field cross between several tracks.
             </p>
           </div>
           <CareerVisualizer />

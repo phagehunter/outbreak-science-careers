@@ -41,7 +41,7 @@ export default function Home() {
               Pathways in preventing, preparing for, and responding to outbreaks
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink">
-              Welcome! Outbreak science draws on more disciplines than most fields.
+              Welcome! Outbreak science is a highly interdisiplinary field, so how do you get started?
               This guide features {spellOut(categories.length)} career tracks and{" "}
               {roundDownPlus(roleCount)} roles, from epidemiology and laboratory science to
               policy, logistics, and communication, with training and entry routes for each.
@@ -49,7 +49,7 @@ export default function Home() {
             <div className="mt-8 flex flex-wrap gap-3">
               <Button size="lg" asChild>
                 <a href="#pathways">
-                  Explore {spellOut(categories.length)} career tracks
+                  Explore {spellOut(categories.length)} career paths
                   <ArrowDown data-icon="inline-end" />
                 </a>
               </Button>
@@ -70,7 +70,7 @@ export default function Home() {
               Career pathways
             </h2>
             <p className="mt-3 text-base leading-relaxed text-ink">
-              Pick a track to see the roles inside it. Most careers in this field cross between several tracks.
+              Pick a path to see the roles inside it. Most careers in this field cross between several tracks.
             </p>
           </div>
           <CareerVisualizer />
